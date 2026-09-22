@@ -28,11 +28,13 @@ def main() -> None:
         "data": DATA_CONFIG,
         "epochs": 100,
         "imgsz": 640,
-        "batch": 8,
+        "batch": 16,
         "workers": 4,
-        "mosaic": 0.0,
+        "amp": False,
+        "mosaic": 1.0,
+        "close_mosaic": 10,
         "project": PROJECT_ROOT / "runs/segment",
-        "name": "yolov8n_seg",
+        "name": "B02",
     }
     if args.device:
         settings["device"] = args.device
