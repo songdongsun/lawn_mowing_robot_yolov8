@@ -29,7 +29,7 @@ Ultralytics (`ultralytics` on PyPI, AGPL-3.0) is the official Python package for
 - Remind unsigned contributors to complete the CLA. Do not close PRs opened by Ultralytics organization team members.
 - Merge only the exact cold-reviewed live head after terminal-green checks and zero unresolved review threads.
 
-NEVER push to `main`. NEVER force push. Always start work in a new git worktree (`git worktree add`) on a feature branch and open a PR — never edit the primary checkout directly, it may hold in-flight work.
+NEVER push to `main`. NEVER force push. NEVER push to main. Development may be performed directly on dev. Commit and push dev only after notifying the user.
 
 ## PR Workflow
 
