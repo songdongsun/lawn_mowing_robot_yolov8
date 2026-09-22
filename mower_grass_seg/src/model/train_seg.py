@@ -30,6 +30,7 @@ def main() -> None:
         "imgsz": 640,
         "batch": 8,
         "workers": 4,
+        "mosaic": 0.0,
         "project": PROJECT_ROOT / "runs/segment",
         "name": "yolov8n_seg",
     }
