@@ -1,5 +1,5 @@
 # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
-"""将YOLO分割多边形以闭合线框绘制到原图上，供人工检查。"""
+"""将YOLO分割多边形以闭合线框绘制到原图上，供人工检查。."""
 
 from __future__ import annotations
 
@@ -9,7 +9,6 @@ from pathlib import Path
 
 import cv2
 import numpy as np
-
 
 SPLITS = ("train", "val")
 

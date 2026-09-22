@@ -9,7 +9,6 @@ from pathlib import Path
 
 from ultralytics import YOLO
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_CONFIG = PROJECT_ROOT / "data/yolo_seg/grass.yaml"
 

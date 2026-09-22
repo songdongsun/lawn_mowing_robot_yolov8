@@ -1,5 +1,5 @@
 # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
-"""将VOC灰度语义标签转换为YOLO分割多边形数据集。"""
+"""将VOC灰度语义标签转换为YOLO分割多边形数据集。."""
 
 from __future__ import annotations
 
@@ -13,7 +13,6 @@ import cv2
 import numpy as np
 import yaml
 from PIL import Image
-
 
 SPLITS = ("train", "val")
 ALLOWED_MASK_VALUES = {0, 1, 2}
@@ -68,7 +67,7 @@ def exclude_fully_ignored_samples(
 
 
 def merge_holes(outer: np.ndarray, holes: list[np.ndarray]) -> np.ndarray:
-    """用零宽桥连接外轮廓和孔洞，使单条YOLO多边形保留内部非草坪区域。"""
+    """用零宽桥连接外轮廓和孔洞，使单条YOLO多边形保留内部非草坪区域。."""
     polygon = outer.reshape(-1, 2)
     for hole in holes:
         hole = hole.reshape(-1, 2)
@@ -76,9 +75,7 @@ def merge_holes(outer: np.ndarray, holes: list[np.ndarray]) -> np.ndarray:
         polygon_index, hole_index = np.unravel_index(np.argmin(distances), distances.shape)
         hole = np.roll(hole, -hole_index, axis=0)
         hole_path = np.concatenate((hole, hole[:1]), axis=0)
-        polygon = np.concatenate(
-            (polygon[: polygon_index + 1], hole_path, polygon[polygon_index :]), axis=0
-        )
+        polygon = np.concatenate((polygon[: polygon_index + 1], hole_path, polygon[polygon_index:]), axis=0)
     return polygon
 
 
@@ -280,9 +277,13 @@ def verify_output(output: Path, expected_ids: dict[str, list[str]]) -> list[str]
         image_ids = {path.stem for path in (output / "images" / split).glob("*.jpg")}
         label_ids = {path.stem for path in (output / "labels" / split).glob("*.txt")}
         if image_ids != expected:
-            errors.append(f"{split}图片集合不一致: missing={len(expected - image_ids)}, extra={len(image_ids - expected)}")
+            errors.append(
+                f"{split}图片集合不一致: missing={len(expected - image_ids)}, extra={len(image_ids - expected)}"
+            )
         if label_ids != expected:
-            errors.append(f"{split}标签集合不一致: missing={len(expected - label_ids)}, extra={len(label_ids - expected)}")
+            errors.append(
+                f"{split}标签集合不一致: missing={len(expected - label_ids)}, extra={len(label_ids - expected)}"
+            )
     return errors
 
 
@@ -332,9 +333,7 @@ def main() -> None:
     for split in SPLITS:
         source_split = split_root / f"{split}.txt"
         shutil.copy2(source_split, metadata_root / f"source_{split}.txt")
-        (metadata_root / f"effective_{split}.txt").write_text(
-            "\n".join(split_ids[split]) + "\n", encoding="utf-8"
-        )
+        (metadata_root / f"effective_{split}.txt").write_text("\n".join(split_ids[split]) + "\n", encoding="utf-8")
         stats, records, errors = process_split(split, split_ids[split], source, output, args)
         stats["source_samples"] = len(source_split_ids[split])
         stats["excluded_fully_ignored_samples"] = len(excluded_ids[split])
