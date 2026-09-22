@@ -1,102 +1,99 @@
-# Grass Segmentation Training Log
+# 草坪分割模型训练记录
 
-This document is the canonical experiment log for the grass segmentation model. Add an entry after every training
-run, including failed runs, and keep the comparison table synchronized with the detailed records.
+本文档是草坪分割模型的统一实验记录。每次训练后都要新增一条记录，包括失败的训练，并同步更新对比总表。
 
-## Dataset
+## 数据集
 
-- Task: single-class (`grass`) instance segmentation
-- Train: 2,724 images and 2,724 labels
-- Validation: 1,170 images and 1,170 labels (1,355 instances)
-- Config: `mower_grass_seg/data/yolo_seg/grass.yaml`
-- Known risk: audit whether adjacent frames from the same recording are split across train and validation before
-  treating validation metrics as deployment estimates.
+- 任务：单类别（`grass`）实例分割
+- 训练集：2,724 张图片、2,724 个标签
+- 验证集：1,170 张图片、1,170 个标签，共 1,355 个实例
+- 数据配置：`mower_grass_seg/data/yolo_seg/grass.yaml`
+- 已知风险：在把验证指标视为实际部署效果前，需要检查同一段录像的相邻帧是否同时进入训练集和验证集。
 
-## Comparison
+## 实验对比总表
 
-| ID | Date | Status | Model | Epochs | Fraction | Mosaic | Device | Best epoch | Box mAP50-95 | Mask mAP50-95 | Notes |
+| 编号 | 日期 | 状态 | 模型 | 轮数 | 数据比例 | Mosaic | 设备 | 最佳轮次 | Box mAP50-95 | Mask mAP50-95 | 备注 |
 | --- | --- | --- | --- | ---: | ---: | ---: | --- | ---: | ---: | ---: | --- |
-| S00 | 2026-09-22 | Failed | YOLOv8n-Seg | 0 | 0.02 | 1.0 | RTX A6000 GPU 2 | - | - | - | AMP check could not find `ultralytics/assets/bus.jpg` |
-| S01 | 2026-09-22 | Passed | YOLOv8n-Seg | 1 | 0.02 | 1.0 | RTX A6000 GPU 2 | 1 | 0.00072 | 0.00003 | Pipeline smoke test only; metrics are not meaningful |
-| B01 | 2026-09-22 | Completed with warning | YOLOv8n-Seg | 100 | 1.0 | 0.0 | RTX A6000 GPU 2 | 97 | 0.94479 | 0.94882 | `train/box_loss=inf` at epochs 85 and 100 |
+| S00 | 2026-09-22 | 失败 | YOLOv8n-Seg | 0 | 0.02 | 1.0 | RTX A6000 GPU 2 | - | - | - | AMP 检查找不到 `ultralytics/assets/bus.jpg` |
+| S01 | 2026-09-22 | 通过 | YOLOv8n-Seg | 1 | 0.02 | 1.0 | RTX A6000 GPU 2 | 1 | 0.00072 | 0.00003 | 仅用于验证流程，指标没有质量判断意义 |
+| B01 | 2026-09-22 | 完成但有警告 | YOLOv8n-Seg | 100 | 1.0 | 0.0 | RTX A6000 GPU 2 | 97 | 0.94479 | 0.94882 | 第 85、100 轮的 `train/box_loss=inf` |
 
-## S00 - Initial server GPU smoke test
+## S00：服务器首次 GPU 冒烟测试
 
-- Purpose: verify the Linux CUDA training pipeline on physical GPU 2.
-- Result: training stopped during the pre-training AMP check.
-- Cause: this fork ignores `ultralytics/assets/`, so the AMP check could not open its required `bus.jpg` image.
-- Resolution: downloaded the official Ultralytics `bus.jpg` into the ignored runtime assets directory. AMP remained
-  enabled; no training logic was bypassed.
-- Output directory: `mower_grass_seg/runs/segment/smoke`
+- 目的：验证 Linux 服务器上物理 GPU 2 的 CUDA 训练流程。
+- 结果：训练开始前的 AMP 检查阶段中止。
+- 原因：当前仓库忽略了 `ultralytics/assets/`，AMP 检查无法读取所需的 `bus.jpg`。
+- 处理：从 Ultralytics 官方资源下载 `bus.jpg` 到被 Git 忽略的运行时资源目录。AMP 保持启用，没有绕过检查。
+- 输出目录：`mower_grass_seg/runs/segment/smoke`
 
-## S01 - Successful server GPU smoke test
+## S01：服务器 GPU 冒烟测试成功
 
-### Configuration
+### 训练配置
 
-- Code commit: `bb45253`
-- Ultralytics: 8.4.128 (editable repository install)
-- Python: 3.10.21
-- PyTorch: 2.6.0+cu124
-- GPU: NVIDIA RTX A6000, physical GPU 2
-- Model: `yolov8n-seg.pt` pretrained weights
-- Epochs: 1
-- Image size: 640
-- Batch: 2
-- Workers: 0
-- Training fraction: 0.02 (54 training images)
-- AMP: enabled and passed
-- Optimizer: AdamW selected by `optimizer=auto`
-- Mosaic: 1.0
-- Seed: 0
-- Deterministic: true
+- 代码提交：`bb45253`
+- Ultralytics：8.4.128，使用当前仓库 editable 安装
+- Python：3.10.21
+- PyTorch：2.6.0+cu124
+- GPU：NVIDIA RTX A6000，物理 GPU 2
+- 模型：`yolov8n-seg.pt` 预训练权重
+- 训练轮数：1
+- 输入尺寸：640
+- Batch：2
+- Workers：0
+- 训练数据比例：0.02，共 54 张训练图片
+- AMP：启用并通过检查
+- 优化器：`optimizer=auto` 自动选择 AdamW
+- Mosaic：1.0
+- 随机种子：0
+- 确定性训练：启用
 
-### Result
+### 训练结果
 
-| Train box loss | Train seg loss | Train cls loss | Train DFL loss | Box mAP50-95 | Mask mAP50-95 | Duration |
+| Train box loss | Train seg loss | Train cls loss | Train DFL loss | Box mAP50-95 | Mask mAP50-95 | 耗时 |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1.10921 | 4.95026 | 2.81278 | 1.36619 | 0.00072 | 0.00003 | 19.54 s |
+| 1.10921 | 4.95026 | 2.81278 | 1.36619 | 0.00072 | 0.00003 | 19.54 秒 |
 
-- Conclusion: data loading, CUDA, AMP, training, validation, and checkpoint saving all completed successfully.
-- Interpretation: quality metrics are intentionally ignored because the run used only 2% of the data for one epoch.
-- Output directory: `mower_grass_seg/runs/segment/smoke-2`
+- 结论：数据加载、CUDA、AMP、训练、验证和权重保存全部执行成功。
+- 指标解释：本次只使用 2% 数据训练 1 轮，因此质量指标不参与模型效果判断。
+- 输出目录：`mower_grass_seg/runs/segment/smoke-2`
 
-## B01 - YOLOv8n-Seg baseline without Mosaic
+## B01：关闭 Mosaic 的 YOLOv8n-Seg 基线
 
-### Configuration
+### 训练配置
 
-- Code commit: `091ed93`
-- Ultralytics: 8.4.128 (editable repository install)
-- Python: 3.10.21
-- PyTorch: 2.6.0+cu124
-- CUDA runtime: 12.4
-- NVIDIA driver: 550.120
-- GPU: NVIDIA RTX A6000, physical GPU 2
-- Model: `yolov8n-seg.pt` pretrained weights
-- Epochs: 100
-- Image size: 640
-- Batch: 8
-- Workers: 4
-- Training fraction: 1.0
-- AMP: enabled
-- Optimizer: AdamW selected by `optimizer=auto`
-- Mosaic: 0.0
-- Seed: 0
-- Deterministic: true
-- Duration: 3,816.12 s (1 h 3 min 36 s)
+- 代码提交：`091ed93`
+- Ultralytics：8.4.128，使用当前仓库 editable 安装
+- Python：3.10.21
+- PyTorch：2.6.0+cu124
+- CUDA 运行时：12.4
+- NVIDIA 驱动：550.120
+- GPU：NVIDIA RTX A6000，物理 GPU 2
+- 模型：`yolov8n-seg.pt` 预训练权重
+- 训练轮数：100
+- 输入尺寸：640
+- Batch：8
+- Workers：4
+- 训练数据比例：1.0
+- AMP：启用
+- 优化器：`optimizer=auto` 自动选择 AdamW
+- Mosaic：0.0
+- 随机种子：0
+- 确定性训练：启用
+- 总耗时：3,816.12 秒（1 小时 3 分 36 秒）
 
-### Selected checkpoints
+### 最佳权重选择
 
-Ultralytics selected epoch 97 for `best.pt` using the combined Box and Mask fitness. The highest Mask-only
-mAP50-95 was 0.94891 at epoch 88, but its combined fitness was lower than epoch 97.
+Ultralytics 根据 Box 和 Mask 的联合适应度选择第 97 轮作为 `best.pt`。Mask 单项最高 mAP50-95 是第 88 轮的
+0.94891，但它的联合适应度低于第 97 轮。
 
-| Checkpoint | Epoch | Box P | Box R | Box mAP50 | Box mAP50-95 | Mask P | Mask R | Mask mAP50 | Mask mAP50-95 |
+| 权重 | 轮次 | Box P | Box R | Box mAP50 | Box mAP50-95 | Mask P | Mask R | Mask mAP50 | Mask mAP50-95 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | `best.pt` | 97 | 0.96192 | 0.95072 | 0.97969 | 0.94479 | 0.96266 | 0.95146 | 0.97999 | 0.94882 |
 | `last.pt` | 100 | 0.96904 | 0.94465 | 0.97957 | 0.94325 | 0.96980 | 0.94539 | 0.97973 | 0.94727 |
 
-### Training trend
+### 关键轮次趋势
 
-| Epoch | Train box | Train seg | Train cls | Train DFL | Val box | Val seg | Mask mAP50-95 |
+| 轮次 | Train box | Train seg | Train cls | Train DFL | Val box | Val seg | Mask mAP50-95 |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 1 | 0.51758 | 1.02069 | 1.31631 | 1.08500 | 0.59356 | 1.18779 | 0.78012 |
 | 2 | 0.47367 | 0.65633 | 0.65951 | 1.04940 | 0.47188 | 0.72419 | 0.85561 |
@@ -105,48 +102,46 @@ mAP50-95 was 0.94891 at epoch 88, but its combined fitness was lower than epoch 
 | 97 | 0.12771 | 0.20334 | 0.11894 | 0.86719 | 0.22846 | 0.36194 | 0.94882 |
 | 100 | inf | 0.19965 | 0.11895 | 0.86605 | 0.22300 | 0.36614 | 0.94727 |
 
-### Artifacts
+### 训练产物
 
-- Server output: `mower_grass_seg/runs/segment/yolov8n_seg`
-- Best weight SHA-256: `a98d91bd96b29e15045d80c3b17b3fbf2ffd40cf5cdda266120d4261d957f711`
-- Last weight SHA-256: `36c5f5c4573fdbcedfbfd8f03e28cd810fe6e39540a05a0643ad90a190a69fff`
+- 服务器输出目录：`mower_grass_seg/runs/segment/yolov8n_seg`
+- 最佳权重 SHA-256：`a98d91bd96b29e15045d80c3b17b3fbf2ffd40cf5cdda266120d4261d957f711`
+- 最后一轮权重 SHA-256：`36c5f5c4573fdbcedfbfd8f03e28cd810fe6e39540a05a0643ad90a190a69fff`
 
-### Findings
+### 结果分析
 
-- Box and Mask validation metrics improved rapidly and remained stable near the end of training.
-- `best.pt` is preferred over `last.pt` for evaluation and deployment comparisons.
-- `train/box_loss` became infinite at epochs 85 and 100. No other CSV value was NaN or infinite, validation metrics
-  remained finite, and epoch 97 was unaffected. Investigate the responsible batches or box-loss numerics before the
-  next baseline rather than treating this run as fully clean.
-- The unusually strong validation result from the first two epochs makes train/validation sequence leakage an
-  important audit item.
+- Box 和 Mask 验证指标提升很快，在训练后期保持稳定。
+- 后续评估和部署对比应优先使用 `best.pt`，而不是 `last.pt`。
+- 第 85、100 轮的 `train/box_loss` 变为无穷大。CSV 中没有其他 NaN 或无穷大，验证指标保持有限，且第 97
+  轮的最佳权重未受到影响。下一次基线训练前应定位对应 batch 或边框损失的数值问题，不能把本次训练视为完全无异常。
+- 前两轮验证指标异常地高，需要重点检查训练集与验证集之间是否存在相邻视频帧泄漏。
 
-### Next actions
+### 下一步
 
-1. Audit the split by source video or capture sequence and remove adjacent-frame leakage if present.
-2. Diagnose the non-finite box loss at epochs 85 and 100.
-3. Evaluate `best.pt` on representative videos and difficult day/night scenes.
-4. Use B01 as the comparison reference only if the split audit passes.
+1. 按来源视频或采集序列检查数据划分，排除相邻帧泄漏。
+2. 定位第 85、100 轮出现非有限 box loss 的原因。
+3. 使用 `best.pt` 测试代表性视频、困难场景、白天和夜间场景。
+4. 只有数据划分检查通过后，才将 B01 作为后续实验的正式比较基线。
 
-## Entry template
+## 后续实验记录模板
 
-### ID - Short experiment name
+### 实验编号：实验名称
 
-- Date:
-- Objective:
-- Code commit:
-- Dataset/split version:
-- Environment and GPU:
-- Model and initialization:
-- Epochs / image size / batch / workers:
-- Optimizer / learning rate policy:
-- Augmentations:
-- Best epoch and selection criterion:
-- Box P / R / mAP50 / mAP50-95:
-- Mask P / R / mAP50 / mAP50-95:
-- Train and validation loss behavior:
-- Runtime and peak GPU memory:
-- Warnings or failures:
-- Artifact paths and weight checksums:
-- Conclusion:
-- Next action:
+- 日期：
+- 实验目的：
+- 代码提交：
+- 数据集及划分版本：
+- 环境和 GPU：
+- 模型及初始化权重：
+- 训练轮数、输入尺寸、Batch、Workers：
+- 优化器和学习率策略：
+- 数据增强配置：
+- 最佳轮次及选择标准：
+- Box P、R、mAP50、mAP50-95：
+- Mask P、R、mAP50、mAP50-95：
+- 训练和验证损失趋势：
+- 训练耗时和峰值显存：
+- 警告或失败情况：
+- 产物路径和权重校验值：
+- 实验结论：
+- 下一步：
