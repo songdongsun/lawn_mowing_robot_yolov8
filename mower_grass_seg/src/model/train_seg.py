@@ -34,7 +34,7 @@ def main() -> None:
         "mosaic": 1.0,
         "close_mosaic": 10,
         "project": PROJECT_ROOT / "runs/segment",
-        "name": "B02",
+        "name": "B02_v2",
     }
     if args.device:
         settings["device"] = args.device
