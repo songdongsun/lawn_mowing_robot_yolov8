@@ -26,15 +26,20 @@ def main() -> None:
     args = parse_args()
     settings = {
         "data": DATA_CONFIG,
-        "epochs": 100,
+        "epochs": 200,
+        "patience": 30,
         "imgsz": 640,
         "batch": 16,
         "workers": 4,
+        "optimizer": "AdamW",
+        "lr0": 0.001,
+        "momentum": 0.9,
+        "warmup_bias_lr": 0.0,
         "amp": False,
-        "mosaic": 1.0,
-        "close_mosaic": 10,
+        "mosaic": 0.0,
+        "close_mosaic": 0,
         "project": PROJECT_ROOT / "runs/segment",
-        "name": "B02_v2",
+        "name": "B03",
     }
     if args.device:
         settings["device"] = args.device
