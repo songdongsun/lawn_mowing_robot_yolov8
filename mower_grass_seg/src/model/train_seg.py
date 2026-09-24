@@ -12,11 +12,12 @@ from ultralytics import YOLO
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_CONFIG = PROJECT_ROOT / "data/yolo_seg/grass.yaml"
+B03_BEST = PROJECT_ROOT / "runs/segment/B03/weights/best.pt"
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--model", default="yolov8n-seg.pt", help="Model checkpoint or YAML file")
+    parser.add_argument("--model", default=B03_BEST, help="Model checkpoint or YAML file")
     parser.add_argument("--device", help="Training device, e.g. 2 or 2,5")
     parser.add_argument("--smoke", action="store_true", help="Run a short training smoke test")
     return parser.parse_args()
@@ -26,20 +27,20 @@ def main() -> None:
     args = parse_args()
     settings = {
         "data": DATA_CONFIG,
-        "epochs": 200,
-        "patience": 30,
+        "epochs": 40,
+        "patience": 15,
         "imgsz": 640,
         "batch": 16,
         "workers": 4,
         "optimizer": "AdamW",
-        "lr0": 0.001,
+        "lr0": 0.0001,
         "momentum": 0.9,
         "warmup_bias_lr": 0.0,
         "amp": False,
         "mosaic": 0.0,
         "close_mosaic": 0,
         "project": PROJECT_ROOT / "runs/segment",
-        "name": "B03",
+        "name": "B04_A",
     }
     if args.device:
         settings["device"] = args.device
