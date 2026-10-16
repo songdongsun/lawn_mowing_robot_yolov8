@@ -1,0 +1,25 @@
+用途：收集 COCO 2017 中包含 person、cat、dog、sports ball、frisbee、teddy bear 任一类别的原始图片。
+执行：python mower_obstrast_check/src/dataprocess/download_coco.py --workers 8
+只下载官方标注并生成筛选清单：追加 --prepare-only。
+依赖：requests。运行时不要同时启动多个下载进程。
+
+目录（相对于 mower_obstrast_check）：
+data/raw/coco2017/archives/annotations_trainval2017.zip：官方原始标注压缩包。
+data/raw/coco2017/annotations/instances_train2017.json、instances_val2017.json：官方原始实例标注，原样解压，包含全部 80 类，不是逐图 TXT。
+data/raw/coco2017/images/train2017、val2017：所选六类图片的去重并集，保留官方文件名、尺寸和字节内容。
+data/manifests/coco2017/selection_*.json：所选图片及其原始元数据，包括原图地址、尺寸、许可索引等。
+data/manifests/coco2017/selection_summary.json：分划分、分类别图片数与实例数，类别间可能重叠，不可直接相加。
+data/manifests/coco2017/download_status.json：下载状态；只有 complete 才代表所选图片全部成功。
+data/manifests/coco2017/downloaded_images.jsonl：下载文件大小与本地 SHA256，用于后续一致性核对。
+data/manifests/coco2017/failed_images.json：失败项；失败后重新运行相同命令可补下载。已完成的图片不重复下载。
+
+当前不清洗、不转 YOLO、不合并猫狗或玩具类别、不重新划分 train/val，不排除 crowd。
+图片按六类的并集选取，不是要求同一图片同时出现六类。官方原始 JSON 保留其他类别的标注用于后续审核。
+COCO 的原始 category_id 不等于 Ultralytics 0～79 编号，更不等于项目 0～6 类编号。
+本批不下载 test2017：其检测真值不公开。
+传输校验：标注包大小与官方 S3 ETag/MD5、解压 CRC；图片 HTTP 长度/JPEG 首尾标记与本地 SHA256。
+这些检查不等于逐图完整解码，也不等于标注质量验收。
+数据规模可能为数万张，脚本完成之前应以进度文件为准。
+来源：https://cocodataset.org/#download
+下载采用官方 images.cocodataset.org 的 S3 桶 HTTPS 地址，以避免原图片域名的证书问题。
+许可：https://cocodataset.org/#termsofuse；原始 JSON 的 licenses 和每张图的 license 字段需保留，公开下载不代表无限制商用。
