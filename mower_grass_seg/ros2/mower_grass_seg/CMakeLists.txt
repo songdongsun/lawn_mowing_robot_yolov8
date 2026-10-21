@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.8)
+project(mower_grass_seg)
+
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(OpenCV REQUIRED COMPONENTS core imgproc)
+
+set(VKNN_SDK_ROOT "" CACHE PATH "Directory containing include/Vknn.h and lib/libvknn.so")
+if(NOT EXISTS "${VKNN_SDK_ROOT}/include/Vknn.h" OR NOT EXISTS "${VKNN_SDK_ROOT}/lib/libvknn.so")
+  message(FATAL_ERROR "Set -DVKNN_SDK_ROOT to the target-board VKNN SDK directory")
+endif()
+
+add_executable(grass_seg_node src/grass_seg_node.cpp)
+target_compile_features(grass_seg_node PRIVATE cxx_std_17)
+target_include_directories(grass_seg_node PRIVATE "${VKNN_SDK_ROOT}/include" ${OpenCV_INCLUDE_DIRS})
+ament_target_dependencies(grass_seg_node rclcpp sensor_msgs)
+target_link_libraries(grass_seg_node "${VKNN_SDK_ROOT}/lib/libvknn.so" ${OpenCV_LIBS})
+install(TARGETS grass_seg_node DESTINATION lib/${PROJECT_NAME})
+install(DIRECTORY launch config DESTINATION share/${PROJECT_NAME})
+ament_package()

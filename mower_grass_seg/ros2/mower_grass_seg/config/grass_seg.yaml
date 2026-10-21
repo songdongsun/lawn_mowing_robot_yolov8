@@ -1,0 +1,7 @@
+grass_seg_node:
+  ros__parameters:
+    model_path: /root/deploy_mower_cam_vknn/model/network_binary.nb
+    confidence: 0.25
+    nms_iou: 0.45
+    mask_threshold: 0.5
+    stats_interval: 100

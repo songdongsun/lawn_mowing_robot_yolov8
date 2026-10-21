@@ -1,0 +1,269 @@
+[
+  {
+    "id": "000",
+    "source": {
+      "figure": 2,
+      "image_batch": "20261019_215453_1792479293914571791",
+      "metric_batch": "20261019_215451_009645345",
+      "stamp_sec": 1792479297,
+      "stamp_ns": 320151000,
+      "original_path": "E:\\cpp_project\\mower_env\\pictures\\grass-seg-captures\\20261019_215453_1792479293914571791\\camera_1792479297_320151000_1792479298913452894_original.png",
+      "original_sha256": "c41427fa01bb7fcd649299751d110d3d69fae1e3cd6e17664de3f4d20093afba",
+      "mask_path": "E:\\cpp_project\\mower_env\\pictures\\grass-seg-captures\\20261019_215453_1792479293914571791\\camera_1792479297_320151000_1792479298913452894_mask.png",
+      "mask_sha256": "a0fa950376ba74557c5a2bb3eee9ac0a73820b53eb68699187e8a061b246329c",
+      "overlay_path": "E:\\cpp_project\\mower_env\\pictures\\grass-seg-captures\\20261019_215453_1792479293914571791\\camera_1792479297_320151000_1792479298913452894_overlay.png",
+      "overlay_sha256": "fffddf099f8866a2390c891d6af4656f89fcae5c94661b81e7d136d8a0d4e0a9",
+      "preprocess_ms": 3.6588499999999997,
+      "input_ms": 0.520134,
+      "npu_ms": 36.714342,
+      "output_ms": 45.255182,
+      "postprocess_ms": 24.146112,
+      "callback_ms": 110.972145,
+      "publish_age_ms": 151.411685
+    },
+    "backends": {
+      "pt_shared": {
+        "candidates": 7,
+        "detections": [
+          {
+            "score": 0.8240833282470703,
+            "box_xywh": [
+              0.099365234375,
+              236.6153564453125,
+              635.8655395507812,
+              241.88525390625
+            ]
+          }
+        ],
+        "max_score": 0.8240833282470703,
+        "foreground_pixels": 96696
+      },
+      "onnx_shared": {
+        "candidates": 7,
+        "detections": [
+          {
+            "score": 0.8240830898284912,
+            "box_xywh": [
+              0.099365234375,
+              236.6153564453125,
+              635.8656005859375,
+              241.88525390625
+            ]
+          }
+        ],
+        "max_score": 0.8240830898284912,
+        "foreground_pixels": 96696
+      },
+      "npu_shared": {
+        "candidates": 9,
+        "detections": [
+          {
+            "score": 0.92431640625,
+            "box_xywh": [
+              3.0,
+              236.125,
+              636.5,
+              242.75
+            ]
+          }
+        ],
+        "max_score": 0.92431640625,
+        "foreground_pixels": 110712
+      },
+      "pt_native_nms0.45": {
+        "detections": [
+          [
+            0.099365234375,
+            316.6153564453125,
+            635.96484375,
+            558.5006103515625,
+            0.8240832686424255,
+            0.0
+          ]
+        ],
+        "foreground_pixels": 96376
+      },
+      "pt_native_nms0.7": {
+        "detections": [
+          [
+            0.099365234375,
+            316.6153564453125,
+            635.96484375,
+            558.5006103515625,
+            0.8240832686424255,
+            0.0
+          ]
+        ],
+        "foreground_pixels": 96376
+      },
+      "ros_saved": {
+        "foreground_pixels": 110712
+      },
+      "npu_static": {
+        "foreground_pixels": 110712
+      }
+    }
+  },
+  {
+    "id": "001",
+    "source": {
+      "figure": 3,
+      "image_batch": "20261019_213235_1792477955514187920",
+      "metric_batch": "20261019_213232_683964360",
+      "stamp_sec": 1792478028,
+      "stamp_ns": 457246000,
+      "original_path": "E:\\cpp_project\\mower_env\\pictures\\grass-seg-captures\\20261019_213235_1792477955514187920\\camera_1792478028_457246000_1792478029183058213_original.png",
+      "original_sha256": "cfa998884dd477047def1cf2c67d4efae8df85340ca7603886886ddecfc8fed8",
+      "mask_path": "E:\\cpp_project\\mower_env\\pictures\\grass-seg-captures\\20261019_213235_1792477955514187920\\camera_1792478028_457246000_1792478029183058213_mask.png",
+      "mask_sha256": "5376e5148315e51a235d9064b1ad70bba4a498d17f4ef11cdb1170d8750bc102",
+      "overlay_path": "E:\\cpp_project\\mower_env\\pictures\\grass-seg-captures\\20261019_213235_1792477955514187920\\camera_1792478028_457246000_1792478029183058213_overlay.png",
+      "overlay_sha256": "cfa998884dd477047def1cf2c67d4efae8df85340ca7603886886ddecfc8fed8",
+      "preprocess_ms": 2.3188139999999997,
+      "input_ms": 2.233136,
+      "npu_ms": 37.121628,
+      "output_ms": 50.61456,
+      "postprocess_ms": 0.121158,
+      "callback_ms": 97.972795,
+      "publish_age_ms": 215.265085
+    },
+    "backends": {
+      "pt_shared": {
+        "candidates": 0,
+        "detections": [],
+        "max_score": 0.00978641677647829,
+        "foreground_pixels": 0
+      },
+      "onnx_shared": {
+        "candidates": 0,
+        "detections": [],
+        "max_score": 0.009786427021026611,
+        "foreground_pixels": 0
+      },
+      "npu_shared": {
+        "candidates": 0,
+        "detections": [],
+        "max_score": 0.042724609375,
+        "foreground_pixels": 0
+      },
+      "pt_native_nms0.45": {
+        "detections": [],
+        "foreground_pixels": 0
+      },
+      "pt_native_nms0.7": {
+        "detections": [],
+        "foreground_pixels": 0
+      },
+      "ros_saved": {
+        "foreground_pixels": 0
+      },
+      "npu_static": {
+        "foreground_pixels": 0
+      }
+    }
+  },
+  {
+    "id": "002",
+    "source": {
+      "figure": 4,
+      "image_batch": "20261019_212314_1792477394638687622",
+      "metric_batch": "20261019_212311_635165357",
+      "stamp_sec": 1792477499,
+      "stamp_ns": 133645000,
+      "original_path": "E:\\cpp_project\\mower_env\\pictures\\grass-seg-captures\\20261019_212314_1792477394638687622\\camera_1792477499_133645000_1792477500515263978_original.png",
+      "original_sha256": "b5276ca4b13dc04b9c71240ebe6919b8a1b1657af82a157cc51be9e65e2719d1",
+      "mask_path": "E:\\cpp_project\\mower_env\\pictures\\grass-seg-captures\\20261019_212314_1792477394638687622\\camera_1792477499_133645000_1792477500515263978_mask.png",
+      "mask_sha256": "739c2bb0056aa5f427c9a6c05733350bc396756a75fafd443cb178d668e96891",
+      "overlay_path": "E:\\cpp_project\\mower_env\\pictures\\grass-seg-captures\\20261019_212314_1792477394638687622\\camera_1792477499_133645000_1792477500515263978_overlay.png",
+      "overlay_sha256": "24a4d4e60abc777c64d077155b6dd46a5a3b03f404258f8c93126bf2d37f5666",
+      "preprocess_ms": 1.56579,
+      "input_ms": 0.414888,
+      "npu_ms": 39.093934,
+      "output_ms": 74.56076,
+      "postprocess_ms": 27.561037,
+      "callback_ms": 148.147782,
+      "publish_age_ms": 202.8083
+    },
+    "backends": {
+      "pt_shared": {
+        "candidates": 2,
+        "detections": [
+          {
+            "score": 0.5104085803031921,
+            "box_xywh": [
+              0.0,
+              187.99339294433594,
+              443.28338623046875,
+              284.5503234863281
+            ]
+          }
+        ],
+        "max_score": 0.5104085803031921,
+        "foreground_pixels": 85729
+      },
+      "onnx_shared": {
+        "candidates": 2,
+        "detections": [
+          {
+            "score": 0.5104085803031921,
+            "box_xywh": [
+              0.0,
+              187.99339294433594,
+              443.28338623046875,
+              284.5503234863281
+            ]
+          }
+        ],
+        "max_score": 0.5104085803031921,
+        "foreground_pixels": 85729
+      },
+      "npu_shared": {
+        "candidates": 2,
+        "detections": [
+          {
+            "score": 0.8271484375,
+            "box_xywh": [
+              0.0,
+              183.5,
+              572.0,
+              283.5
+            ]
+          }
+        ],
+        "max_score": 0.8271484375,
+        "foreground_pixels": 101896
+      },
+      "pt_native_nms0.45": {
+        "detections": [
+          [
+            0.0,
+            267.993408203125,
+            443.283447265625,
+            552.543701171875,
+            0.5104092955589294,
+            0.0
+          ]
+        ],
+        "foreground_pixels": 85609
+      },
+      "pt_native_nms0.7": {
+        "detections": [
+          [
+            0.0,
+            267.993408203125,
+            443.283447265625,
+            552.543701171875,
+            0.5104092955589294,
+            0.0
+          ]
+        ],
+        "foreground_pixels": 85609
+      },
+      "ros_saved": {
+        "foreground_pixels": 101896
+      },
+      "npu_static": {
+        "foreground_pixels": 101896
+      }
+    }
+  }
+]

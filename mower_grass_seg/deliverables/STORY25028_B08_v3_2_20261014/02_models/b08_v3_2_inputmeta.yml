@@ -1,0 +1,46 @@
+input_meta:
+  databases:
+  - path: /root/cpp_project/am970/model/calib_mower/dataset.txt
+    type: TEXT
+    ports:
+    - lid: images_273
+      category: image
+      dtype: float32
+      sparse: false
+      tensor_name: null
+      layout: nchw
+      shape:
+      - 1
+      - 3
+      - 640
+      - 640
+      fitting: scale
+      preprocess:
+        reverse_channel: true
+        mean:
+        - 0
+        - 0
+        - 0
+        scale:
+        - 0.00392156862745098
+        - 0.00392156862745098
+        - 0.00392156862745098
+        preproc_node_params:
+          add_preproc_node: true
+          preproc_type: IMAGE_RGB
+          preproc_image_size:
+          - 640
+          - 640
+          preproc_crop:
+            enable_preproc_crop: false
+            crop_rect:
+            - 0
+            - 0
+            - 640
+            - 640
+          preproc_perm:
+          - 0
+          - 1
+          - 2
+          - 3
+      redirect_to_output: false
