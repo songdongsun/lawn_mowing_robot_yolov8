@@ -5,18 +5,23 @@
 from __future__ import annotations
 
 import argparse
+import sys
+from copy import deepcopy
 from pathlib import Path
 
-from ultralytics import YOLO
-
-
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(PROJECT_ROOT.parent))
+
+from ultralytics import YOLO  # noqa: E402
+
 DATA_CONFIG = PROJECT_ROOT / "data/yolo_seg/grass.yaml"
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model", default="yolov8n-seg.pt", help="Model checkpoint or YAML file")
+    parser.add_argument("--data", type=Path, help="Dataset YAML file")
+    parser.add_argument("--channel-attention", action="store_true", help="Add channel attention to YOLOv8-seg P3 fusion")
     parser.add_argument("--device", help="Training device, e.g. 2 or 2,5")
     parser.add_argument("--name", help="Output run name")
     parser.add_argument("--epochs", type=int, help="Maximum training epochs")
@@ -77,7 +82,15 @@ def main() -> None:
     if args.smoke:
         settings.update(epochs=1, imgsz=640, batch=2, workers=0, fraction=0.02, val=False, plots=False, name="smoke")
 
-    YOLO(args.model).train(**settings)
+    model = YOLO(args.model)
+    if args.channel_attention:
+        config = deepcopy(model.model.yaml)
+        layers = config["backbone"] + config["head"]
+        layers[layers[-1][0][0]][2] = "C2fChannelAttention"
+        attention_model = type(model.model)(config, verbose=False)
+        attention_model.load(model.model)
+        model.model = attention_model
+    model.train(**settings)
 
 
 if __name__ == "__main__":

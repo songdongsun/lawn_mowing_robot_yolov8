@@ -11,7 +11,7 @@ from torch import nn
 
 from ultralytics.utils.torch_utils import fuse_conv_and_bn
 
-from .conv import Conv, DWConv, GhostConv, LightConv, RepConv, autopad
+from .conv import ChannelAttention, Conv, DWConv, GhostConv, LightConv, RepConv, autopad
 from .transformer import TransformerBlock
 
 __all__ = (
@@ -36,6 +36,7 @@ __all__ = (
     "C2f",
     "C2fAttn",
     "C2fCIB",
+    "C2fChannelAttention",
     "C2fPSA",
     "C3Ghost",
     "C3k2",
@@ -320,6 +321,23 @@ class C2f(nn.Module):
         y = [y[0], y[1]]
         y.extend(m(y[-1]) for m in self.m)
         return self.cv2(torch.cat(y, 1))
+
+
+class C2fChannelAttention(C2f):
+    """C2f with channel attention, preserving the original convolution weight names."""
+
+    def __init__(self, *args, **kwargs):
+        """Initialize C2f and channel attention for its output features."""
+        super().__init__(*args, **kwargs)
+        self.attention = ChannelAttention(self.cv2.conv.out_channels)
+
+    def forward(self, x):
+        """Apply channel attention to the fused features."""
+        return self.attention(super().forward(x))
+
+    def forward_split(self, x):
+        """Preserve channel attention when exporters select the split forward path."""
+        return self.attention(super().forward_split(x))
 
 
 class C3(nn.Module):
