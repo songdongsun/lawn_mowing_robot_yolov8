@@ -25,6 +25,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--batch", type=int, help="Batch size")
     parser.add_argument("--workers", type=int, help="Data loader workers")
     parser.add_argument("--lr0", type=float, help="Initial learning rate")
+    parser.add_argument("--translate", type=float, help="Translation fraction (+/-)")
+    parser.add_argument("--scale", type=float, help="Scale gain (+/-)")
     parser.add_argument("--mosaic", type=float, help="Mosaic probability")
     parser.add_argument("--close-mosaic", type=int, help="Final epochs without Mosaic")
     parser.add_argument("--seed", type=int, help="Random seed")
@@ -46,17 +48,31 @@ def main() -> None:
         "momentum": 0.9,
         "warmup_bias_lr": 0.0,
         "amp": False,
-        "mosaic": 0.3,
-        "close_mosaic": 120,
+        "resume": False,
+        "hsv_h": 0.015,
+        "hsv_s": 0.7,
+        "hsv_v": 0.4,
+        "degrees": 0.0,
+        "translate": 0.05,
+        "scale": 0.2,
+        "shear": 0.0,
+        "perspective": 0.0,
+        "flipud": 0.0,
+        "fliplr": 0.5,
+        "bgr": 0.0,
+        "mosaic": 0.0,
+        "mixup": 0.0,
+        "cutmix": 0.0,
+        "copy_paste": 0.0,
+        "close_mosaic": 0,
         "seed": 0,
         "project": PROJECT_ROOT / "runs/segment",
         "name": "B08_v1",
     }
     if args.device:
         settings["device"] = args.device
-    for key in ("name", "epochs", "patience", "imgsz", "batch", "workers", "lr0", "mosaic", "close_mosaic", "seed"):
-        value = getattr(args, key)
-        if value is not None:
+    for key, value in vars(args).items():
+        if key in settings and value is not None:
             settings[key] = value
     if args.smoke:
         settings.update(epochs=1, imgsz=640, batch=2, workers=0, fraction=0.02, val=False, plots=False, name="smoke")
