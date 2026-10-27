@@ -1,0 +1,4 @@
+train: images/train
+val: val_hard_20261021.txt
+names:
+  0: grass
