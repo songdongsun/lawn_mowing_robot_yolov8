@@ -22,6 +22,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--model", default="yolov8n-seg.pt", help="Model checkpoint or YAML file")
     parser.add_argument("--data", type=Path, help="Dataset YAML file")
     parser.add_argument("--channel-attention", action="store_true", help="Add channel attention to YOLOv8-seg P3 fusion")
+    parser.add_argument("--contrast-augmentation", action="store_true", help="Add contrast-only jitter (0.65-1.35, p=0.3)")
     parser.add_argument("--device", help="Training device, e.g. 2 or 2,5")
     parser.add_argument("--name", help="Output run name")
     parser.add_argument("--epochs", type=int, help="Maximum training epochs")
@@ -81,6 +82,15 @@ def main() -> None:
             settings[key] = value
     if args.smoke:
         settings.update(epochs=1, imgsz=640, batch=2, workers=0, fraction=0.02, val=False, plots=False, name="smoke")
+    if args.contrast_augmentation:
+        import albumentations as A
+
+        from ultralytics.data.augment import Albumentations
+
+        settings["augmentations"] = [
+            *Albumentations().transform.transforms,
+            A.ColorJitter(brightness=0, contrast=(0.65, 1.35), saturation=0, hue=0, p=0.3),
+        ]
 
     model = YOLO(args.model)
     if args.channel_attention:
