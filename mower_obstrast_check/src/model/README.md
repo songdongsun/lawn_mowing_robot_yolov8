@@ -1,6 +1,6 @@
 # 障碍物检测训练入口
 
-参照草坪分割训练入口，使用 YOLOv8 检测预训练权重和当前 12 类数据。此处提供代码，尚未启动冒烟或正式训练。
+使用 YOLOv8 检测预训练权重和当前 8 类数据；每次实验使用独立输出名称。
 从仓库根目录执行，Windows/Linux 均可；使用已安装本仓库 Ultralytics、PyTorch 和 PyYAML 的环境。
 
 ## 第一次：先检查配置，再冒烟
@@ -15,8 +15,8 @@ python mower_obstrast_check/src/model/train_detect.py --smoke --device 0
 
 冒烟默认：1 轮、640 输入、batch=2、workers=0、AMP 关闭、训练集 fraction=0.002（当前约 133 张）、
 关闭 Mosaic 和绘图，输出到 `mower_obstrast_check/runs/detect/smoke`。
-保留验证步骤，仍会评估完整验证集 2,840 张，所以不是仅运行几个 batch。
-训练子集不保证涵盖全部少数类，冒烟仅验证加载、前反向、验证和权重保存，不证明 12 类训练效果。
+保留验证步骤，仍会评估完整验证集，所以不是仅运行几个 batch。
+训练子集不保证涵盖全部少数类，冒烟仅验证加载、前反向、验证和权重保存，不证明 8 类训练效果。
 `--set val=false` 也不能保证完全跳过末轮验证，框架在最后一轮仍可能验证。
 
 ## 参数全部通过命令调整
@@ -39,6 +39,13 @@ python mower_obstrast_check/src/model/train_detect.py --smoke --device 0 --set a
 `--help` 查看常用参数；`--dry-run` 只读取并打印配置，不加载模型、不下载、不写文件，不验证 GPU 或框架参数兼容性。
 
 ## Windows / Linux 数据路径
+
+P2 实验复用仓库的 `yolov8n-p2.yaml`（自动解析到 `yolov8-p2.yaml` 的 n 尺度）。
+使用 `--model yolov8n-p2.yaml --channel-attention --set pretrained=/path/to/yolov8n.pt`，
+会构建 P2/P3/P4/P5 四尺度检测头，并将通道注意力保留在 P3 融合输出（第 21 层），不是 P2。
+普通三尺度模型仍在第 15 层使用 P3 注意力。640 输入下新增 P2 特征图为 160×160。
+P2 结构变化后只迁移名称和形状匹配的预训练参数，新分支及不匹配参数重新初始化；不能称为完整迁移原检测头。
+并行实验使用独立代码检出、输出目录和 GPU；显式指定共享数据 YAML，不改写正在训练的代码或标签。
 
 默认读取项目内 `data/yolo_check/data.yaml`，将其数据根目录解析为这台机器上的实际目录，
 避免服务器沿用 YAML 中的 `E:/...`。真正训练时，在 `logs/train_configs/` 保存独立配置副本，

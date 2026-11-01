@@ -75,7 +75,8 @@ def main():
     if args.channel_attention:
         config = deepcopy(model.model.yaml)
         layers = config["backbone"] + config["head"]
-        p3 = layers[-1][0][0]
+        # Detect inputs end in P3/P4/P5, including the four-scale P2/P3/P4/P5 model.
+        p3 = layers[-1][0][-3]
         if layers[p3][2] not in {"C2f", "C2fChannelAttention"}:
             raise ValueError("--channel-attention requires a C2f P3 fusion layer")
         layers[p3][2] = "C2fChannelAttention"
