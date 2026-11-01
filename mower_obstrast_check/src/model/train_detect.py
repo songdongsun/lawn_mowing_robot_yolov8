@@ -74,6 +74,9 @@ def main():
         config_dir.mkdir(parents=True, exist_ok=True)
     if args.channel_attention:
         config = deepcopy(model.model.yaml)
+        if config.get("scales"):
+            scale = config.get("scale") or next(iter(config["scales"]))
+            config["scales"] = {scale: config["scales"][scale]}
         layers = config["backbone"] + config["head"]
         # Detect inputs end in P3/P4/P5, including the four-scale P2/P3/P4/P5 model.
         p3 = layers[-1][0][-3]
