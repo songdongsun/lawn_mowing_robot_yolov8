@@ -1,0 +1,19 @@
+{
+  "full_fp_categories": {
+    "6": {
+      "duplicate_or_competing": 14,
+      "partial_overlap": 1,
+      "no_sameclass_overlap": 0
+    },
+    "7": {
+      "duplicate_or_competing": 3,
+      "partial_overlap": 6,
+      "no_sameclass_overlap": 36
+    }
+  },
+  "old_rock_per_image_mean_recall": {
+    "D00": 0.7445176957356938,
+    "D01": 0.6987896794702716
+  },
+  "note": "conf .25, same-class IoU to existing GT; no_sameclass_overlap does not prove semantic false positive if labels are incomplete."
+}

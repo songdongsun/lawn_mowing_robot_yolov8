@@ -1,0 +1,27 @@
+{
+  "id": "dog_cat",
+  "source_file": "000000309938.jpg",
+  "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\000000309938.jpg",
+  "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\000000309938.txt",
+  "focus_class": 2,
+  "problem_type": "类别混淆：狗→猫",
+  "note": "图中小型犬被判为猫；对应预测置信度0.8364、与狗GT的IoU约0.965，框位置正确但类别错误。",
+  "tp": 0,
+  "fp": 0,
+  "fn": 1,
+  "image_sha256": "8956749b98223cb888cb948f97d64cbc7330d7a8c285da0921a8630cc2f6f4a8",
+  "label_sha256": "73264e179fff6a137bb43920d685edfcfffcf654d4350680e01de92b16ca91fd",
+  "predictions": [
+    {
+      "class_id": 1,
+      "class_name": "cat",
+      "confidence": 0.8364364504814148,
+      "xyxy_pixels": [
+        97.223388671875,
+        107.42886352539062,
+        440.157470703125,
+        344.4331359863281
+      ]
+    }
+  ]
+}

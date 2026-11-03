@@ -1,0 +1,20 @@
+{
+  "source_image": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c4_007.png",
+  "image_sha256": "2881bcd4db6ac68ee21b9e6513631c16b1ad668d40184f57597762d26dd01414",
+  "label_sha256": "06a91f4f2bcb2e77b15abab1e09a4aec66b5dae497cf37e7d71123549496805a",
+  "conf": 0.25,
+  "iou": 0.7,
+  "predictions": [
+    {
+      "class_id": 4,
+      "class_name": "sports ball",
+      "confidence": 0.43204811215400696,
+      "xyxy_pixels": [
+        297.04541015625,
+        238.37103271484375,
+        342.0181884765625,
+        274.7000732421875
+      ]
+    }
+  ]
+}

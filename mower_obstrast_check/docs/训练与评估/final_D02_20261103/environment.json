@@ -1,0 +1,21 @@
+{
+  "python": "3.10.21 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:35:39) [MSC v.1942 64 bit (AMD64)]",
+  "torch": "2.14.0+cpu",
+  "ultralytics": "8.4.128",
+  "platform": "Windows-10-10.0.22631-SP0",
+  "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "threads": 8,
+  "repository_head": "9d606e7dc69877ef93c5c55b4f342f7f01e60f2c",
+  "weight_sha256": "388902aeff6d18f3b8313fef38a5ad548a4099abc73ec7d256fe7b4798339d5f",
+  "names": {
+    "0": "person",
+    "1": "cat",
+    "2": "dog",
+    "3": "frisbee",
+    "4": "sports ball",
+    "5": "teddy bear",
+    "6": "garden hose",
+    "7": "rock"
+  },
+  "note": "Repository head records packaging environment, not asserted to be original training commit. Training runtime configuration is in original logs and checkpoint."
+}

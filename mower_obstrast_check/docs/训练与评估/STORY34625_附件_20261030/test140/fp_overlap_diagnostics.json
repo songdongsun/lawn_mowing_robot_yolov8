@@ -1,0 +1,14 @@
+{
+  "conf": 0.25,
+  "hose_fp": {
+    "same_class_iou_ge_05": 2,
+    "same_class_iou_01_to_05": 2,
+    "same_class_iou_lt_01": 32
+  },
+  "hose_fp_overlaps_other_gt_iou_ge_05": {
+    "frisbee": 20,
+    "sports_ball": 6,
+    "rock": 3
+  },
+  "note": "Counts of unmatched prediction boxes, not unique ground-truth objects."
+}

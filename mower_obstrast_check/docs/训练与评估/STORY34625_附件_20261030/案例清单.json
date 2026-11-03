@@ -1,0 +1,954 @@
+[
+  {
+    "id": "person_small",
+    "source_file": "000000528578.jpg",
+    "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\000000528578.jpg",
+    "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\000000528578.txt",
+    "focus_class": 0,
+    "problem_type": "小人员漏检",
+    "note": "密集远处人员场景；按GT和固定阈值统计漏检，不能用单张图代表整类。",
+    "tp": 0,
+    "fp": 0,
+    "fn": 11,
+    "image_sha256": "f4e6671d9be6d7bb897365eaad70051c1eaa4e292947f7e547e53fa4ddb3b55d",
+    "label_sha256": "e50a6518a814a06823cb4dfda3ac7083504f8819998fb6886ebf8946192edc82",
+    "predictions": []
+  },
+  {
+    "id": "ball_small",
+    "source_file": "000000548246.jpg",
+    "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\000000548246.jpg",
+    "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\000000548246.txt",
+    "focus_class": 4,
+    "problem_type": "密集小球漏检",
+    "note": "网球筐内13个小球在该阈值下均未匹配，密集小目标是明确短板。",
+    "tp": 0,
+    "fp": 0,
+    "fn": 13,
+    "image_sha256": "6a474ea7a6e6381e81d967bdae067551bca4482526a1a1e5632c4e108a943027",
+    "label_sha256": "dfa53ed52b8e7fb625b12d5c3b086960295eda8f63c230ae5a3ccfcb18d48a72",
+    "predictions": [
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.9526367783546448,
+        "xyxy_pixels": [
+          0.2894287109375,
+          117.80374145507812,
+          158.58273315429688,
+          422.8937072753906
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.8916656970977783,
+        "xyxy_pixels": [
+          402.27880859375,
+          152.54415893554688,
+          506.90380859375,
+          425.1806945800781
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.886789083480835,
+        "xyxy_pixels": [
+          216.49273681640625,
+          98.59530639648438,
+          421.74908447265625,
+          424.7821960449219
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.26176124811172485,
+        "xyxy_pixels": [
+          267.24005126953125,
+          149.53292846679688,
+          344.42230224609375,
+          247.24273681640625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rock_small",
+    "source_file": "rocks_DSC5033-e1658535326972_jpg.rf.d8c9490498bfe41099daa0f5dbe5828f.jpg",
+    "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\rocks_DSC5033-e1658535326972_jpg.rf.d8c9490498bfe41099daa0f5dbe5828f.jpg",
+    "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\rocks_DSC5033-e1658535326972_jpg.rf.d8c9490498bfe41099daa0f5dbe5828f.txt",
+    "focus_class": 7,
+    "problem_type": "密集石块漏检与FP",
+    "note": "67个GT的密集岩石图，远处小石块漏检明显。",
+    "tp": 13,
+    "fp": 6,
+    "fn": 54,
+    "image_sha256": "c5877ee9a7f1643ab63335982cf5b5748d18635c4bfe00375e03222864a3add8",
+    "label_sha256": "27fa35f0e3666be568bce2914f5c203ac99690133434104361f64b6a1814d40a",
+    "predictions": [
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.842958927154541,
+        "xyxy_pixels": [
+          322.8405456542969,
+          52.94305419921875,
+          483.7064514160156,
+          253.37091064453125
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.601857602596283,
+        "xyxy_pixels": [
+          512.0889282226562,
+          72.63613891601562,
+          639.4850463867188,
+          271.39324951171875
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.5919432044029236,
+        "xyxy_pixels": [
+          314.640625,
+          0.0,
+          387.107177734375,
+          66.19304656982422
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.55100417137146,
+        "xyxy_pixels": [
+          462.4847412109375,
+          1.37896728515625,
+          551.2991943359375,
+          186.04202270507812
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.4746209979057312,
+        "xyxy_pixels": [
+          122.756103515625,
+          404.697509765625,
+          146.15301513671875,
+          440.412841796875
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.39674898982048035,
+        "xyxy_pixels": [
+          145.3862762451172,
+          350.78692626953125,
+          172.3623809814453,
+          390.21014404296875
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.36066582798957825,
+        "xyxy_pixels": [
+          241.94482421875,
+          8.664863586425781,
+          300.4354248046875,
+          84.48491668701172
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.3391438126564026,
+        "xyxy_pixels": [
+          130.80030822753906,
+          375.0127258300781,
+          152.0143280029297,
+          402.7323913574219
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.3249228894710541,
+        "xyxy_pixels": [
+          420.53167724609375,
+          596.77392578125,
+          444.543212890625,
+          624.009033203125
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.3207835257053375,
+        "xyxy_pixels": [
+          362.8809814453125,
+          391.62890625,
+          382.94866943359375,
+          416.6717529296875
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.30139800906181335,
+        "xyxy_pixels": [
+          188.88812255859375,
+          582.669189453125,
+          212.74456787109375,
+          615.282470703125
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.2966315746307373,
+        "xyxy_pixels": [
+          205.693115234375,
+          344.45849609375,
+          227.7347412109375,
+          373.631103515625
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.2958971858024597,
+        "xyxy_pixels": [
+          128.42628479003906,
+          302.63153076171875,
+          148.6174774169922,
+          327.1519775390625
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.2897191643714905,
+        "xyxy_pixels": [
+          207.64349365234375,
+          323.42333984375,
+          229.36654663085938,
+          346.7220458984375
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.2851236164569855,
+        "xyxy_pixels": [
+          236.20582580566406,
+          327.5129089355469,
+          255.14990234375,
+          349.2658996582031
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.28100141882896423,
+        "xyxy_pixels": [
+          71.64155578613281,
+          438.5982666015625,
+          103.50971984863281,
+          483.9061279296875
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.2734249234199524,
+        "xyxy_pixels": [
+          144.80648803710938,
+          350.13916015625,
+          180.85903930664062,
+          392.5347900390625
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.27060168981552124,
+        "xyxy_pixels": [
+          32.30006408691406,
+          314.23748779296875,
+          81.40040588378906,
+          363.6060791015625
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.2519931197166443,
+        "xyxy_pixels": [
+          455.96868896484375,
+          204.084716796875,
+          550.5819702148438,
+          315.50726318359375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hose_duplicate",
+    "source_file": "ai_garden_hose_b02_000114.png",
+    "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\ai_garden_hose_b02_000114.png",
+    "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\ai_garden_hose_b02_000114.txt",
+    "focus_class": 6,
+    "problem_type": "软管重复框",
+    "note": "一个软管目标出现多个重叠预测框；重复框按一对一规则计为FP。",
+    "tp": 1,
+    "fp": 3,
+    "fn": 0,
+    "image_sha256": "b725da7fc35afc235262cb8413e94ba23d1985891acd2725d242a8959e55d3e4",
+    "label_sha256": "4d7da6e43c8711815de46995a9a0f00a3f762c253fce89fb6878c4ebe84e6838",
+    "predictions": [
+      {
+        "class_id": 6,
+        "class_name": "garden hose",
+        "confidence": 0.644304633140564,
+        "xyxy_pixels": [
+          34.329345703125,
+          220.07826232910156,
+          621.1683349609375,
+          285.48291015625
+        ]
+      },
+      {
+        "class_id": 6,
+        "class_name": "garden hose",
+        "confidence": 0.4689936339855194,
+        "xyxy_pixels": [
+          40.88330078125,
+          213.5084228515625,
+          620.6627197265625,
+          261.4127197265625
+        ]
+      },
+      {
+        "class_id": 6,
+        "class_name": "garden hose",
+        "confidence": 0.3956141769886017,
+        "xyxy_pixels": [
+          34.550048828125,
+          207.17355346679688,
+          636.3053588867188,
+          251.60809326171875
+        ]
+      },
+      {
+        "class_id": 6,
+        "class_name": "garden hose",
+        "confidence": 0.259115993976593,
+        "xyxy_pixels": [
+          26.074325561523438,
+          211.1907958984375,
+          523.0224609375,
+          249.57891845703125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dog_cat",
+    "source_file": "000000309938.jpg",
+    "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\000000309938.jpg",
+    "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\000000309938.txt",
+    "focus_class": 2,
+    "problem_type": "类别混淆：狗→猫",
+    "note": "图中小型犬被判为猫；对应预测置信度0.8364、与狗GT的IoU约0.965，框位置正确但类别错误。",
+    "tp": 0,
+    "fp": 0,
+    "fn": 1,
+    "image_sha256": "8956749b98223cb888cb948f97d64cbc7330d7a8c285da0921a8630cc2f6f4a8",
+    "label_sha256": "73264e179fff6a137bb43920d685edfcfffcf654d4350680e01de92b16ca91fd",
+    "predictions": [
+      {
+        "class_id": 1,
+        "class_name": "cat",
+        "confidence": 0.8364364504814148,
+        "xyxy_pixels": [
+          97.223388671875,
+          107.42886352539062,
+          440.157470703125,
+          344.4331359863281
+        ]
+      }
+    ]
+  },
+  {
+    "id": "frisbee_ball",
+    "source_file": "000000185250.jpg",
+    "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\000000185250.jpg",
+    "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\000000185250.txt",
+    "focus_class": 3,
+    "problem_type": "类别混淆：飞盘→球",
+    "note": "飞盘被判为运动球，置信度0.7253、IoU约0.888；轮廓相似导致的类别混淆样例。",
+    "tp": 0,
+    "fp": 0,
+    "fn": 2,
+    "image_sha256": "6b92c69bab355b6355112014b745db91f09ecd591e0bf7d9f8da5fe40e1e03d7",
+    "label_sha256": "18e3816525b07e90cb7c6e96c4ccea23b926e5701e0f50ff9322917953fcc6d8",
+    "predictions": [
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.921933650970459,
+        "xyxy_pixels": [
+          115.10189819335938,
+          199.3748779296875,
+          219.26730346679688,
+          489.4117431640625
+        ]
+      },
+      {
+        "class_id": 2,
+        "class_name": "dog",
+        "confidence": 0.8814837336540222,
+        "xyxy_pixels": [
+          164.9918212890625,
+          388.8900146484375,
+          279.6573181152344,
+          568.956298828125
+        ]
+      },
+      {
+        "class_id": 4,
+        "class_name": "sports ball",
+        "confidence": 0.7253482341766357,
+        "xyxy_pixels": [
+          123.37606811523438,
+          61.632972717285156,
+          165.03359985351562,
+          104.24832916259766
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.31409746408462524,
+        "xyxy_pixels": [
+          0.6533966064453125,
+          344.793701171875,
+          12.334709167480469,
+          424.6317138671875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "person_box",
+    "source_file": "000000482436.jpg",
+    "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\000000482436.jpg",
+    "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\000000482436.txt",
+    "focus_class": 0,
+    "problem_type": "框范围不一致/定位失败",
+    "note": "柜台后人员的GT主要覆盖上半身，预测延伸至下方反射/遮挡区域；对应置信度0.8746、IoU约0.361。该例说明相对现有标注的定位失败，不据此断言所有框差异都是模型错误。",
+    "tp": 1,
+    "fp": 1,
+    "fn": 1,
+    "image_sha256": "6e72b98c5dbab0f74b50aa059e963c59b48a1b95cbc52d3e0c7b05fc07f3f22c",
+    "label_sha256": "a2aee8c03e504be5f705be62dbae1e1d26d86189a735d7c99d401b408d6d10c4",
+    "predictions": [
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.9065399169921875,
+        "xyxy_pixels": [
+          83.60223388671875,
+          102.6453857421875,
+          263.86285400390625,
+          392.7349853515625
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.8745734095573425,
+        "xyxy_pixels": [
+          291.55218505859375,
+          145.18118286132812,
+          391.68914794921875,
+          392.6921691894531
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rock_fp",
+    "source_file": "obstructions_rock_istockphoto-1136990430-612x612_jpg.rf.9771193ce74742bbc2cf841ae76b92ad.jpg",
+    "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\obstructions_rock_istockphoto-1136990430-612x612_jpg.rf.9771193ce74742bbc2cf841ae76b92ad.jpg",
+    "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\obstructions_rock_istockphoto-1136990430-612x612_jpg.rf.9771193ce74742bbc2cf841ae76b92ad.txt",
+    "focus_class": 7,
+    "problem_type": "石块统计FP/标注口径",
+    "note": "碎石近景存在大量未标出的可见小石块；统计FP包含定位不符或未标注实例，不能全部叫作背景幻觉。",
+    "tp": 23,
+    "fp": 18,
+    "fn": 3,
+    "image_sha256": "ba346bea49ec0ae631e02d826372c67fa1d620fe2a5214edb632d50cb3a8fa2b",
+    "label_sha256": "83daee3b21ee1114ac90497b8b6b6ea8aafe44f11944484a522867988ee175e1",
+    "predictions": [
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.8443998694419861,
+        "xyxy_pixels": [
+          385.03839111328125,
+          177.3887176513672,
+          537.5103149414062,
+          461.34161376953125
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.7997398376464844,
+        "xyxy_pixels": [
+          130.5681915283203,
+          363.69744873046875,
+          181.6043243408203,
+          446.945068359375
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.7846667766571045,
+        "xyxy_pixels": [
+          218.3857421875,
+          468.1055908203125,
+          387.04425048828125,
+          637.7117919921875
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.7675787806510925,
+        "xyxy_pixels": [
+          170.82568359375,
+          351.2755126953125,
+          281.9849853515625,
+          542.177490234375
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.7313905358314514,
+        "xyxy_pixels": [
+          174.74005126953125,
+          186.88714599609375,
+          266.001220703125,
+          346.4320068359375
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.7275758385658264,
+        "xyxy_pixels": [
+          258.66973876953125,
+          112.33175659179688,
+          320.14532470703125,
+          198.16049194335938
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.6845587491989136,
+        "xyxy_pixels": [
+          51.53572082519531,
+          361.52569580078125,
+          120.82353210449219,
+          443.54656982421875
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.6632674932479858,
+        "xyxy_pixels": [
+          16.220111846923828,
+          279.4991455078125,
+          93.10798645019531,
+          395.1416015625
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.6256103515625,
+        "xyxy_pixels": [
+          413.13934326171875,
+          12.270204544067383,
+          459.11676025390625,
+          67.85813903808594
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.6172366142272949,
+        "xyxy_pixels": [
+          431.98065185546875,
+          27.260177612304688,
+          512.3731079101562,
+          171.9718017578125
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.6013990640640259,
+        "xyxy_pixels": [
+          500.07574462890625,
+          0.01644134521484375,
+          587.8047485351562,
+          58.23809051513672
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.5839018225669861,
+        "xyxy_pixels": [
+          85.90620422363281,
+          569.3636474609375,
+          127.65892028808594,
+          616.74462890625
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.568189799785614,
+        "xyxy_pixels": [
+          585.4970703125,
+          0.0,
+          636.4912109375,
+          80.50823211669922
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.5624284744262695,
+        "xyxy_pixels": [
+          372.0519104003906,
+          600.940185546875,
+          424.9756164550781,
+          640.0
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.5545436143875122,
+        "xyxy_pixels": [
+          92.25969696044922,
+          407.67889404296875,
+          134.216796875,
+          480.25250244140625
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.5524064302444458,
+        "xyxy_pixels": [
+          344.8539123535156,
+          255.09478759765625,
+          388.3374328613281,
+          324.21844482421875
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.4997720420360565,
+        "xyxy_pixels": [
+          36.07350158691406,
+          232.35006713867188,
+          77.35330200195312,
+          285.5921325683594
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.48592957854270935,
+        "xyxy_pixels": [
+          144.19049072265625,
+          116.65774536132812,
+          177.53707885742188,
+          158.33358764648438
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.4690698981285095,
+        "xyxy_pixels": [
+          107.1649169921875,
+          217.673583984375,
+          134.42874145507812,
+          255.23406982421875
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.4577385485172272,
+        "xyxy_pixels": [
+          221.05938720703125,
+          63.21910095214844,
+          248.02410888671875,
+          102.82353210449219
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.44116416573524475,
+        "xyxy_pixels": [
+          224.43533325195312,
+          159.82196044921875,
+          265.0757141113281,
+          197.11270141601562
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.4404686689376831,
+        "xyxy_pixels": [
+          346.0269775390625,
+          339.42852783203125,
+          381.8489990234375,
+          397.79986572265625
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.4400809407234192,
+        "xyxy_pixels": [
+          191.70626831054688,
+          62.48614501953125,
+          220.40689086914062,
+          101.666259765625
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.43827134370803833,
+        "xyxy_pixels": [
+          452.729736328125,
+          498.38128662109375,
+          490.45245361328125,
+          569.0828247070312
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.43587055802345276,
+        "xyxy_pixels": [
+          107.27890014648438,
+          288.00872802734375,
+          144.90145874023438,
+          342.83489990234375
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.41955941915512085,
+        "xyxy_pixels": [
+          277.03485107421875,
+          0.5038909912109375,
+          336.65130615234375,
+          91.38946533203125
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.40927812457084656,
+        "xyxy_pixels": [
+          422.0703125,
+          573.0831298828125,
+          460.77099609375,
+          631.603759765625
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.40296098589897156,
+        "xyxy_pixels": [
+          206.89437866210938,
+          0.0,
+          263.6222229003906,
+          46.4686279296875
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.37308815121650696,
+        "xyxy_pixels": [
+          599.3248291015625,
+          104.72015380859375,
+          634.2987060546875,
+          167.39889526367188
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.3729158639907837,
+        "xyxy_pixels": [
+          511.2828369140625,
+          67.50933837890625,
+          542.5528564453125,
+          132.86892700195312
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.3652920722961426,
+        "xyxy_pixels": [
+          365.20416259765625,
+          389.34552001953125,
+          415.8245849609375,
+          479.16571044921875
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.3330545425415039,
+        "xyxy_pixels": [
+          477.95050048828125,
+          571.3642578125,
+          516.7898559570312,
+          618.247314453125
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.3328353762626648,
+        "xyxy_pixels": [
+          284.33074951171875,
+          348.71563720703125,
+          361.2078857421875,
+          440.64544677734375
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.3320003151893616,
+        "xyxy_pixels": [
+          402.20684814453125,
+          478.28753662109375,
+          458.11297607421875,
+          580.0132446289062
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.3289104998111725,
+        "xyxy_pixels": [
+          187.14443969726562,
+          0.5897407531738281,
+          210.27682495117188,
+          39.32197952270508
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.32811063528060913,
+        "xyxy_pixels": [
+          408.9974670410156,
+          106.42042541503906,
+          425.8194885253906,
+          125.13661193847656
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.3210242688655853,
+        "xyxy_pixels": [
+          199.389404296875,
+          158.38394165039062,
+          226.60107421875,
+          188.08822631835938
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.3067626655101776,
+        "xyxy_pixels": [
+          513.521484375,
+          584.6060180664062,
+          529.5751953125,
+          613.2061157226562
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.29975777864456177,
+        "xyxy_pixels": [
+          345.4511413574219,
+          115.48202514648438,
+          369.4927673339844,
+          144.00848388671875
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.28182554244995117,
+        "xyxy_pixels": [
+          380.63427734375,
+          477.1264953613281,
+          458.771728515625,
+          582.05615234375
+        ]
+      },
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.259170800447464,
+        "xyxy_pixels": [
+          151.96408081054688,
+          163.48013305664062,
+          172.13052368164062,
+          188.79379272460938
+        ]
+      }
+    ]
+  }
+]

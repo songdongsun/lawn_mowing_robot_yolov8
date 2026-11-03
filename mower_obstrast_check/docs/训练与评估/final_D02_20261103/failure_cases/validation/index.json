@@ -1,0 +1,470 @@
+[
+  {
+    "cls": 0,
+    "file": "000000389451.jpg",
+    "tag": "previous_hard",
+    "pool": "old",
+    "image": "0_previous_hard.jpg",
+    "gt": 12,
+    "D01": {
+      "tp": 3,
+      "fp": 3,
+      "fn": 9
+    },
+    "D02": {
+      "tp": 2,
+      "fp": 3,
+      "fn": 10
+    }
+  },
+  {
+    "cls": 0,
+    "file": "000000051938.jpg",
+    "tag": "gain",
+    "pool": "old",
+    "image": "0_gain.jpg",
+    "gt": 11,
+    "D01": {
+      "tp": 3,
+      "fp": 1,
+      "fn": 8
+    },
+    "D02": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 3
+    }
+  },
+  {
+    "cls": 0,
+    "file": "000000516601.jpg",
+    "tag": "regression",
+    "pool": "old",
+    "image": "0_regression.jpg",
+    "gt": 12,
+    "D01": {
+      "tp": 8,
+      "fp": 3,
+      "fn": 4
+    },
+    "D02": {
+      "tp": 6,
+      "fp": 3,
+      "fn": 6
+    }
+  },
+  {
+    "cls": 1,
+    "file": "000000375493.jpg",
+    "tag": "previous_hard",
+    "pool": "old",
+    "image": "1_previous_hard.jpg",
+    "gt": 3,
+    "D01": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3
+    },
+    "D02": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3
+    }
+  },
+  {
+    "cls": 1,
+    "file": "000000084362.jpg",
+    "tag": "gain",
+    "pool": "old",
+    "image": "1_gain.jpg",
+    "gt": 1,
+    "D01": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1
+    },
+    "D02": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  {
+    "cls": 1,
+    "file": "000000117374.jpg",
+    "tag": "regression",
+    "pool": "old",
+    "image": "1_regression.jpg",
+    "gt": 2,
+    "D01": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    "D02": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 1
+    }
+  },
+  {
+    "cls": 2,
+    "file": "000000262938.jpg",
+    "tag": "previous_hard",
+    "pool": "old",
+    "image": "2_previous_hard.jpg",
+    "gt": 4,
+    "D01": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 4
+    },
+    "D02": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 4
+    }
+  },
+  {
+    "cls": 2,
+    "file": "000000182805.jpg",
+    "tag": "gain",
+    "pool": "old",
+    "image": "2_gain.jpg",
+    "gt": 2,
+    "D01": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 2
+    },
+    "D02": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 1
+    }
+  },
+  {
+    "cls": 2,
+    "file": "000000129756.jpg",
+    "tag": "regression",
+    "pool": "old",
+    "image": "2_regression.jpg",
+    "gt": 2,
+    "D01": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 1
+    },
+    "D02": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 2
+    }
+  },
+  {
+    "cls": 3,
+    "file": "000000437239.jpg",
+    "tag": "previous_hard",
+    "pool": "old",
+    "image": "3_previous_hard.jpg",
+    "gt": 4,
+    "D01": {
+      "tp": 0,
+      "fp": 2,
+      "fn": 4
+    },
+    "D02": {
+      "tp": 0,
+      "fp": 2,
+      "fn": 4
+    }
+  },
+  {
+    "cls": 3,
+    "file": "000000424642.jpg",
+    "tag": "gain",
+    "pool": "old",
+    "image": "3_gain.jpg",
+    "gt": 3,
+    "D01": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 2
+    },
+    "D02": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  {
+    "cls": 3,
+    "file": "000000533493.jpg",
+    "tag": "regression",
+    "pool": "old",
+    "image": "3_regression.jpg",
+    "gt": 1,
+    "D01": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    "D02": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1
+    }
+  },
+  {
+    "cls": 4,
+    "file": "000000548246.jpg",
+    "tag": "previous_hard",
+    "pool": "old",
+    "image": "4_previous_hard.jpg",
+    "gt": 13,
+    "D01": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 13
+    },
+    "D02": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 13
+    }
+  },
+  {
+    "cls": 4,
+    "file": "000000566282.jpg",
+    "tag": "gain",
+    "pool": "old",
+    "image": "4_gain.jpg",
+    "gt": 1,
+    "D01": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1
+    },
+    "D02": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  {
+    "cls": 4,
+    "file": "000000463690.jpg",
+    "tag": "regression",
+    "pool": "old",
+    "image": "4_regression.jpg",
+    "gt": 1,
+    "D01": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    "D02": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1
+    }
+  },
+  {
+    "cls": 5,
+    "file": "000000094185.jpg",
+    "tag": "previous_hard",
+    "pool": "old",
+    "image": "5_previous_hard.jpg",
+    "gt": 11,
+    "D01": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 9
+    },
+    "D02": {
+      "tp": 3,
+      "fp": 2,
+      "fn": 8
+    }
+  },
+  {
+    "cls": 5,
+    "file": "000000211120.jpg",
+    "tag": "gain",
+    "pool": "old",
+    "image": "5_gain.jpg",
+    "gt": 4,
+    "D01": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 1
+    },
+    "D02": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  {
+    "cls": 5,
+    "file": "000000350054.jpg",
+    "tag": "regression",
+    "pool": "old",
+    "image": "5_regression.jpg",
+    "gt": 3,
+    "D01": {
+      "tp": 3,
+      "fp": 1,
+      "fn": 0
+    },
+    "D02": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3
+    }
+  },
+  {
+    "cls": 6,
+    "file": "obstructions_images-2-_jpeg.rf.e1522481cdef46ace47c8099d423ffb7.jpg",
+    "tag": "previous_hard",
+    "pool": "old",
+    "image": "6_previous_hard.jpg",
+    "gt": 1,
+    "D01": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    "D02": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  {
+    "cls": 7,
+    "file": "rocks_DSC5033-e1658535326972_jpg.rf.d8c9490498bfe41099daa0f5dbe5828f.jpg",
+    "tag": "previous_hard",
+    "pool": "old",
+    "image": "7_previous_hard.jpg",
+    "gt": 67,
+    "D01": {
+      "tp": 13,
+      "fp": 6,
+      "fn": 54
+    },
+    "D02": {
+      "tp": 17,
+      "fp": 12,
+      "fn": 50
+    }
+  },
+  {
+    "cls": 7,
+    "file": "rocks_22sci-boulders1-videoSixteenByNine3000_jpg.rf.b9cead25e65614855f7457c780e73215.jpg",
+    "tag": "gain",
+    "pool": "old",
+    "image": "7_gain.jpg",
+    "gt": 34,
+    "D01": {
+      "tp": 13,
+      "fp": 4,
+      "fn": 21
+    },
+    "D02": {
+      "tp": 18,
+      "fp": 4,
+      "fn": 16
+    }
+  },
+  {
+    "cls": 7,
+    "file": "rocks_8c70a7883b57ac2ff9b543f4df895238_jpg.rf.5c9d530654490a19f1f0b804422882e2.jpg",
+    "tag": "regression",
+    "pool": "old",
+    "image": "7_regression.jpg",
+    "gt": 7,
+    "D01": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 1
+    },
+    "D02": {
+      "tp": 5,
+      "fp": 2,
+      "fn": 2
+    }
+  },
+  {
+    "cls": 7,
+    "file": "obstructions_rock_IMG0131_JPG.rf.25f00a5b25a576025e4f0be57df4e872.jpg",
+    "tag": "new_hard",
+    "pool": "full",
+    "image": "7_new_hard.jpg",
+    "gt": 30,
+    "D01": {
+      "tp": 6,
+      "fp": 2,
+      "fn": 24
+    },
+    "D02": {
+      "tp": 14,
+      "fp": 16,
+      "fn": 16
+    }
+  },
+  {
+    "cls": 7,
+    "file": "obstructions_rock_istockphoto-1136990430-612x612_jpg.rf.9771193ce74742bbc2cf841ae76b92ad.jpg",
+    "tag": "new_fp",
+    "pool": "full",
+    "image": "7_new_fp.jpg",
+    "gt": 26,
+    "D01": {
+      "tp": 23,
+      "fp": 18,
+      "fn": 3
+    },
+    "D02": {
+      "tp": 24,
+      "fp": 30,
+      "fn": 2
+    }
+  },
+  {
+    "cls": 6,
+    "file": "ai_garden_hose_b02_000181.png",
+    "tag": "new_hard",
+    "pool": "full",
+    "image": "6_new_hard.jpg",
+    "gt": 1,
+    "D01": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    "D02": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  {
+    "cls": 6,
+    "file": "ai_garden_hose_b02_000323.png",
+    "tag": "new_fp",
+    "pool": "full",
+    "image": "6_new_fp.jpg",
+    "gt": 1,
+    "D01": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 0
+    },
+    "D02": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 0
+    }
+  }
+]

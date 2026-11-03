@@ -1,0 +1,20 @@
+{
+  "source_image": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c4_005.png",
+  "image_sha256": "686b8d4c609bd0bf5293cd8c94106e2ad0ce165d43dda93ecc691d105953d362",
+  "label_sha256": "9d2925dc7c3faad33f36ac7d78587fc60d7c1973b031fd7c24824db6e1ad8e34",
+  "conf": 0.25,
+  "iou": 0.7,
+  "predictions": [
+    {
+      "class_id": 3,
+      "class_name": "frisbee",
+      "confidence": 0.8745959997177124,
+      "xyxy_pixels": [
+        205.05636596679688,
+        149.1167449951172,
+        413.5453186035156,
+        340.35101318359375
+      ]
+    }
+  ]
+}

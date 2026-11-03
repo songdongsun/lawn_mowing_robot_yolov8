@@ -1,0 +1,17 @@
+model: mower_obstrast_check/docs/训练与评估/final_D02_20261103/best.pt
+imgsz: 640
+conf: 0.25
+iou: 0.7
+max_det: 300
+device: cpu
+half: false
+rect: true
+batch: 1
+augment: false
+agnostic_nms: false
+save: true
+save_txt: true
+save_conf: true
+project: mower_obstrast_check/docs/训练与评估/final_D02_20261103/inference
+name: predict
+exist_ok: false

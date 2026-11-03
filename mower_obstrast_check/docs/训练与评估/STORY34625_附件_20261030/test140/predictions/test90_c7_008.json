@@ -1,0 +1,20 @@
+{
+  "source_image": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c7_008.png",
+  "image_sha256": "840e13fa0495e48780f0fa82642627f4e4a3fc4ab71561814be64465bde848c2",
+  "label_sha256": "20f2ed419196d3c4e867dc4cdccd90e633ffc216aa52190832925184421ee512",
+  "conf": 0.25,
+  "iou": 0.7,
+  "predictions": [
+    {
+      "class_id": 7,
+      "class_name": "rock",
+      "confidence": 0.5944637060165405,
+      "xyxy_pixels": [
+        130.1468505859375,
+        89.3294677734375,
+        552.443359375,
+        389.41156005859375
+      ]
+    }
+  ]
+}

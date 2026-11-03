@@ -1,0 +1,60 @@
+{
+  "id": "hose_duplicate",
+  "source_file": "ai_garden_hose_b02_000114.png",
+  "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\ai_garden_hose_b02_000114.png",
+  "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\ai_garden_hose_b02_000114.txt",
+  "focus_class": 6,
+  "problem_type": "软管重复框",
+  "note": "一个软管目标出现多个重叠预测框；重复框按一对一规则计为FP。",
+  "tp": 1,
+  "fp": 3,
+  "fn": 0,
+  "image_sha256": "b725da7fc35afc235262cb8413e94ba23d1985891acd2725d242a8959e55d3e4",
+  "label_sha256": "4d7da6e43c8711815de46995a9a0f00a3f762c253fce89fb6878c4ebe84e6838",
+  "predictions": [
+    {
+      "class_id": 6,
+      "class_name": "garden hose",
+      "confidence": 0.644304633140564,
+      "xyxy_pixels": [
+        34.329345703125,
+        220.07826232910156,
+        621.1683349609375,
+        285.48291015625
+      ]
+    },
+    {
+      "class_id": 6,
+      "class_name": "garden hose",
+      "confidence": 0.4689936339855194,
+      "xyxy_pixels": [
+        40.88330078125,
+        213.5084228515625,
+        620.6627197265625,
+        261.4127197265625
+      ]
+    },
+    {
+      "class_id": 6,
+      "class_name": "garden hose",
+      "confidence": 0.3956141769886017,
+      "xyxy_pixels": [
+        34.550048828125,
+        207.17355346679688,
+        636.3053588867188,
+        251.60809326171875
+      ]
+    },
+    {
+      "class_id": 6,
+      "class_name": "garden hose",
+      "confidence": 0.259115993976593,
+      "xyxy_pixels": [
+        26.074325561523438,
+        211.1907958984375,
+        523.0224609375,
+        249.57891845703125
+      ]
+    }
+  ]
+}

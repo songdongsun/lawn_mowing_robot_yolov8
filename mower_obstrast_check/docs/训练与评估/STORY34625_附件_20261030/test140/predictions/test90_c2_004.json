@@ -1,0 +1,8 @@
+{
+  "source_image": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c2_004.png",
+  "image_sha256": "9dfa7911807967614e4ea2f447ddae294d9e7829ebe378e3f403ce10aa55552b",
+  "label_sha256": "22989c63b1f980ca8c488427d4a37ef02905fb9fdfa21722698500f6c92ea7a9",
+  "conf": 0.25,
+  "iou": 0.7,
+  "predictions": []
+}

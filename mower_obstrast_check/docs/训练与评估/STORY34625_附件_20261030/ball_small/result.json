@@ -1,0 +1,60 @@
+{
+  "id": "ball_small",
+  "source_file": "000000548246.jpg",
+  "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\000000548246.jpg",
+  "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\000000548246.txt",
+  "focus_class": 4,
+  "problem_type": "密集小球漏检",
+  "note": "网球筐内13个小球在该阈值下均未匹配，密集小目标是明确短板。",
+  "tp": 0,
+  "fp": 0,
+  "fn": 13,
+  "image_sha256": "6a474ea7a6e6381e81d967bdae067551bca4482526a1a1e5632c4e108a943027",
+  "label_sha256": "dfa53ed52b8e7fb625b12d5c3b086960295eda8f63c230ae5a3ccfcb18d48a72",
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.9526367783546448,
+      "xyxy_pixels": [
+        0.2894287109375,
+        117.80374145507812,
+        158.58273315429688,
+        422.8937072753906
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.8916656970977783,
+      "xyxy_pixels": [
+        402.27880859375,
+        152.54415893554688,
+        506.90380859375,
+        425.1806945800781
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.886789083480835,
+      "xyxy_pixels": [
+        216.49273681640625,
+        98.59530639648438,
+        421.74908447265625,
+        424.7821960449219
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.26176124811172485,
+      "xyxy_pixels": [
+        267.24005126953125,
+        149.53292846679688,
+        344.42230224609375,
+        247.24273681640625
+      ]
+    }
+  ]
+}

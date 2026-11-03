@@ -1,0 +1,180 @@
+[
+  {
+    "source": "mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c0_001.png",
+    "image_sha256": "ac497b94245fb197f52b07e2fe67ac5240030009201fa54be7ef96464846a612",
+    "shape": [
+      480,
+      640
+    ],
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.781857967376709,
+        "xyxy": [
+          105.9871826171875,
+          0.0,
+          538.5208129882812,
+          331.6687927246094
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.5109093189239502,
+        "xyxy": [
+          353.070556640625,
+          0.0,
+          639.18408203125,
+          337.327880859375
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.4429093301296234,
+        "xyxy": [
+          0.6636962890625,
+          0.0,
+          315.8106689453125,
+          327.5631103515625
+        ]
+      }
+    ]
+  },
+  {
+    "source": "mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c1_001.png",
+    "image_sha256": "b03ea3d67d67ac5fa002bf03bdb8007f5080ec4f567a28c4531362a03f8cdb09",
+    "shape": [
+      480,
+      640
+    ],
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "cat",
+        "confidence": 0.8941355347633362,
+        "xyxy": [
+          148.1402587890625,
+          38.7205810546875,
+          620.199951171875,
+          429.5179443359375
+        ]
+      }
+    ]
+  },
+  {
+    "source": "mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c2_001.png",
+    "image_sha256": "0a852d54c8e8a0b91d25c18c93a1f21983a516f464408e9985278600d88c452c",
+    "shape": [
+      480,
+      640
+    ],
+    "detections": [
+      {
+        "class_id": 2,
+        "class_name": "dog",
+        "confidence": 0.8818275928497314,
+        "xyxy": [
+          137.15643310546875,
+          78.41677856445312,
+          599.5821533203125,
+          373.7533264160156
+        ]
+      }
+    ]
+  },
+  {
+    "source": "mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c3_001.png",
+    "image_sha256": "08a22704a27b7eddc716438eb2cc426a7fe357e7ac121e67397a63cd46943f50",
+    "shape": [
+      480,
+      640
+    ],
+    "detections": [
+      {
+        "class_id": 3,
+        "class_name": "frisbee",
+        "confidence": 0.9985029697418213,
+        "xyxy": [
+          117.22343444824219,
+          132.25863647460938,
+          431.84686279296875,
+          320.9553527832031
+        ]
+      }
+    ]
+  },
+  {
+    "source": "mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c4_001.png",
+    "image_sha256": "3bab473fcea720f2a671949c10ef5c2411cdf247cfabfa1cc4d6f179a16c48fb",
+    "shape": [
+      480,
+      640
+    ],
+    "detections": []
+  },
+  {
+    "source": "mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c5_001.png",
+    "image_sha256": "aec84728821e8155d2fc115986880ebb699f7c5940ae5bfc3fb0fbd7c944130c",
+    "shape": [
+      480,
+      640
+    ],
+    "detections": [
+      {
+        "class_id": 5,
+        "class_name": "teddy bear",
+        "confidence": 0.9212220311164856,
+        "xyxy": [
+          126.81875610351562,
+          74.6265869140625,
+          385.6936340332031,
+          370.3817138671875
+        ]
+      }
+    ]
+  },
+  {
+    "source": "mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c6_001.png",
+    "image_sha256": "3fb188721dacb5af3f4e4f9e653129341e1b4e29439b50fe15b68730708a3804",
+    "shape": [
+      480,
+      640
+    ],
+    "detections": [
+      {
+        "class_id": 6,
+        "class_name": "garden hose",
+        "confidence": 0.7513425350189209,
+        "xyxy": [
+          14.81494140625,
+          125.16844940185547,
+          594.0284423828125,
+          378.3150634765625
+        ]
+      }
+    ]
+  },
+  {
+    "source": "mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c7_001.png",
+    "image_sha256": "f5f9428f85d20f9fdf1f3524d6388632d78760ce6164833ed0539ce96a56e40f",
+    "shape": [
+      480,
+      640
+    ],
+    "detections": [
+      {
+        "class_id": 7,
+        "class_name": "rock",
+        "confidence": 0.4805620312690735,
+        "xyxy": [
+          79.97811889648438,
+          147.572509765625,
+          388.9234619140625,
+          385.3641357421875
+        ]
+      }
+    ]
+  }
+]

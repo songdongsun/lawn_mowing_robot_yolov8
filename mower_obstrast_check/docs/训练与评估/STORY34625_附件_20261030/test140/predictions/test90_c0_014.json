@@ -1,0 +1,20 @@
+{
+  "source_image": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c0_014.png",
+  "image_sha256": "0add612101f65269827090fbfa0def9f7252462d658054195280c62b7400944b",
+  "label_sha256": "4e78ca26096cab0d89863659b5847f2a41f1242c143433ffbfa6cbbd4547cb90",
+  "conf": 0.25,
+  "iou": 0.7,
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.9064598679542542,
+      "xyxy_pixels": [
+        206.17738342285156,
+        27.33069610595703,
+        278.9732666015625,
+        233.81048583984375
+      ]
+    }
+  ]
+}

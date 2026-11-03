@@ -1,0 +1,123 @@
+{
+  "per_class": [
+    {
+      "Class": "person",
+      "Images": 2467.0,
+      "Instances": 7835.0,
+      "Box-P": 0.8802772477,
+      "Box-R": 0.7010102835,
+      "Box-F1": 0.780482222,
+      "mAP50": 0.826562524,
+      "mAP50-95": 0.5917000306
+    },
+    {
+      "Class": "cat",
+      "Images": 188.0,
+      "Instances": 206.0,
+      "Box-P": 0.8459532864,
+      "Box-R": 0.8689320388,
+      "Box-F1": 0.8572887097,
+      "mAP50": 0.9006303938,
+      "mAP50-95": 0.7092746843
+    },
+    {
+      "Class": "dog",
+      "Images": 180.0,
+      "Instances": 218.0,
+      "Box-P": 0.7859220718,
+      "Box-R": 0.7660550459,
+      "Box-F1": 0.7758613989,
+      "mAP50": 0.8045117165,
+      "mAP50-95": 0.6620795863
+    },
+    {
+      "Class": "frisbee",
+      "Images": 83.0,
+      "Instances": 111.0,
+      "Box-P": 0.8823835422,
+      "Box-R": 0.7434864261,
+      "Box-F1": 0.8070020347,
+      "mAP50": 0.8009463238,
+      "mAP50-95": 0.6059018862
+    },
+    {
+      "Class": "sports ball",
+      "Images": 139.0,
+      "Instances": 188.0,
+      "Box-P": 0.812287617,
+      "Box-R": 0.5585106383,
+      "Box-F1": 0.66190816,
+      "mAP50": 0.6370265025,
+      "mAP50-95": 0.4581663439
+    },
+    {
+      "Class": "teddy bear",
+      "Images": 88.0,
+      "Instances": 158.0,
+      "Box-P": 0.7926921784,
+      "Box-R": 0.7151898734,
+      "Box-F1": 0.7519492894,
+      "mAP50": 0.794276531,
+      "mAP50-95": 0.5730325233
+    },
+    {
+      "Class": "garden hose",
+      "Images": 100.0,
+      "Instances": 100.0,
+      "Box-P": 0.9319831574,
+      "Box-R": 1.0,
+      "Box-F1": 0.964794288,
+      "mAP50": 0.9930491583,
+      "mAP50-95": 0.8345758483
+    },
+    {
+      "Class": "rock",
+      "Images": 61.0,
+      "Instances": 283.0,
+      "Box-P": 0.6715158211,
+      "Box-R": 0.4840989399,
+      "Box-F1": 0.5626098041,
+      "mAP50": 0.5648643551,
+      "mAP50-95": 0.3963998035
+    }
+  ],
+  "overall": {
+    "metrics/precision(B)": 0.825376865254821,
+    "metrics/recall(B)": 0.729660405746086,
+    "metrics/mAP50(B)": 0.790233438138273,
+    "metrics/mAP50-95(B)": 0.6038913382856046,
+    "fitness": 0.6038913382856046
+  },
+  "best_f1_confidence": 0.38238238238238237,
+  "names": {
+    "0": "person",
+    "1": "cat",
+    "2": "dog",
+    "3": "frisbee",
+    "4": "sports ball",
+    "5": "teddy bear",
+    "6": "garden hose",
+    "7": "rock"
+  },
+  "config": {
+    "imgsz": 640,
+    "batch": 32,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "rect": true,
+    "half": false
+  },
+  "elapsed_seconds": 204.48041670001112,
+  "speed_ms_per_image": {
+    "preprocess": 0.9206349220015286,
+    "inference": 59.7645191626241,
+    "loss": 5.7624316336225704e-05,
+    "postprocess": 0.5799070116509085
+  },
+  "versions": {
+    "torch": "2.14.0+cpu",
+    "ultralytics": "8.4.128"
+  },
+  "samples": 2938
+}

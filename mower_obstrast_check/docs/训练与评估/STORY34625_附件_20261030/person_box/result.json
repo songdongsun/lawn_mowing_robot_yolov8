@@ -1,0 +1,38 @@
+{
+  "id": "person_box",
+  "source_file": "000000482436.jpg",
+  "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\000000482436.jpg",
+  "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\000000482436.txt",
+  "focus_class": 0,
+  "problem_type": "框范围不一致/定位失败",
+  "note": "柜台后人员的GT主要覆盖上半身，预测延伸至下方反射/遮挡区域；对应置信度0.8746、IoU约0.361。该例说明相对现有标注的定位失败，不据此断言所有框差异都是模型错误。",
+  "tp": 1,
+  "fp": 1,
+  "fn": 1,
+  "image_sha256": "6e72b98c5dbab0f74b50aa059e963c59b48a1b95cbc52d3e0c7b05fc07f3f22c",
+  "label_sha256": "a2aee8c03e504be5f705be62dbae1e1d26d86189a735d7c99d401b408d6d10c4",
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.9065399169921875,
+      "xyxy_pixels": [
+        83.60223388671875,
+        102.6453857421875,
+        263.86285400390625,
+        392.7349853515625
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.8745734095573425,
+      "xyxy_pixels": [
+        291.55218505859375,
+        145.18118286132812,
+        391.68914794921875,
+        392.6921691894531
+      ]
+    }
+  ]
+}

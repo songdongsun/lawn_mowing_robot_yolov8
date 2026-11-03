@@ -1,0 +1,31 @@
+{
+  "source_image": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\testmix_017.png",
+  "image_sha256": "48e844a9434e9c8abf6f85b2b246dc869e2274316e5dcb749a1e9370c4b3ae14",
+  "label_sha256": "cec16e377fd724150b037c67d14886eaec5844bdebccc0b304bdce18076eee30",
+  "conf": 0.25,
+  "iou": 0.7,
+  "predictions": [
+    {
+      "class_id": 5,
+      "class_name": "teddy bear",
+      "confidence": 0.8694385290145874,
+      "xyxy_pixels": [
+        48.897796630859375,
+        51.213592529296875,
+        136.56173706054688,
+        134.95901489257812
+      ]
+    },
+    {
+      "class_id": 6,
+      "class_name": "garden hose",
+      "confidence": 0.5129997134208679,
+      "xyxy_pixels": [
+        176.37567138671875,
+        131.1539306640625,
+        624.3890991210938,
+        251.29055786132812
+      ]
+    }
+  ]
+}

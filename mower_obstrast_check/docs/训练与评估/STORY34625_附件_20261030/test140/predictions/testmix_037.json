@@ -1,0 +1,31 @@
+{
+  "source_image": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\testmix_037.png",
+  "image_sha256": "5111456dbde1951369f125eadcaf45a504f0554cf0c9f691607b8b732228dc55",
+  "label_sha256": "cefa762da30424b37d953dbea2c5f369b007bc52fb14b72b9ad8975e113b7f56",
+  "conf": 0.25,
+  "iou": 0.7,
+  "predictions": [
+    {
+      "class_id": 4,
+      "class_name": "sports ball",
+      "confidence": 0.9593325257301331,
+      "xyxy_pixels": [
+        421.7430419921875,
+        271.1995544433594,
+        535.7994384765625,
+        375.2626647949219
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "dog",
+      "confidence": 0.9246165752410889,
+      "xyxy_pixels": [
+        47.5068359375,
+        80.61053466796875,
+        417.58990478515625,
+        328.881591796875
+      ]
+    }
+  ]
+}

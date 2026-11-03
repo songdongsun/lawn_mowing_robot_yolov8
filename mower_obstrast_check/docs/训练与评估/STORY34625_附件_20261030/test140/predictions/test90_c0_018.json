@@ -1,0 +1,53 @@
+{
+  "source_image": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c0_018.png",
+  "image_sha256": "935d283d0e9047c3ee3aef8702dcb0a4dad4af83911617639966adcd00b88dc8",
+  "label_sha256": "3f7cea9aefc9b1b5b51b43cf1c6631f42c05b0eab94c9151f0e787cc1b97f07b",
+  "conf": 0.25,
+  "iou": 0.7,
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.9142603278160095,
+      "xyxy_pixels": [
+        207.37359619140625,
+        54.146568298339844,
+        281.564697265625,
+        248.41940307617188
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.908315896987915,
+      "xyxy_pixels": [
+        495.3371276855469,
+        52.060333251953125,
+        572.208984375,
+        246.88922119140625
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.9034484028816223,
+      "xyxy_pixels": [
+        92.3790283203125,
+        65.13872528076172,
+        157.07977294921875,
+        249.60491943359375
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.8911386728286743,
+      "xyxy_pixels": [
+        377.64007568359375,
+        76.6873779296875,
+        441.40472412109375,
+        246.98123168945312
+      ]
+    }
+  ]
+}

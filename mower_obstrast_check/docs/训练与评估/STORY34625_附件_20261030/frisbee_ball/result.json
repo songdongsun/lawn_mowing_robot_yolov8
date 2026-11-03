@@ -1,0 +1,60 @@
+{
+  "id": "frisbee_ball",
+  "source_file": "000000185250.jpg",
+  "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\000000185250.jpg",
+  "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\000000185250.txt",
+  "focus_class": 3,
+  "problem_type": "类别混淆：飞盘→球",
+  "note": "飞盘被判为运动球，置信度0.7253、IoU约0.888；轮廓相似导致的类别混淆样例。",
+  "tp": 0,
+  "fp": 0,
+  "fn": 2,
+  "image_sha256": "6b92c69bab355b6355112014b745db91f09ecd591e0bf7d9f8da5fe40e1e03d7",
+  "label_sha256": "18e3816525b07e90cb7c6e96c4ccea23b926e5701e0f50ff9322917953fcc6d8",
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.921933650970459,
+      "xyxy_pixels": [
+        115.10189819335938,
+        199.3748779296875,
+        219.26730346679688,
+        489.4117431640625
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "dog",
+      "confidence": 0.8814837336540222,
+      "xyxy_pixels": [
+        164.9918212890625,
+        388.8900146484375,
+        279.6573181152344,
+        568.956298828125
+      ]
+    },
+    {
+      "class_id": 4,
+      "class_name": "sports ball",
+      "confidence": 0.7253482341766357,
+      "xyxy_pixels": [
+        123.37606811523438,
+        61.632972717285156,
+        165.03359985351562,
+        104.24832916259766
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.31409746408462524,
+      "xyxy_pixels": [
+        0.6533966064453125,
+        344.793701171875,
+        12.334709167480469,
+        424.6317138671875
+      ]
+    }
+  ]
+}

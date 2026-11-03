@@ -1,0 +1,10 @@
+核验日期：2026-10-29
+服务器项目：/mnt/sdb-36T/sdsun/lawn_mowing_robot_yolov8
+服务器 git reflog（本次只读核验）：
+6df8cbe HEAD@{2026-10-29 09:39:03 +0800}: pull --ff-only origin dev: Fast-forward
+baef8f3 HEAD@{2026-10-28 11:18:46 +0800}: pull --ff-only origin dev: Fast-forward
+ca0ef15 HEAD@{2026-10-27 14:35:53 +0800}: pull --ff-only origin dev: Fast-forward
+据此追溯 D01 训练期间 HEAD：baef8f3a4ca980e8fcb22e8988a76979fae00a84。
+这不是训练启动时保存的完整工作区快照；无法据此证明当时没有未提交修改。
+服务器当前 yolov8n.pt SHA256：f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36
+此预训练文件哈希是交付时补记，不是训练启动时采集。

@@ -1,0 +1,31 @@
+{
+  "source_image": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\testmix_024.png",
+  "image_sha256": "4a772978f41b6c9815251c9650e564fca47d4503c0ee3d67694c00bfc04e9300",
+  "label_sha256": "dd1d372fd08f105a40279e54d633ed2e1763dc7230811b3f99c814e7952acc2d",
+  "conf": 0.25,
+  "iou": 0.7,
+  "predictions": [
+    {
+      "class_id": 1,
+      "class_name": "cat",
+      "confidence": 0.936678409576416,
+      "xyxy_pixels": [
+        11.225898742675781,
+        35.06500244140625,
+        251.8939208984375,
+        246.0338134765625
+      ]
+    },
+    {
+      "class_id": 5,
+      "class_name": "teddy bear",
+      "confidence": 0.8924968242645264,
+      "xyxy_pixels": [
+        415.02374267578125,
+        97.70114135742188,
+        558.7700805664062,
+        251.25885009765625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source_image": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\test90_c3_004.png",
+  "image_sha256": "b886a1ec3eb9fa82dd2adaf420cfa55b03faff23a3af12da0863e0759774ee8f",
+  "label_sha256": "98a811c7782e09695faf43dbc125da66c8415fa1218b3cd4de33a02473fb2ecc",
+  "conf": 0.25,
+  "iou": 0.7,
+  "predictions": [
+    {
+      "class_id": 6,
+      "class_name": "garden hose",
+      "confidence": 0.8787558078765869,
+      "xyxy_pixels": [
+        71.7291259765625,
+        221.67727661132812,
+        370.9168395996094,
+        336.4811706542969
+      ]
+    }
+  ]
+}

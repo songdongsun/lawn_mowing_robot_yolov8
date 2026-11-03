@@ -1,0 +1,15 @@
+{
+  "id": "person_small",
+  "source_file": "000000528578.jpg",
+  "source_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\images\\val\\000000528578.jpg",
+  "label_path": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\yolo_check\\labels\\val\\000000528578.txt",
+  "focus_class": 0,
+  "problem_type": "小人员漏检",
+  "note": "密集远处人员场景；按GT和固定阈值统计漏检，不能用单张图代表整类。",
+  "tp": 0,
+  "fp": 0,
+  "fn": 11,
+  "image_sha256": "f4e6671d9be6d7bb897365eaad70051c1eaa4e292947f7e547e53fa4ddb3b55d",
+  "label_sha256": "e50a6518a814a06823cb4dfda3ac7083504f8819998fb6886ebf8946192edc82",
+  "predictions": []
+}

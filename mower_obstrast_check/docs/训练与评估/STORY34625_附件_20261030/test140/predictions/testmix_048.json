@@ -1,0 +1,53 @@
+{
+  "source_image": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\data\\test_sets\\synthetic_8cls_140_20261030\\images\\test\\testmix_048.png",
+  "image_sha256": "f68d3004d52b0b87a7116c0ad702ddd5b10c2c9603529a775340933c1123d4db",
+  "label_sha256": "b36d389752e73ad92543d7998da014b445596264c449604ca8eb18c1206a033b",
+  "conf": 0.25,
+  "iou": 0.7,
+  "predictions": [
+    {
+      "class_id": 3,
+      "class_name": "frisbee",
+      "confidence": 0.9075785875320435,
+      "xyxy_pixels": [
+        53.733428955078125,
+        185.22607421875,
+        265.0841064453125,
+        286.85577392578125
+      ]
+    },
+    {
+      "class_id": 6,
+      "class_name": "garden hose",
+      "confidence": 0.5168207287788391,
+      "xyxy_pixels": [
+        471.368896484375,
+        84.3349609375,
+        592.125,
+        397.4556884765625
+      ]
+    },
+    {
+      "class_id": 6,
+      "class_name": "garden hose",
+      "confidence": 0.3618661165237427,
+      "xyxy_pixels": [
+        260.91754150390625,
+        84.48580932617188,
+        592.0794067382812,
+        401.8348083496094
+      ]
+    },
+    {
+      "class_id": 6,
+      "class_name": "garden hose",
+      "confidence": 0.3214058578014374,
+      "xyxy_pixels": [
+        55.729461669921875,
+        184.75283813476562,
+        264.7656555175781,
+        286.74627685546875
+      ]
+    }
+  ]
+}

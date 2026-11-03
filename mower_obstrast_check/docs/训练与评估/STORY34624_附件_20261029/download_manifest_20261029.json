@@ -1,0 +1,110 @@
+{
+  "files": {
+    "confusion_matrix_normalized.png": {
+      "size": 231656,
+      "sha256": "eed9a42aed8208cb1ce7529bd6fd441fa61e87681644c4430847576a38890a34"
+    },
+    "train_batch188012.jpg": {
+      "size": 610886,
+      "sha256": "36b579f06b5cc60a20f8334ec39b871a6ca3ad3d60fd22a20d7f86db99205f12"
+    },
+    "val_batch2_labels.jpg": {
+      "size": 504958,
+      "sha256": "4b7ad03df3a6c94457cc726dbafc9641d97e388f3fd0733dd6c630c0970d3cfd"
+    },
+    "train_batch1.jpg": {
+      "size": 656851,
+      "sha256": "f0719769947ddfb79588dde28071f4ccdaeb1b3df18b5d53806ab729f2f264c5"
+    },
+    "BoxR_curve.png": {
+      "size": 295824,
+      "sha256": "4b13c29aa4e220843388fa2f2d6294c2a6c74ed75b4e321c4796d7c4e699116d"
+    },
+    "labels.jpg": {
+      "size": 200281,
+      "sha256": "e4d868859b8bd9f072324a903fcb2d6ba402121bf7b5355c22249140b447be01"
+    },
+    "val_batch0_labels.jpg": {
+      "size": 386558,
+      "sha256": "37ed1d863275d223f879e81e7804b1978c8c00c1d0368ce6aac172de7731f611"
+    },
+    "val_batch1_labels.jpg": {
+      "size": 499275,
+      "sha256": "35154ee445669cc847c459ea7635a2e418fdcbb60e9f461e0e2fcff9ba35146c"
+    },
+    "val_batch2_pred.jpg": {
+      "size": 512414,
+      "sha256": "c327b22823797da11e40a7f07a3425978f292ad77ffc66e1b6bf8726be2872aa"
+    },
+    "val_batch1_pred.jpg": {
+      "size": 502840,
+      "sha256": "795bfd6d5368ca93dcaede12888edb5d4552d61af0aea0721d09badb1d18f6fb"
+    },
+    "args.yaml": {
+      "size": 1964,
+      "sha256": "b22c020c12b4fbc38b3250fda653f9e9ef181ef94cf89a5d21828f178f87e672"
+    },
+    "val_batch0_pred.jpg": {
+      "size": 396580,
+      "sha256": "17881c0066df0caab124004265c7bf6aa0194f68cb3a1d8b59ade16d9a1e5b78"
+    },
+    "BoxP_curve.png": {
+      "size": 244051,
+      "sha256": "e57ae5040156b941f3e2bea7626d5cce837b6173ddeb53a7056423f599cdd9a4"
+    },
+    "confusion_matrix.png": {
+      "size": 210436,
+      "sha256": "9146cc2d01728fec5cecbfad65e8fabff27baa06dac6aa98e76f1c9489637706"
+    },
+    "train_batch0.jpg": {
+      "size": 768650,
+      "sha256": "29d070e0e6cb85fa07e97460569564183739493a201cae760765eb473585ce32"
+    },
+    "results.csv": {
+      "size": 16347,
+      "sha256": "5c5ad4808789e89bb1e737b717b1bf8bb6e7ce5d8e4d53d88d23a573e58aef2c"
+    },
+    "BoxPR_curve.png": {
+      "size": 254376,
+      "sha256": "f21389e07215e80f8171a7435f5466427c4b9e9803227c6c45d958bd02a4c01a"
+    },
+    "train_batch188011.jpg": {
+      "size": 539794,
+      "sha256": "cb16d2c9dc0de2eb931615c7210cd259caaabbdcf1ef61b1883378a8d3c6bb1b"
+    },
+    "train_batch188010.jpg": {
+      "size": 537651,
+      "sha256": "6af20762b202309848d0fade191ab866b300aef1ccfcabb52a74fc0044b343bb"
+    },
+    "BoxF1_curve.png": {
+      "size": 328593,
+      "sha256": "975c3ee9c18b73651d5cf802b21b89a88a6bddd0dabfb1862118324d0b48576c"
+    },
+    "train_batch2.jpg": {
+      "size": 638424,
+      "sha256": "ec829d70e2798fa7e494f4573221e58da0da24b8a2ed0da181ad78b1be0ad42a"
+    },
+    "results.png": {
+      "size": 263582,
+      "sha256": "50a7a1ccfc4ff6208a193383bcbb3380a3f9899f0c7c51bff2dbf0b253fa1838"
+    },
+    "weights/best.pt": {
+      "size": 6250339,
+      "sha256": "814fd616094d5a01cf2ab55a4106f265f5b335d3ddb6fc424a85e472cf00b170"
+    },
+    "weights/last.pt": {
+      "size": 6250339,
+      "sha256": "9521f63702936a5dd8073dcb53fd73a0806984a5d44e4c0a093452bc7c6496be"
+    },
+    "server_train.log": {
+      "size": 20498791,
+      "sha256": "0f408d6478c8b1af2915e1307a0bdc8d6045f37aaa37547abc308027fa79f4d7"
+    }
+  },
+  "archive": "/mnt/sdb-36T/sdsun/d01_results_20261029.tar.gz",
+  "archive_sha256": "aa6eb1713ce97b65144c250dad80ef2efb7417982f41c5092305b0c6a07394fd",
+  "archive_bytes": 21100084,
+  "server": "sdsun@192.168.0.131",
+  "remote": "/mnt/sdb-36T/sdsun/lawn_mowing_robot_yolov8/mower_obstrast_check/runs/detect/D01_data_expanded_baseline_2gpu",
+  "verified": true
+}

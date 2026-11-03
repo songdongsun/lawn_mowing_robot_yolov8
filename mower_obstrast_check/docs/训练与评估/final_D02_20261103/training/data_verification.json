@@ -1,0 +1,7 @@
+{
+  "files": 5876,
+  "images": 2938,
+  "labels": 2938,
+  "all_sha256_match": true,
+  "note": "Current server validation images and labels match local evaluation inputs; not a reconstruction of an unavailable training-time dataset snapshot."
+}
