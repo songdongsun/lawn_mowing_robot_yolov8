@@ -1,0 +1,845 @@
+{
+  "reason": "free board space for FP16 reference; remove only 140 local-verified raw dumps, retain model/boxes/timing/logs",
+  "files": [
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/000.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\000.f32",
+      "sha256": "82e4d69f6a5b7195a14a4d1aa8bbd5100ae8bfcbad2925bb77d9995239a2c2ae",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/001.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\001.f32",
+      "sha256": "e4d606b45950831470d94443e6392452e7a0f69151538c0f5c5f33c32b0e1fb6",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/002.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\002.f32",
+      "sha256": "fa0a765f9d6c994ce6577ea5a9d3910a5c24e62db761a8d6ea9212ac08e8bc3f",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/003.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\003.f32",
+      "sha256": "50f56c44ef0ed6c2eab8e989ff42c5016bab082744488f30f068f86bba5856ff",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/004.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\004.f32",
+      "sha256": "0b928babcd408d569dd0fdbdc41862c52de0491e950c6b2c478e599ec6845b9c",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/005.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\005.f32",
+      "sha256": "675ba6c42518147a5c7440343fc83487b70a0068a349aecec491e32719ae8c54",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/006.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\006.f32",
+      "sha256": "a1d54c7e7f5dce4ece7682506bc513177ffad683fefa307ab138d42103527300",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/007.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\007.f32",
+      "sha256": "7b53ad99923ffc815839ae747a53b4733b41ef3a99803c0484f87c3f3445bfcf",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/008.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\008.f32",
+      "sha256": "3d03929f537a1e95e6c73032f86971b78906ecf8ce86d76550c809aae62e0830",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/009.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\009.f32",
+      "sha256": "1ee265d11e74b7698e38a34b9e15bb735ebda9bff582698e1f9204339c3a2010",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/010.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\010.f32",
+      "sha256": "3c487e083a0c19e97d8a2c82d33606f143e44b781bd800f661a50ddfe358f622",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/011.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\011.f32",
+      "sha256": "084b5fc898a2c2e54f0ada4c11dd47b67126e17220c0e3432afa551971bd90d7",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/012.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\012.f32",
+      "sha256": "085722797b51b8e2639a4ed6cbbe128793325db963a25b0f42ae322d4a5f03e4",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/013.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\013.f32",
+      "sha256": "88249227df8710b955dee2ae9cc96e1241f7522967bc207860d74f1b90d1ffb0",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/014.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\014.f32",
+      "sha256": "10da3b62e2834e0992c6e1faf27dbbae72e74dc48fd591da594af4f971a2c14c",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/015.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\015.f32",
+      "sha256": "4e70d5dadd9fc6f3b98b0db63c600b8ab782c7c86597ac0e5324f023bf58a1bc",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/016.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\016.f32",
+      "sha256": "5ca82af601fc8f01c862f909e0bb3afb776a7b374bafe540619c55e5fc06ad29",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/017.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\017.f32",
+      "sha256": "3ac835fe8a3e798ce38f07ccac446b0b3bc627e6266f9b0db2d87a9f2cc3542b",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/018.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\018.f32",
+      "sha256": "25c84b3b44e929a50386349e67fc847459c206d87acfd00b935f058ce8723691",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/019.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\019.f32",
+      "sha256": "57b30d936c718d9daefc05d9ce57b7c342097e63c8f9b6ffa22d6d389fe9ff3e",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/020.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\020.f32",
+      "sha256": "740ac86ed98cbb5463634a64c39dc9184c31423d0f5195035be17413a93e862d",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/021.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\021.f32",
+      "sha256": "5d77aa2e5cd9bf910483cc4a75739118d8205b7cf4117a5b68ce5196ca159638",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/022.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\022.f32",
+      "sha256": "29fa28cee24486d3cf877137a14327bc6c311bde55202027692610097d7e6cf2",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/023.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\023.f32",
+      "sha256": "391304390eb44a83a53337e3448dfe8653dc6ca4f20792fff137c71d061f9f0c",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/024.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\024.f32",
+      "sha256": "1dd930e6de829954e82c799977d38427f3bf6ff63412ef45ae023df17bee7061",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/025.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\025.f32",
+      "sha256": "ac929ee08b14ba32186157f0a023f3994dadedb735159c2c30a5819bc1dfed70",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/026.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\026.f32",
+      "sha256": "d6f9dc093d5043de07daab1d32051a403d6f3a7e2e6b4c992f486c26e95cf63b",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/027.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\027.f32",
+      "sha256": "c403b33910b795cd9b01ddc779566659c317251fa2d932e849edd74ef8f291ac",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/028.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\028.f32",
+      "sha256": "9fe154f5574c436ae64c1ffa1d040e5324293dbc0b84a6a6b277586299f86eeb",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/029.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\029.f32",
+      "sha256": "bbf7e8516fe7e45b251be05cf4c93f55b8d83fbe1e14982d1409a0019601255d",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/030.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\030.f32",
+      "sha256": "64aae8ef7991a1503f631266e009c0a510ddfdf26b78c2f55b897d7c13b28a4b",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/031.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\031.f32",
+      "sha256": "5eb952832894527434dc0691d0d4353cf9c2c69611e3768e2ecad92860a9b7aa",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/032.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\032.f32",
+      "sha256": "6d11410e0aadfada4948d4056e2fd4abed83f17e2add570106d2208a4f4a09d5",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/033.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\033.f32",
+      "sha256": "6bcd9c65a1d71094186845972f365866abc58edd9e03fd3a93904f5342c07c32",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/034.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\034.f32",
+      "sha256": "5bb27cfb21ac07c249ad51c7582a22b1b83ab75a32fd47a3ff68f733a64d6794",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/035.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\035.f32",
+      "sha256": "20077343496b37ebbc08ceef27019ff65a8f65b461064791d39696410217b147",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/036.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\036.f32",
+      "sha256": "f22479dbc99205e81635fb940b2ef3ee34deaf589fdcf58fd7e6521f0cc14e7f",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/037.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\037.f32",
+      "sha256": "af726677632def1801a96b28ef98e9b631dc40e985391d045b77af9c9b15a403",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/038.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\038.f32",
+      "sha256": "7363d3c4a49efccda8609717b5afcdd37005007c6c674bdab32a3a2a83b07506",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/039.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\039.f32",
+      "sha256": "94615a34a81a36e15fbd99d38077779861758dc4967775db4af05c0a84923158",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/040.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\040.f32",
+      "sha256": "941206652581261e64561f50b410819c6e3a8694fbaf218f450ee8a4e42b448d",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/041.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\041.f32",
+      "sha256": "ef43463fa3ea14dbe835a1bc87261f4ef4c75f5c1257a8a8cbdbd24116f39fdd",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/042.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\042.f32",
+      "sha256": "b9709ca8bc95f11f74f84989760604fadcca0133f5b96e95dc7e649eec74666b",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/043.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\043.f32",
+      "sha256": "449ee912be7db330e71672870a3f991f978be0535aba09d25ac6572781bce07e",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/044.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\044.f32",
+      "sha256": "7fe0c92b6af6485bc4760f0f9ae24c0263120680cafe11717307722b402212de",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/045.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\045.f32",
+      "sha256": "eb432d7e6964cf2fb2bcc833ca9a216b8098ce13c485426f7a826c1f690392d1",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/046.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\046.f32",
+      "sha256": "289aadc006f0d9d4bca31f2f81cb9b848a0b22c6d04b6535f6a9ace0ce8919a8",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/047.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\047.f32",
+      "sha256": "c7ebc0055b38380a7e64b229d86ad83e040c10c6b7a1134911e536a7071029d5",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/048.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\048.f32",
+      "sha256": "d4e48b46620d0cd0913626c60aa7f21beb8ef1c7d42fee3fc2489555226597f6",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/049.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\049.f32",
+      "sha256": "4e6a2a55a7076136988acad5aa83c6d81103777f4424cb197295f2b7cf47e2b6",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/050.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\050.f32",
+      "sha256": "8bbd88c5a323e53e477b0aedd1c3d07bb50a960036a2aab445205476ba5ea366",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/051.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\051.f32",
+      "sha256": "1978b9b2ffa297ce5280604d1d6801a597f5651b8c4457e389c9912d27e5a279",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/052.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\052.f32",
+      "sha256": "608b3f5d48c786dfc132d18e80d7dc81172ff93e4908bfb1b4b16b11fd89bf7b",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/053.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\053.f32",
+      "sha256": "ebba2e2db2f435d7bdcec723cc18fbbb909f25fdfc393a996d32b80d539d5747",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/054.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\054.f32",
+      "sha256": "7515997fc940861dbf21e55b9525f458ca1cedf95aa24d18dd67b678d1a5ca5c",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/055.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\055.f32",
+      "sha256": "85adfac101c78a3076a68a2a96b2bbe0360969f6f7381f5918ee500f0fdc0d07",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/056.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\056.f32",
+      "sha256": "01a4b2b0c713db4a8e7cfb77628552b7430890b886dde634927a49c8a90f18de",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/057.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\057.f32",
+      "sha256": "085765e8451e8d2a99431c34a9c89b2fb4ed46ffb9442bad8453d861262bf58e",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/058.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\058.f32",
+      "sha256": "18aee20431bc851225067e6ccb36082dca7112b4513371f54d1da8331280dbd2",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/059.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\059.f32",
+      "sha256": "5d387ed47ba579e0ddc0b03075396e2ea9f8ecc7d5938dab37d1446d1b92b2c9",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/060.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\060.f32",
+      "sha256": "7900bd30db1fcd31c33be45a87dec865de8679512a59eb6eed435ce9bc2fe8c8",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/061.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\061.f32",
+      "sha256": "f226f87e662879fdb95f62e156173556c28860686c9a585b8bfb000cb671d747",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/062.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\062.f32",
+      "sha256": "97be7763a3ce5e6d0282833bf434af6ae1651ae75c9588852bfc3a2c587e44cb",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/063.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\063.f32",
+      "sha256": "0783a52c8f40c70da0459ab41e9ff4df5ab13b0fa0d542b83dbfb968039be285",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/064.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\064.f32",
+      "sha256": "6ecc37e223e809e720199b42c3eff497f508625c545927c2228a1518de905b29",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/065.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\065.f32",
+      "sha256": "ef2eddde290eade6059211ac1539303db215ebd16a286cb31daa198f42f7aced",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/066.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\066.f32",
+      "sha256": "dcbd16f0b9973a3567e21921d4097bb1dff2d26e16421134328f1a901da95a14",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/067.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\067.f32",
+      "sha256": "0a291a6ea45c41015cd4706d2a61b5694d2fcf078cc62c6bc66661d1a8d4e26f",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/068.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\068.f32",
+      "sha256": "a2b41318e695dd999bc911b796484786a5afe2f0790a5ba14f76846f1853aa9e",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/069.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\069.f32",
+      "sha256": "666049766098ccfc69bd7ee2316a07af933d735d471571e56290173d67ced0a2",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/070.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\070.f32",
+      "sha256": "39c8bf15c40427ebedf83d9b281d0310d0d2561a537051c1f8192f5679f3018c",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/071.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\071.f32",
+      "sha256": "bfe37cfa23e69f4ecca2dbf554a8cc3e8648b77ce33656f9977d4b296b1593c3",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/072.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\072.f32",
+      "sha256": "e62b6518e8ebca5de507bb0125ccd5d6b79e286fa6067dd801f57dbd8aed48ac",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/073.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\073.f32",
+      "sha256": "1b6a324f922b5d267139b9cf96cc9c34b5695e3d176b79f211cd2925cbe6184a",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/074.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\074.f32",
+      "sha256": "ecc51aa2ab7e2ca233a5d3e520854cad0039ebf5174177cfff17b8eacd473ba4",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/075.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\075.f32",
+      "sha256": "d4d92dfebe98351f5cbd7ae279ba80dc9043414e521a13c0ca2d673d075f933e",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/076.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\076.f32",
+      "sha256": "71387dc515a95bb7b4f507a6423197c2e460985cad0bfc7e9089cef94b70a3e3",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/077.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\077.f32",
+      "sha256": "34b8808b51bcebb3d3aecb2786d20ea235349c8a3d9ebce614b4fcbe5d3d7188",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/078.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\078.f32",
+      "sha256": "602c5fcb9bf95f4fb33217d2f255afa12772135be23f81d53cc59d54ab5a185c",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/079.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\079.f32",
+      "sha256": "b9d413875370c3549fe7740af7ca9791e62beb1d0f5fd3a517610fd0723d7c3f",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/080.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\080.f32",
+      "sha256": "2f58fe941cf1102bc348e861a730f3857ddbd6937aed7f406249d6bcc60dcb25",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/081.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\081.f32",
+      "sha256": "c9f5adf15726274c536ed4cdc37790a4de0c599e31f975bccfba7c5b8af86671",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/082.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\082.f32",
+      "sha256": "7f735cc3c5f4ddf311a1a3527f7c466849dba161880ed7fa2d553db8d0c4826f",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/083.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\083.f32",
+      "sha256": "562d86ee9e5c9b487666e81be95f29526b6924a27fe2c7500d5fa556662ef729",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/084.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\084.f32",
+      "sha256": "0a75780f9252caccd763e751a0e799e888034f24b7af1423adefc3b40c7d5549",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/085.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\085.f32",
+      "sha256": "4b5703dc2c0a3eec5dc1e6e0bfcf55b0c3e193448e19a288ae886ec059acd93a",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/086.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\086.f32",
+      "sha256": "769d833dd72e7e89355365c39974dbc4c5eb621b48435970c78da3df44745f30",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/087.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\087.f32",
+      "sha256": "93bd9b343e1244c22ddc1c60ff11b85eadb43d43f3bd657c3204813892a9d612",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/088.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\088.f32",
+      "sha256": "c2836f1e27f1fcb3c02b81fb6fc31916063a7f439fbf227cf429c32b66f72676",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/089.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\089.f32",
+      "sha256": "67fd1dc62b46444c31ad68c5d7167b1d582315e44a411ff2f208ea8f30f4613d",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/090.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\090.f32",
+      "sha256": "c75328f83ca26fc633690339cd9d45371addaabef19c52ac7610c120edd8170f",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/091.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\091.f32",
+      "sha256": "1f209e327b7186d332be79168e629c743ca0e52ff190e1d10d55377797baf22f",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/092.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\092.f32",
+      "sha256": "efa9af45314922239f59f62c452961ef2aa1b3d91592191ba53c448486f94e9e",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/093.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\093.f32",
+      "sha256": "4018b42c7ab53a2a0065c13e059bd3c86a9692956192432933354b42d5d01391",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/094.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\094.f32",
+      "sha256": "393549d035c0b25ebe67bee0be9fd9a9d7ef6511a05f383544ad7c6a2b859d0d",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/095.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\095.f32",
+      "sha256": "5e7322cfe868e8eda0028648537aaf6e5b2cbcc1787cc6b6c0409964ba904dcc",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/096.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\096.f32",
+      "sha256": "55b2b7f558578233823bf50ad48bb14a8a767ec0663f5b5b8cf456bb6a14d531",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/097.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\097.f32",
+      "sha256": "e998fb6aa84c9c284a0ee0e9d39fc494eafe90ef2588087f0b8ef56733b5acd6",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/098.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\098.f32",
+      "sha256": "c0a5da55a6b81ec5af61fcaf27f32d1ce18f87ac5a7ff2dd5a6a0de1e91eadbd",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/099.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\099.f32",
+      "sha256": "f989810ab6f0ad54587c6cfbbe04343807feb2a295106004f23a96c9d3bc92e7",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/100.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\100.f32",
+      "sha256": "025cdee6d4ae5537ac273332bda1fcbfd0cacdbd6aa9990bebbde543dd885fd2",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/101.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\101.f32",
+      "sha256": "2b66f2a0390ef903305aadd1423d1e9a5260a01b83946e0c98f1698dbc2865e9",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/102.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\102.f32",
+      "sha256": "a160edc85b5ccf61ee06ae1c4c9bcf8a6251ce405ab85428080fb8834c34773e",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/103.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\103.f32",
+      "sha256": "5185354fe5d8c4fd7251c9490a95d6569af51e1bfd77ad2c7949a95ad3b8e5f1",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/104.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\104.f32",
+      "sha256": "bb14e55cc48519836f8893f116b02df2ccfae4a48d5b97d84e431ea4e0db149f",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/105.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\105.f32",
+      "sha256": "19ab0b50faeb62b45c067f0b5ff3f30578cd4d3ebef09b0705cdf6ed0e1ad38f",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/106.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\106.f32",
+      "sha256": "24487e0e5c7ff2dadf8df525b8654c106e467af065b788d7c7aaa01c29038f62",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/107.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\107.f32",
+      "sha256": "2a52ca8aa9b3bbe21c10884ec89db0b880167661fde376e8716b3fe82b620d4b",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/108.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\108.f32",
+      "sha256": "80bd95bc34dee81822bea415f171140062faeb45898eb1a89eecb49dc85e42be",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/109.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\109.f32",
+      "sha256": "f8cda707fa628448a584fb0a809aa1efaa06ef0fb321a0a44ad5d290be205164",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/110.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\110.f32",
+      "sha256": "230f632b55a54257b700fd106e98d7a5e1e4875e5719093034642ae63afb5971",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/111.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\111.f32",
+      "sha256": "4f290704eb3cd3045a0188b68cc126afa784abeb4344ee5fabb8583bc81033cb",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/112.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\112.f32",
+      "sha256": "5554fc77c4f21bbba176df69bee9a745d748b3eae5304dc23d7cc2f626e26899",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/113.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\113.f32",
+      "sha256": "400e86393598567e658603c50911379abb2ff3196ded182ab3b16b39839504be",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/114.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\114.f32",
+      "sha256": "f305e91839a2b9c071cdbc04b3678ced8ff6b98133e4ec0a305c4d51ef972706",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/115.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\115.f32",
+      "sha256": "424aff3e8498657391a66837207f00f7b76a2d064fb29af3db9079c7662895f8",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/116.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\116.f32",
+      "sha256": "ca3b955ce39a2e03021bb6641c90f791eb7fe144697ce6b4ebc0ff535a4ea28f",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/117.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\117.f32",
+      "sha256": "fdd0e04d19560e357bb54f326b2a489c8b999c2b862798d0c670484abf2c3ce4",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/118.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\118.f32",
+      "sha256": "3edd7688de988633b853362a7731d4b3f2d9226727ac40f843b1d3665b3f5b8a",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/119.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\119.f32",
+      "sha256": "d3eeff333921f44221a088469fb3ff57147ba498f5e90fb033c911e500aeb09f",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/120.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\120.f32",
+      "sha256": "afbb649b2e2e40b2a9ae26446728d89aa7ba25b4c6880f2405928ea96b6f6901",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/121.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\121.f32",
+      "sha256": "394630a2235577f999b69fe5465f80a1ae990702a9b5c885a3b89518f1bde22d",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/122.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\122.f32",
+      "sha256": "d3b03465e2ada249dbd61a88c13bb2d856822e828c78bb2b64e2270b3ddb79a5",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/123.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\123.f32",
+      "sha256": "b21fc60371e272ffe4a1ecafd1277e116b62d64f27fdea133437d8f98eaf8d12",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/124.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\124.f32",
+      "sha256": "321cca27e584cbd72e30d080aedaf0b02e6906d575465bf5ef65e4e874ef0635",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/125.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\125.f32",
+      "sha256": "91618605c95884e6feb04e2e57718ff2cdc374b9361820059e0973986c994904",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/126.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\126.f32",
+      "sha256": "9fd99fb216998e5c5be3ca7d413e9ee4d2ac1ac1e88ce295401d7d1d323f6c8a",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/127.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\127.f32",
+      "sha256": "ba1ba07025d927c58673773a8feb02c25bbfefafff298fc11704ae2a2bb14fea",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/128.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\128.f32",
+      "sha256": "85c46dbf90c1bd988cff54d082e2393db320c9d7f7d2d5bda408919fd9a649ed",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/129.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\129.f32",
+      "sha256": "fedffc9a10e1cab7de34ada1146f698181ff92cac6ac612d064995b5eb7c0654",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/130.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\130.f32",
+      "sha256": "cadbc144735dac4f8ae8b042b12bb415595b3e359a483a5224f640f58d233c58",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/131.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\131.f32",
+      "sha256": "d079fc852042e8c6ff4b1af680329500e60291f3967347207566053ef7ae3653",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/132.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\132.f32",
+      "sha256": "7918362a260cee90906e6d2569237345e373af643952feb240964c5256ed557b",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/133.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\133.f32",
+      "sha256": "843c843db31d6633abec691d2d8de100d14e6854e75e76270e8986fef3bac92f",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/134.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\134.f32",
+      "sha256": "0ee7ad8e5fe0713a05bd6bf0c2efd0440c068dc5dfa091c59284dd25f96d9815",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/135.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\135.f32",
+      "sha256": "f613ca9b81c474e404dce3e105480fcb75a0edc8776a69b8d12b3efb76cf5197",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/136.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\136.f32",
+      "sha256": "7318ef1b6d510cb61644105f1b7109d0f7514614172fbb1f91ab405e324f194f",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/137.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\137.f32",
+      "sha256": "993d7aa0d8f8ba6684b90221ebfcc64318a60c83925d78757bfca082388845e3",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/138.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\138.f32",
+      "sha256": "2e474705ef7ce3a3cfd435a93b3e6f4e1c02eb7758e7fc11377f0bb1fff15420",
+      "bytes": 2822400
+    },
+    {
+      "remote": "/root/d02_detect_static_20261103/coco80_kl/outputs/139.f32",
+      "local": "mower_obstrast_check\\docs\\STORY34634_D02_NPU_20261103\\board\\coco80_kl\\outputs\\139.f32",
+      "sha256": "43a718d171ce2498d317e28cdd728e8e0035058df1124e1ee168fc32a97d17e2",
+      "bytes": 2822400
+    }
+  ]
+}

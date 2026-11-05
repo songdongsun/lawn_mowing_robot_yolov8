@@ -1,0 +1,256 @@
+{
+  "train": {
+    "label_files": 66844,
+    "boxes": {
+      "0": 189711,
+      "2": 5237,
+      "5": 3852,
+      "3": 2461,
+      "4": 4863,
+      "1": 4756,
+      "6": 514,
+      "7": 2741
+    },
+    "invalid": [],
+    "coco_files_checked": 65647,
+    "coco_boxes_checked": 210812,
+    "coco_mismatches": [],
+    "official_mapping": {
+      "1": [
+        "person",
+        0
+      ],
+      "17": [
+        "cat",
+        1
+      ],
+      "18": [
+        "dog",
+        2
+      ],
+      "34": [
+        "frisbee",
+        3
+      ],
+      "37": [
+        "sports ball",
+        4
+      ],
+      "88": [
+        "teddy bear",
+        5
+      ]
+    },
+    "samples_class3": [
+      "000000101575.txt",
+      "000000020972.txt",
+      "000000258035.txt",
+      "000000225719.txt",
+      "000000203107.txt",
+      "000000124873.txt",
+      "000000091759.txt",
+      "000000517822.txt",
+      "000000076681.txt",
+      "000000566642.txt",
+      "000000395673.txt",
+      "000000026105.txt"
+    ],
+    "samples_class4": [
+      "000000031612.txt",
+      "000000086248.txt",
+      "000000207980.txt",
+      "000000219192.txt",
+      "000000494860.txt",
+      "000000028103.txt",
+      "000000552510.txt",
+      "000000187709.txt",
+      "000000534391.txt",
+      "000000409375.txt",
+      "000000208978.txt",
+      "000000442103.txt"
+    ],
+    "samples_class7": [
+      "rocks_qPjw9pC_jpg.rf.2bcc0da1f753fb9ef762be3145ec5955.txt",
+      "obstructions_rock_rough-natural-rock-and-soil-texture-background-for-construction-landsc_1392dcf1483d2d57.txt",
+      "obstructions_rock_48614946_m_normal_none-Optimized_jpg.rf.47b2776980f92791c97c6eddc701c056.txt",
+      "obstructions_rock_IMG_9504-copy-8_jpg.rf.b6350624b4d287a1dd502fa6d3b257cb.txt",
+      "rocks_94746364-piles-of-rocks-in-a-deserted-red-terrestrial-planet-with-thick-atmosphere_jpg.rf.f1bf2de749395cf2b15da3b2bb3970eb.txt",
+      "rocks_0217_mars2_0_jpg.rf.d60decac6bd328569456f54fb8fab8e0.txt",
+      "obstructions_rock_rough-natural-rock-and-soil-texture-background-for-construction-landsc_1392dcf1483d2d57.txt",
+      "obstructions_rock_IMG_9504-copy-35_jpg.rf.d9a6e2d788408fe2b6103098bb8a6f86.txt",
+      "obstructions_rock_IMG_9512-copy-5_jpg.rf.b6cecffbc8f2605c87fd8967b74df9da.txt",
+      "rocks_0217_mars2_0_jpg.rf.b6a66ff0eaf265b022bb5cfa186d869f.txt",
+      "obstructions_rock_IMG0138_JPG.rf.e7cbd6b5d5e2b6afef6fc71801af795b.txt",
+      "obstructions_rock_IMG0132_JPG.rf.9f8adedbb736b1e92252dd9e526b7225.txt"
+    ]
+  },
+  "val": {
+    "label_files": 2938,
+    "boxes": {
+      "0": 7835,
+      "5": 158,
+      "4": 188,
+      "1": 206,
+      "3": 111,
+      "2": 218,
+      "6": 100,
+      "7": 283
+    },
+    "invalid": [],
+    "coco_files_checked": 2777,
+    "coco_boxes_checked": 8697,
+    "coco_mismatches": [],
+    "official_mapping": {
+      "1": [
+        "person",
+        0
+      ],
+      "17": [
+        "cat",
+        1
+      ],
+      "18": [
+        "dog",
+        2
+      ],
+      "34": [
+        "frisbee",
+        3
+      ],
+      "37": [
+        "sports ball",
+        4
+      ],
+      "88": [
+        "teddy bear",
+        5
+      ]
+    },
+    "samples_class3": [
+      "000000424642.txt",
+      "000000082986.txt",
+      "000000013291.txt",
+      "000000459195.txt",
+      "000000163118.txt",
+      "000000139883.txt",
+      "000000139883.txt",
+      "000000100238.txt",
+      "000000052891.txt",
+      "000000437239.txt",
+      "000000342971.txt",
+      "000000034452.txt"
+    ],
+    "samples_class4": [
+      "000000451435.txt",
+      "000000359540.txt",
+      "000000037988.txt",
+      "000000033759.txt",
+      "000000083172.txt",
+      "000000218997.txt",
+      "000000218997.txt",
+      "000000403122.txt",
+      "000000452515.txt",
+      "000000033368.txt",
+      "000000434548.txt",
+      "000000192670.txt"
+    ],
+    "samples_class7": [
+      "rocks_istockphoto-182881640-612x612_jpg.rf.5e124dc34f4be07f5bddae62e8b578f7.txt",
+      "rocks_DSC5033-e1658535326972_jpg.rf.d8c9490498bfe41099daa0f5dbe5828f.txt",
+      "obstructions_rock_z1_jpg.rf.46f82c230efe0de744a76caab4991dbc.txt",
+      "rocks_DSC5033-e1658535326972_jpg.rf.d8c9490498bfe41099daa0f5dbe5828f.txt",
+      "rocks_22sci-boulders1-videoSixteenByNine3000_jpg.rf.b9cead25e65614855f7457c780e73215.txt",
+      "obstructions_rock_Batch2-IMG0131_JPG.rf.52c42f68a19dbd046ba0941c3f1345a1.txt",
+      "obstructions_rock_IMG_9511-copy-21_jpg.rf.dcc56a4cc7220f7d3b44f6eb0c725204.txt",
+      "rocks_DSC5033-e1658535326972_jpg.rf.d8c9490498bfe41099daa0f5dbe5828f.txt",
+      "rocks_DSC5033-e1658535326972_jpg.rf.d8c9490498bfe41099daa0f5dbe5828f.txt",
+      "obstructions_rock_IMG_9510-copy-17_jpg.rf.d5810dd304a17569fcb014de2e77ea53.txt",
+      "obstructions_rock_istockphoto-1136990430-612x612_jpg.rf.9771193ce74742bbc2cf841ae76b92ad.txt",
+      "rocks_DSC5033-e1658535326972_jpg.rf.d8c9490498bfe41099daa0f5dbe5828f.txt"
+    ]
+  },
+  "checkpoint_names": {
+    "0": "person",
+    "1": "cat",
+    "2": "dog",
+    "3": "frisbee",
+    "4": "sports ball",
+    "5": "teddy bear",
+    "6": "garden hose",
+    "7": "rock"
+  },
+  "validation_archive": {
+    "checked": 2938,
+    "different": []
+  },
+  "rock_merge": {
+    "checked": 586,
+    "missing": [
+      "labels/train/obstructions_rock_Batch2-IMG0128_JPG.rf.97ff67f0972ae98c81c9f623c06a89cd.txt",
+      "labels/train/obstructions_rock_IMG0128_JPG.rf.bfff775f2e76888da1ba39e57ff8116e.txt"
+    ],
+    "different": [],
+    "source_id": 1,
+    "target_id": 7
+  },
+  "hose_merge_labels": {
+    "checked": 477,
+    "different": []
+  },
+  "before_quantization_examples": {
+    "test90_c4_002.png": {
+      "PT": [
+        {
+          "cls": 3,
+          "conf": 0.9256815910339355
+        }
+      ],
+      "ONNX": [
+        {
+          "cls": 3,
+          "conf": 0.9256818294525146
+        }
+      ]
+    },
+    "test90_c7_002.png": {
+      "PT": [
+        {
+          "cls": 7,
+          "conf": 0.7762699723243713
+        }
+      ],
+      "ONNX": [
+        {
+          "cls": 7,
+          "conf": 0.7762718200683594
+        }
+      ]
+    },
+    "test90_c7_005.png": {
+      "PT": [
+        {
+          "cls": 7,
+          "conf": 0.5125663876533508
+        },
+        {
+          "cls": 1,
+          "conf": 0.29341694712638855
+        }
+      ],
+      "ONNX": [
+        {
+          "cls": 7,
+          "conf": 0.5125681161880493
+        },
+        {
+          "cls": 1,
+          "conf": 0.293417751789093
+        }
+      ]
+    }
+  },
+  "old_rocks_id11_to7": {
+    "checked": 208,
+    "different": []
+  }
+}

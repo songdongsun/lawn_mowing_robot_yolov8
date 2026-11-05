@@ -1,0 +1,990 @@
+[
+  {
+    "id": "000",
+    "file": "test90_c0_001.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "001",
+    "file": "test90_c0_002.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "002",
+    "file": "test90_c0_003.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "003",
+    "file": "test90_c0_004.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "004",
+    "file": "test90_c0_005.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "005",
+    "file": "test90_c0_006.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "006",
+    "file": "test90_c0_007.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "007",
+    "file": "test90_c0_008.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "008",
+    "file": "test90_c0_009.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "009",
+    "file": "test90_c0_010.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "010",
+    "file": "test90_c0_011.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "011",
+    "file": "test90_c0_012.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "012",
+    "file": "test90_c0_013.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "013",
+    "file": "test90_c0_014.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "014",
+    "file": "test90_c0_015.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "015",
+    "file": "test90_c0_016.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "016",
+    "file": "test90_c0_017.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "017",
+    "file": "test90_c0_018.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "018",
+    "file": "test90_c0_019.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "019",
+    "file": "test90_c0_020.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "020",
+    "file": "test90_c1_001.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "021",
+    "file": "test90_c1_002.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "022",
+    "file": "test90_c1_003.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "023",
+    "file": "test90_c1_004.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "024",
+    "file": "test90_c1_005.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "025",
+    "file": "test90_c1_006.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "026",
+    "file": "test90_c1_007.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "027",
+    "file": "test90_c1_008.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "028",
+    "file": "test90_c1_009.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "029",
+    "file": "test90_c1_010.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "030",
+    "file": "test90_c2_001.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "031",
+    "file": "test90_c2_002.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "032",
+    "file": "test90_c2_003.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "033",
+    "file": "test90_c2_004.png",
+    "lost": 0,
+    "recovered": 1,
+    "lost_classes": []
+  },
+  {
+    "id": "034",
+    "file": "test90_c2_005.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "035",
+    "file": "test90_c2_006.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "036",
+    "file": "test90_c2_007.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "037",
+    "file": "test90_c2_008.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "038",
+    "file": "test90_c2_009.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "039",
+    "file": "test90_c2_010.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "040",
+    "file": "test90_c3_001.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "041",
+    "file": "test90_c3_002.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "042",
+    "file": "test90_c3_003.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "043",
+    "file": "test90_c3_004.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "044",
+    "file": "test90_c3_005.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "045",
+    "file": "test90_c3_006.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "046",
+    "file": "test90_c3_007.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "047",
+    "file": "test90_c3_008.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "048",
+    "file": "test90_c3_009.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "049",
+    "file": "test90_c3_010.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "050",
+    "file": "test90_c4_001.png",
+    "lost": 0,
+    "recovered": 1,
+    "lost_classes": []
+  },
+  {
+    "id": "051",
+    "file": "test90_c4_002.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "052",
+    "file": "test90_c4_003.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "053",
+    "file": "test90_c4_004.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "054",
+    "file": "test90_c4_005.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "055",
+    "file": "test90_c4_006.png",
+    "lost": 0,
+    "recovered": 1,
+    "lost_classes": []
+  },
+  {
+    "id": "056",
+    "file": "test90_c4_007.png",
+    "lost": 0,
+    "recovered": 1,
+    "lost_classes": []
+  },
+  {
+    "id": "057",
+    "file": "test90_c4_008.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "058",
+    "file": "test90_c4_009.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "059",
+    "file": "test90_c4_010.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "060",
+    "file": "test90_c5_001.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "061",
+    "file": "test90_c5_002.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "062",
+    "file": "test90_c5_003.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "063",
+    "file": "test90_c5_004.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "064",
+    "file": "test90_c5_005.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "065",
+    "file": "test90_c5_006.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "066",
+    "file": "test90_c5_007.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "067",
+    "file": "test90_c5_008.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "068",
+    "file": "test90_c5_009.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "069",
+    "file": "test90_c5_010.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "070",
+    "file": "test90_c6_001.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "071",
+    "file": "test90_c6_002.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "072",
+    "file": "test90_c6_003.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "073",
+    "file": "test90_c6_004.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "074",
+    "file": "test90_c6_005.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "075",
+    "file": "test90_c6_006.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "076",
+    "file": "test90_c6_007.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "077",
+    "file": "test90_c6_008.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "078",
+    "file": "test90_c6_009.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "079",
+    "file": "test90_c6_010.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "080",
+    "file": "test90_c7_001.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "081",
+    "file": "test90_c7_002.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "082",
+    "file": "test90_c7_003.png",
+    "lost": 1,
+    "recovered": 0,
+    "lost_classes": [
+      "rock"
+    ]
+  },
+  {
+    "id": "083",
+    "file": "test90_c7_004.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "084",
+    "file": "test90_c7_005.png",
+    "lost": 1,
+    "recovered": 0,
+    "lost_classes": [
+      "rock"
+    ]
+  },
+  {
+    "id": "085",
+    "file": "test90_c7_006.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "086",
+    "file": "test90_c7_007.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "087",
+    "file": "test90_c7_008.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "088",
+    "file": "test90_c7_009.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "089",
+    "file": "test90_c7_010.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "090",
+    "file": "testmix_001.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "091",
+    "file": "testmix_002.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "092",
+    "file": "testmix_003.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "093",
+    "file": "testmix_004.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "094",
+    "file": "testmix_005.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "095",
+    "file": "testmix_006.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "096",
+    "file": "testmix_007.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "097",
+    "file": "testmix_008.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "098",
+    "file": "testmix_009.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "099",
+    "file": "testmix_010.png",
+    "lost": 1,
+    "recovered": 0,
+    "lost_classes": [
+      "sports ball"
+    ]
+  },
+  {
+    "id": "100",
+    "file": "testmix_011.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "101",
+    "file": "testmix_012.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "102",
+    "file": "testmix_013.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "103",
+    "file": "testmix_014.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "104",
+    "file": "testmix_015.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "105",
+    "file": "testmix_016.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "106",
+    "file": "testmix_017.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "107",
+    "file": "testmix_018.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "108",
+    "file": "testmix_019.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "109",
+    "file": "testmix_020.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "110",
+    "file": "testmix_021.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "111",
+    "file": "testmix_022.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "112",
+    "file": "testmix_023.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "113",
+    "file": "testmix_024.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "114",
+    "file": "testmix_025.png",
+    "lost": 0,
+    "recovered": 1,
+    "lost_classes": []
+  },
+  {
+    "id": "115",
+    "file": "testmix_026.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "116",
+    "file": "testmix_027.png",
+    "lost": 0,
+    "recovered": 1,
+    "lost_classes": []
+  },
+  {
+    "id": "117",
+    "file": "testmix_028.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "118",
+    "file": "testmix_029.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "119",
+    "file": "testmix_030.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "120",
+    "file": "testmix_031.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "121",
+    "file": "testmix_032.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "122",
+    "file": "testmix_033.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "123",
+    "file": "testmix_034.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "124",
+    "file": "testmix_035.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "125",
+    "file": "testmix_036.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "126",
+    "file": "testmix_037.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "127",
+    "file": "testmix_038.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "128",
+    "file": "testmix_039.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "129",
+    "file": "testmix_040.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "130",
+    "file": "testmix_041.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "131",
+    "file": "testmix_042.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "132",
+    "file": "testmix_043.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "133",
+    "file": "testmix_044.png",
+    "lost": 1,
+    "recovered": 0,
+    "lost_classes": [
+      "rock"
+    ]
+  },
+  {
+    "id": "134",
+    "file": "testmix_045.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "135",
+    "file": "testmix_046.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "136",
+    "file": "testmix_047.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "137",
+    "file": "testmix_048.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "138",
+    "file": "testmix_049.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  },
+  {
+    "id": "139",
+    "file": "testmix_050.png",
+    "lost": 0,
+    "recovered": 0,
+    "lost_classes": []
+  }
+]

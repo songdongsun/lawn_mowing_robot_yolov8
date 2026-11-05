@@ -1,0 +1,15 @@
+postprocess:
+  acuity_postprocs:
+    print_topn:
+      topn: 5
+    dump_results:
+      file_type: TENSOR
+  app_postprocs:
+  - lid: attach_output0/out0_0
+    postproc_params:
+      add_postproc_node: true
+      perm:
+      - 0
+      - 1
+      - 2
+      force_float32: true

@@ -1,0 +1,22 @@
+{
+  "qtype_counts": {
+    "i8": 267,
+    "i32": 64
+  },
+  "quantizer_counts": {
+    "asymmetric_affine": 203,
+    "symmetric_affine": 128
+  },
+  "final_output": {
+    "@output0_1:out0": {
+      "qtype": "i8",
+      "quantizer": "asymmetric_affine",
+      "rounding": "rtne",
+      "max_value": 657.7085571289062,
+      "min_value": 0.0,
+      "scale": 2.579249143600464,
+      "zero_point": -128
+    }
+  },
+  "fp16_entries": []
+}

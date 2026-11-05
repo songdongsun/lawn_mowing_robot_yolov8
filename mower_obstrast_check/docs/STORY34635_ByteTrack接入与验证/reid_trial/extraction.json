@@ -1,0 +1,25 @@
+{
+  "frames": 525,
+  "descriptors": 5903,
+  "extraction_ms": {
+    "mean": 43.38400304007033,
+    "p50": 43.98300009779632,
+    "p95": 61.86424000188707
+  },
+  "total_seconds": 23.557053100084886,
+  "runtime": "OpenVINO 2026.4.1-22982-e213a147257-releases/2026/4",
+  "device": "host CPU, 2 threads",
+  "preprocessing": "BGR float32 0..255 NCHW 1x3x256x128, resize, model-internal normalization",
+  "model_sha256": "30f452b2ed2763f7bf429eea23f8f243ad0e7f3cdd7226db6888f1660efb3424",
+  "video_sha256": "44472faa5643b173fa9b0d4837d3018cd1f5c4a3f13ab4bc9f865cf552022f9d",
+  "parameters": {
+    "min_score": 0.25,
+    "min_width": 24,
+    "min_height": 64,
+    "cosine_gate": 0.4,
+    "iou_cost_gate": 0.8,
+    "iou_weight": 0.5,
+    "appearance_weight": 0.5,
+    "feature_ema": 0.9
+  }
+}

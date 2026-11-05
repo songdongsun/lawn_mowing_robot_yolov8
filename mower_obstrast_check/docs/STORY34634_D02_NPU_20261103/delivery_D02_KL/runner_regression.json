@@ -1,0 +1,6 @@
+{
+  "images": 140,
+  "files_checked": 280,
+  "different_output_files": [],
+  "meaning": "new 8/80-class C++ runner vs original 8-class runner, same KL model and inputs"
+}

@@ -1,0 +1,26 @@
+{
+  "run": "run3",
+  "frames": 1759,
+  "elapsed_s": 120.033,
+  "throughput_fps": 14.65430339989836,
+  "unique_track_ids": 42,
+  "confirmed_ids": 22,
+  "unconfirmed_ids": 20,
+  "frames_with_observed_tracks": 1633,
+  "low_score_observations": 25,
+  "lost_to_tracked_transitions": 12,
+  "max_consecutive_tracked_frames": 431,
+  "final_status": "stopped",
+  "inference_ms": {
+    "mean": 45.72604341102899,
+    "p50": 45.68328,
+    "p95": 46.2134,
+    "maximum": 47.535
+  },
+  "tracking_ms": {
+    "mean": 0.12087874928936897,
+    "p50": 0.12696,
+    "p95": 0.155852,
+    "maximum": 0.33512
+  }
+}

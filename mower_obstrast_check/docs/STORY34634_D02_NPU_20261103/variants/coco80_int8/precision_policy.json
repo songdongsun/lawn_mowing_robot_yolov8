@@ -1,0 +1,5 @@
+{
+  "variant": "coco80_int8",
+  "base": "Signed INT8 full graph without FP16 overrides",
+  "overrides": {}
+}

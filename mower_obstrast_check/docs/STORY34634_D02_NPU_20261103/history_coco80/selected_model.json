@@ -1,0 +1,11 @@
+{
+  "selected": "coco80_fp16",
+  "role": "Historical comparison, not a backup or delivery model",
+  "pt_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "onnx_sha256": "f08f9056386a4a9719e4e9f9cdce3ce5d3093339414f40af0891fd7cfe81b00d",
+  "nb_sha256": "5dd62f7eeaeb28c8a43d080ed2988640358d83c8ae732ce6a877aa1ba02a1cd3",
+  "nb_bytes": 8867520,
+  "board_directory": "/root/d02_detect_static_20261103/coco80_fp16",
+  "classes": 80,
+  "status": "withdrawn_historical_only"
+}

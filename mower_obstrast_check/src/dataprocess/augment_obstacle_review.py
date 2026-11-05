@@ -1,5 +1,6 @@
 """Build a separate, traceable review set; never modify the active dataset."""
 import argparse
+import csv
 import hashlib
 import json
 import random
@@ -64,6 +65,47 @@ def refine_mask(image, polygon, method='holes'):
         if island.sum() >= 9 and not np.any(island & boundary):
             foreground[island] = False
     return Image.fromarray(foreground.astype(np.uint8) * 255)
+
+
+def augment_hard_review(root, selection, out, seed):
+    """Add one mild full-image variant per approved hard sample, retaining all class labels."""
+    assert not out.exists(), 'Use a new output directory to preserve earlier results.'
+    records = list(csv.DictReader(selection.open(encoding='utf-8-sig')))
+    records = [r for r in records if r['status'] == 'approved_for_extra_sampling']
+    assert records and len({r['image'] for r in records}) == len(records)
+    for r in records:
+        assert Path(r['image']).resolve().parent == root/'images/train'
+        assert Path(r['label']).resolve().parent == root/'labels/train'
+        assert sha(Path(r['image'])) == r['image_sha256'] and sha(Path(r['label'])) == r['label_sha256']
+    for folder in ('images/train', 'labels/train'):
+        (out/folder).mkdir(parents=True)
+    rng, samples = random.Random(seed), []
+    for i, r in enumerate(records):
+        source, label = Path(r['image']), Path(r['label'])
+        boxes = read_boxes(label)
+        assert all(0 <= c < 8 for c, *_ in boxes)
+        brightness = rng.uniform(.85, .95) if i % 2 == 0 else rng.uniform(1.05, 1.15)
+        contrast, saturation, gamma = rng.uniform(.9, 1.1), rng.uniform(.9, 1.1), rng.uniform(.9, 1.1)
+        with Image.open(source) as original:
+            im = ImageEnhance.Brightness(original.convert('RGB')).enhance(brightness)
+        im = ImageEnhance.Contrast(im).enhance(contrast)
+        im = ImageEnhance.Color(im).enhance(saturation)
+        im = im.point([round(255*(v/255)**gamma) for v in range(256)]*3)
+        flip = bool(i % 2)
+        if flip:
+            im = ImageOps.mirror(im)
+            boxes = [[c, 1-x, y, w, h] for c, x, y, w, h in boxes]
+        image_out, label_out = out/'images/train'/f'hardaug_{source.stem}.png', out/'labels/train'/f'hardaug_{source.stem}.txt'
+        im.save(image_out)
+        label_out.write_text('\n'.join(box_line(int(c), [x-w/2, y-h/2, x+w/2, y+h/2]) for c,x,y,w,h in boxes)+'\n', encoding='utf-8')
+        samples.append(dict(source_image=str(source), source_label=str(label), source_sha256=r['image_sha256'],
+                            source_label_sha256=r['label_sha256'], image=image_out.relative_to(out).as_posix(),
+                            label=label_out.relative_to(out).as_posix(), output_sha256=sha(image_out),
+                            label_sha256=sha(label_out), brightness=brightness, contrast=contrast,
+                            saturation=saturation, gamma=gamma, flip=flip, boxes=len(boxes)))
+    (out/'manifest.json').write_text(json.dumps(dict(source_dataset=str(root), selection=str(selection),
+        selection_sha256=sha(selection), seed=seed, samples=samples), indent=2), encoding='utf-8')
+    print(f'Generated {len(samples)} approved hard-sample variants in {out}', flush=True)
 
 
 def merge_review(root, source):
@@ -155,7 +197,13 @@ def main():
     parser.add_argument('--merge-review', type=Path, help='Merge an approved first-version review into train only.')
     parser.add_argument('--seed', type=int, default=20261016)
     parser.add_argument('--cutout-selection', type=Path, help='Reviewed source objects and per-object masking methods.')
+    parser.add_argument('--hard-review', type=Path, help='Approved eight-class review CSV; generate one variant per accepted image.')
     args = parser.parse_args()
+    if args.hard_review:
+        if not args.output:
+            parser.error('--output is required with --hard-review')
+        augment_hard_review(args.dataset.resolve(), args.hard_review.resolve(), args.output.resolve(), args.seed)
+        return
     if args.merge_review:
         merge_review(args.dataset.resolve(), args.merge_review.resolve())
         return

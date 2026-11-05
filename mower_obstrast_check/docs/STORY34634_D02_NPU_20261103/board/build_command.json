@@ -1,0 +1,23 @@
+[
+  "/sdk/menghai_amicro/output/host/bin/aarch64-buildroot-linux-gnu-g++",
+  "-std=c++17",
+  "-O2",
+  "-Wall",
+  "-Wextra",
+  "-I/root/cpp_project/am970/vknn_demo_yhc/sdk/include",
+  "-I/sdk/menghai_amicro/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/include",
+  "/mnt/e/cpp_project/lawn_mowing_robot_yolov8/mower_obstrast_check/docs/STORY34634_D02_NPU_20261103/scripts/detect_static.cpp",
+  "-L/root/cpp_project/am970/vknn_demo_yhc/sdk/lib",
+  "-L/sdk/menghai_amicro/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib",
+  "-Wl,-rpath-link,/sdk/menghai_amicro/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib",
+  "-lvknn",
+  "-lNBGlinker",
+  "-lVIPhal",
+  "-lopencv_imgcodecs",
+  "-lopencv_core",
+  "-lopencv_imgproc",
+  "-lpthread",
+  "-ldl",
+  "-o",
+  "/mnt/e/cpp_project/lawn_mowing_robot_yolov8/mower_obstrast_check/docs/STORY34634_D02_NPU_20261103/board/detectStatic"
+]

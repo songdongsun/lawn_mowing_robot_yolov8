@@ -1,0 +1,4485 @@
+[
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000000139.jpg",
+    "image_sha256": "ffe0f0cec3b2e27aab1967229cdf0a0d7751dcdd5800322f0b8ac0dffb3b8a8d",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000000139.txt",
+    "label_sha256": "1d400b6a81e72f4f3fcf9233131bd53cc89f7280b6e701c5e437648a50a3a305",
+    "shape": [
+      426,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000000776.jpg",
+    "image_sha256": "1dd31e9059c491992be2f562624eb4093e17aee08b4f7baf5ff9ea24543b0a33",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000000776.txt",
+    "label_sha256": "fa374dc1801c2de1687438c07b28b759207057db5c3149d93c8ccab92961c4a2",
+    "shape": [
+      640,
+      428
+    ],
+    "gt_classes": [
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000000785.jpg",
+    "image_sha256": "83981537a7baeafbeb9c8cb67b3484dc26433f574b3685d021fa537e277e4726",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000000785.txt",
+    "label_sha256": "c08a018617382f1e226328272c17cf95433524db4e5116c21d419150c310be84",
+    "shape": [
+      425,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000000872.jpg",
+    "image_sha256": "c2aa138ee3a59b057a7ba6fc5a6a18e62af531aa7dab78a7bfd33c1cd7e55eb6",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000000872.txt",
+    "label_sha256": "819d6bab8e8df7456910fd7f3474149392325c43998519ba3bbe42d16dd6bd8a",
+    "shape": [
+      640,
+      621
+    ],
+    "gt_classes": [
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000000885.jpg",
+    "image_sha256": "1c67b783f78b18ddb5dd20aaba4d4aacaf98e5277051688a96da096afa9cdf1f",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000000885.txt",
+    "label_sha256": "1c4acb451b29c1e2ae33372460df23da924fed11cad10b3208ab9ebe2e7178a0",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000001000.jpg",
+    "image_sha256": "24bb77a31928404e45a0454b06f6a0bd54a8db103590c9d7917288a1e0269f05",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000001000.txt",
+    "label_sha256": "7b64dfc3391fb011f3b88c1b8b1c990daf5a32e3a9be1a078766f76352905e41",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000001268.jpg",
+    "image_sha256": "8e85a2e71ee512fe748a3a3be9bb40b8591e8c501c0f3896efcb5be5999ec236",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000001268.txt",
+    "label_sha256": "b9675be48b4efef65de1762ec036f2c5d8b078b27198442eb2cdba4ac05bd40d",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000001296.jpg",
+    "image_sha256": "34a98da7c11bc8811e6eec445145bb16f3d5f4338945ba116edcc1fe554d181b",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000001296.txt",
+    "label_sha256": "2a5e4c28c325bd6bcbf5cabd3cf87cbfa269f577cb443986d87ff426cc7fa91f",
+    "shape": [
+      640,
+      427
+    ],
+    "gt_classes": [
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000001353.jpg",
+    "image_sha256": "1cccef217a1e5eec2acc74d7c08a105da3ef6fdb8514e221cdea9b0b373b60ea",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000001353.txt",
+    "label_sha256": "8220211d1043da4ffd5cd4c0bade660cb5eb01eaf96c255567834ea0925e9db8",
+    "shape": [
+      500,
+      375
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000001490.jpg",
+    "image_sha256": "a044804a0b0186a1267acae34975932f14ede96c4a2b78fcee74e6c2fbd8414d",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000001490.txt",
+    "label_sha256": "980e44213bc5b961d1d5418dbeac8da6d46af88d3de83cd0ccc3f3f570601f92",
+    "shape": [
+      315,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000001584.jpg",
+    "image_sha256": "77131e2f74aa7e374f951a69157cf7f51e00201f81bacfa8a9ab7309b245553f",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000001584.txt",
+    "label_sha256": "3faf5813bd2178fc3a4761cbc64e44527c4bbf7087934e38ffd3b5f3c3821663",
+    "shape": [
+      612,
+      612
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000001675.jpg",
+    "image_sha256": "6ba641627c08ef424b7dc3e6cee069aa0dd49615a31c54ae0de1ecd1fabd9dea",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000001675.txt",
+    "label_sha256": "b14dc418ee62d1dbee962bdfc53daa9f71edf960fdc02add1404f10c45d2ae84",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000001761.jpg",
+    "image_sha256": "c06b1845c54bb886a8fb9f8a6e908b29ceb661ffda1ca8df9a27f123806de648",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000001761.txt",
+    "label_sha256": "4128e9f23d846e03a05fb7aad867e5950ab0b696c97eeaa7b454034886d404bb",
+    "shape": [
+      640,
+      427
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000002006.jpg",
+    "image_sha256": "eda4af13818b566f8fa4f479e76286ad90cd5da2e8dfd530be0ab3637e1482ed",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000002006.txt",
+    "label_sha256": "dd2b9f37257c5bc5e5734acd12a8764bfa2b64bea6798632d2b656a633f24306",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000002153.jpg",
+    "image_sha256": "8795ff243cf20405bd442631d5d1cb7e60665dd459c8d57f5764333808dd49fd",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000002153.txt",
+    "label_sha256": "86f15bf51a5d882f26a7d4583997580270448b46b791d802256117bf772171d5",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000002261.jpg",
+    "image_sha256": "1a0ad595a5675bdc7a5e95c04def56109c00d61168fd826158322fd538d70279",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000002261.txt",
+    "label_sha256": "ab6e44f9ce37a06a5d29136d6cf4dfa3948cfd2d3ca9d269444bcbc094ccff1f",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000002431.jpg",
+    "image_sha256": "fa0ce7b066c2fe7bd0892aa2c6361943148db9766de60241e69d8026a18e05ad",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000002431.txt",
+    "label_sha256": "37f15d990a2da0e1283a47e1c51b9291c27f18eacb24f0c61e8fe10056ed371c",
+    "shape": [
+      640,
+      457
+    ],
+    "gt_classes": [
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000002473.jpg",
+    "image_sha256": "2f1bfa7634a64f7999ba5488ec904ad1f85bbc63d0fe4b9fe35f52abbf8c5f4f",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000002473.txt",
+    "label_sha256": "879569f17e9005eedf0229c938cfa1136a66fd9861192927b3dbe101d9279393",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000002532.jpg",
+    "image_sha256": "fc017f5308d348bdb6011f2312b10853ccd780a4a7369f48774ef67f499f2e77",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000002532.txt",
+    "label_sha256": "0ebbdf9e708dd1abd08c27c2065f48a648248fbe0303a2858c98aebabda8ca37",
+    "shape": [
+      640,
+      480
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000002685.jpg",
+    "image_sha256": "2430b9bffb5ff52dfbaf7b922ac8018547e233a5996a6b017bd1a206a46c5bdb",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000002685.txt",
+    "label_sha256": "f6aa9474e42b5f6e55980f02ace2cd975462e922e52242b12e5c37a2d6c8c32a",
+    "shape": [
+      555,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000003156.jpg",
+    "image_sha256": "3c929365d99581f03b70a810819df4781ac024d88dec7e592229cbea7489a779",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000003156.txt",
+    "label_sha256": "e21fadaecfd01ba910db6f59091a6ccef8d66fd488ac3ff52e20a0bad2da130b",
+    "shape": [
+      640,
+      443
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000003255.jpg",
+    "image_sha256": "c075f51a798e65d23e1c65a3fcc7736aeae4e03fbdd126f6d6b82cb07957d28b",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000003255.txt",
+    "label_sha256": "f066a0fd3256020f39c0884eb2912f7870ccde4ac74f61c9152e64cff79f753d",
+    "shape": [
+      363,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000004795.jpg",
+    "image_sha256": "6f8994bac6aef0602d4aa4397ecd4b7d579f5b18f66058a2df021352dd22bdc6",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000004795.txt",
+    "label_sha256": "0bba38e5c226a54c446e350f9afdfaa52c356889e2e16bc7dafd6173d10b0a2c",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000006954.jpg",
+    "image_sha256": "59471a9bed5c28ac2f3ad56af1799340d6acb90f7c87d1f60360d1a9466e89ea",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000006954.txt",
+    "label_sha256": "e7956802db56c0d264f3d230d2b97522ca5ae9ab576ca6cf0a798455dce6d345",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000007386.jpg",
+    "image_sha256": "1bb19f0a2a950a944d178c921fddaddda6f133df6367e9f75ffcaafe2cd43f83",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000007386.txt",
+    "label_sha256": "d0db987f95c67177727745694e592993936bf3e850d3a5b2d7cd68ba4aca1ea0",
+    "shape": [
+      400,
+      600
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000009378.jpg",
+    "image_sha256": "39ac6327aa1b887ff2ae06588576f497d642bbbf3682eb1eada4574087fcc1e5",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000009378.txt",
+    "label_sha256": "40e6fcfd223e12b97acc1ceb523a0c7d67a777db609bed368465c7dcba506d03",
+    "shape": [
+      400,
+      600
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000010363.jpg",
+    "image_sha256": "2fd23c4c491520182a703d0df9c604f6b7ee8a592ad8743897870cf0260f47b2",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000010363.txt",
+    "label_sha256": "948a99c20b2dc43003055e81872f222c02260384c5d57d903c595596a0ce5de4",
+    "shape": [
+      361,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000012062.jpg",
+    "image_sha256": "319d58f0fa008d076b766671a5b607f94614f6005f773adced54a57567aa28fb",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000012062.txt",
+    "label_sha256": "f9283bf35036c5ca95c3ba80f8e6d17d488c419fa50827737068f9a944207b5a",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      4
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000013291.jpg",
+    "image_sha256": "1e46187ec49947bfd8dd22f4d774bddfe3e29ca863fe09530516598998b8e640",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000013291.txt",
+    "label_sha256": "bae2142ab44da3e136a404ecf28fee829e37b6e42343aa2e722d539bdcd2f8dd",
+    "shape": [
+      335,
+      500
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000013774.jpg",
+    "image_sha256": "d4a83955582202cd1c3586807245cec71bb38c856eee74d452c1ca752eed8655",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000013774.txt",
+    "label_sha256": "ae8209725a62148055c57b081d54fffbfcddceb45952ebc15efee1364c49b916",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      3
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000014007.jpg",
+    "image_sha256": "4fa388665548f563e50c107089669a589812c4a14cb1dd3b87860fb25bdd4b45",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000014007.txt",
+    "label_sha256": "0f4456ad596d06dfae3fa3aa660dc8f1bc33c24f671abf5b35b17e4dab635b4a",
+    "shape": [
+      426,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000014831.jpg",
+    "image_sha256": "ac9629cb598e5d30bbb0a174a01ac4e398de3d54ef8c5bac4f81a738597c39cd",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000014831.txt",
+    "label_sha256": "84740e8a3f6baaae319aeade0b37be6b87e3771de20f01d26f7b2f6e90654357",
+    "shape": [
+      640,
+      480
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000015497.jpg",
+    "image_sha256": "fc0fff04645dfadedbc34e23860dc62c45a213ac22d18b8194d269b66774d745",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000015497.txt",
+    "label_sha256": "97971ccaca2191f057b3dba5c95ccc7e569896d446fd05b6e70febd58aa4c79c",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000017029.jpg",
+    "image_sha256": "d619327903c6b05520f0d6768807c067cce2d6d908d2d83da018a1da3b1792cf",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000017029.txt",
+    "label_sha256": "31368082ad847ecd3391b533946d42f54a7b9dcaa83249f6c3e5cf0d4c81b1fd",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      2,
+      3
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000018833.jpg",
+    "image_sha256": "3aaed3d8164deb6f7e5e18f3b1b3fc1b481d32078b342a07b629a7bdefc14e4d",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000018833.txt",
+    "label_sha256": "e3aaaa21363f388e516295b1c781689eb58d04fde8240418763efe121c614c34",
+    "shape": [
+      426,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000019432.jpg",
+    "image_sha256": "fa54de5a592c892ed3aceb11ebacff27abad01dc3bcef308943b097c1d65c0f0",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000019432.txt",
+    "label_sha256": "740203002d336b0bf2ddc2a2d4c6434fa6b5f65f3bbc049d3c339139a299732e",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      4
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000020553.jpg",
+    "image_sha256": "739fee1c09f6d7c1670d2f558f70d2aea2ea6863a964c5a9582ca3bb70a55cb5",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000020553.txt",
+    "label_sha256": "40510c72d8dbf302593cd5742e8eef91d5331db34fc6ba62ca0664543f754cb0",
+    "shape": [
+      375,
+      500
+    ],
+    "gt_classes": [
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000022192.jpg",
+    "image_sha256": "3e9ffc06c76b3b856c1f6911aaeefac685ebe80a3bbd72d4d3c6254825ab159b",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000022192.txt",
+    "label_sha256": "2298fe38fbdf8bb6a56713cf0b460f4be90e6ba40c7c57b8820ebe9593e7ab9d",
+    "shape": [
+      426,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000022892.jpg",
+    "image_sha256": "feafcf6539422208c296d7e15151a9bb0a19fb14db57d93a3ebf733a21fb7843",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000022892.txt",
+    "label_sha256": "bb20f96f957e5ad50ab905890b81bbcf9a7c1850c39dbc3ce295e831550cb743",
+    "shape": [
+      334,
+      500
+    ],
+    "gt_classes": [
+      2,
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000022935.jpg",
+    "image_sha256": "90fad7bfc9fab88492d9722ea1aa14ee77514d8c10dbda86086bd37d8a05acf0",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000022935.txt",
+    "label_sha256": "732f566771d9d337e33f72b85dd1d7d1f90e2d46fbc3dee3cd1215e6f4e38ba8",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000023272.jpg",
+    "image_sha256": "3a20a6c0f0c7d33b9c4d9a4fe9023446ce3f92e90b37792cb791c8e3d3ac4cb4",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000023272.txt",
+    "label_sha256": "1f96551c160acd5cef9456dad4686829234fd793ce31560fa37b960dae2f86dc",
+    "shape": [
+      375,
+      500
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000025057.jpg",
+    "image_sha256": "8208c5aa7a2aa8b805e7581289a91c8ed0cad5cd8a90e826d1ea0ca59d1cb773",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000025057.txt",
+    "label_sha256": "ea16dc84d3b9eddb5778853570d2cb5091f2bca8d05b88bc6a3d66c338703e8a",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000025424.jpg",
+    "image_sha256": "89e8025ecb6f48125ac826dd5fe51409deae64e98133472adbe6ae62b6a61705",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000025424.txt",
+    "label_sha256": "8e7cbc6250c483f1b950841bcd73d3d67de56b0f2038dd38e2804818c8aeabd0",
+    "shape": [
+      640,
+      427
+    ],
+    "gt_classes": [
+      4,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000025560.jpg",
+    "image_sha256": "14ce4ee59869b1461f30c64c09e1240edec49c820933c90830b6090d4219c416",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000025560.txt",
+    "label_sha256": "a2ea26f5387e84e548f02e5eeec7595d7a0dbaf33f07ff4aa10f60bd2e76d4ee",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000029393.jpg",
+    "image_sha256": "378763dec71a25c7cb44ff9e345c84ca0fe2d8bf993b88775c360549edf3b733",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000029393.txt",
+    "label_sha256": "11eec87db10e3c1dcd3bbb22c3d87888f60a87438d8f8327419263dd0b6348c5",
+    "shape": [
+      375,
+      500
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000030494.jpg",
+    "image_sha256": "eabc12936cefe60de3cc9cf4bdb49fbb0f9435f188ec54dfb067f597b51c0c3f",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000030494.txt",
+    "label_sha256": "44bfb48621237319d61de1c4ab88dc1e2b1c1aaf5458835ae52ff0e272dbdf1d",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2,
+      3
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000031217.jpg",
+    "image_sha256": "c3bd88960d608cb0406e870e224fdf0a5cfd8365537c2fee54bd10453dd402f0",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000031217.txt",
+    "label_sha256": "f538be4da253e2f7b0d2e016b86b659109db5ab473376d4ee6a7bb1755db337c",
+    "shape": [
+      426,
+      640
+    ],
+    "gt_classes": [
+      4,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000033368.jpg",
+    "image_sha256": "8744e00ee252788e713def22b9d93710db7676dd5bda496241d14fe03661187c",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000033368.txt",
+    "label_sha256": "7b466e8cd156b8275f51b51cd98bd497a3459127322fa4a0b55f553e261253db",
+    "shape": [
+      640,
+      427
+    ],
+    "gt_classes": [
+      4,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000033759.jpg",
+    "image_sha256": "1752e2ea7125cfc42c0b5e73390e647f98d0e32d7df9c528f6e839b108d672b7",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000033759.txt",
+    "label_sha256": "5bdcd4477b2102f9f0d7eeefcb5d4d9bc7bda7de1a2f778fc779d14e7b615817",
+    "shape": [
+      457,
+      640
+    ],
+    "gt_classes": [
+      4,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000034452.jpg",
+    "image_sha256": "a1b87d38128e4507b46e9cb99ab1fe96b062f3838af2be0618e6e3fc5abdd5e5",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000034452.txt",
+    "label_sha256": "b1e4e4c6255c4f48a13394a8d9b9e805d1a3ed2faefd55c3a5409c8ba0347a8b",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      3,
+      3
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000035963.jpg",
+    "image_sha256": "4ccc0b243ad62dde6d6500eb86f7a670f631302bb97d0e5bebd92f1d784d456b",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000035963.txt",
+    "label_sha256": "b5a0326b3cd62fcc7bbac85f719648acbc657ddf0b9ec5fd061ddf454f8027c6",
+    "shape": [
+      640,
+      480
+    ],
+    "gt_classes": [
+      5,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000037988.jpg",
+    "image_sha256": "0c5fec72e3f1ed81b648718bbb7436be61218bc24b78f56c2dd365196050fb59",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000037988.txt",
+    "label_sha256": "46aded9d095acd7510e927658276f9a7bd4d88f11c8798f530923e6f648af1f9",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000039551.jpg",
+    "image_sha256": "4c84a652af01f02005d2116c351bdadcb1b82445c2fae9cd47adaccf6470a136",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000039551.txt",
+    "label_sha256": "796ec34b84acab3b142ca5251636d1e00cc87351a4c3102bf9f39fe0c10a8715",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      4,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000039769.jpg",
+    "image_sha256": "dea9e7ef97386345f7cff32f9055da4982da5471c48d575146c796ab4563b04e",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000039769.txt",
+    "label_sha256": "2d6e78e5164e513c0443d9a4624f545d43e6699e0fcd06b4b07dfc5b32cce24e",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000039951.jpg",
+    "image_sha256": "471847fe98e8c4672ed59c9cc73fe3699c9654152f667a65a586fb2c24500834",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000039951.txt",
+    "label_sha256": "7d3e101636541b55a115c73e35eb9e96af3512f3ebc1257f05c7a083a75aa1e8",
+    "shape": [
+      445,
+      640
+    ],
+    "gt_classes": [
+      4,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000042296.jpg",
+    "image_sha256": "179182e03cb432fbb2004dc7366e16dc83c1e7cb834a8110caeef9a29f521378",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000042296.txt",
+    "label_sha256": "f3ce8364da51b445f0ce78639f336d71a2b76df46e0c4d9001c3c93cac820d94",
+    "shape": [
+      425,
+      640
+    ],
+    "gt_classes": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000042889.jpg",
+    "image_sha256": "8a5181cdf9425417913d378a6f64833e606586202e9297ad308c4c95fc38e025",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000042889.txt",
+    "label_sha256": "f42804cf504daa2e6c486b573189b9ba611e5f18126e67158a6e86c7be241e50",
+    "shape": [
+      500,
+      375
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000043816.jpg",
+    "image_sha256": "f2f806d70581cc12926f575e567b39dc0e7ab5c411a9f264d65d3c31f8c6d102",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000043816.txt",
+    "label_sha256": "20e9be268d33fb4a4539f26a07232217154d3c7f93c7a0ed620d8f27801d1122",
+    "shape": [
+      426,
+      640
+    ],
+    "gt_classes": [
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000044068.jpg",
+    "image_sha256": "f87295880cbe28c49af27753a63cf939b78192da5dfed7d01d9a8087b8976af3",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000044068.txt",
+    "label_sha256": "f37a330ca012f14f945e0f11fcf1c736d005d9a4cf06a178363d444406fcff4f",
+    "shape": [
+      640,
+      480
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000044877.jpg",
+    "image_sha256": "0035195299802ffbdd572dbe8195497d09a622124184be208f69d610f4fe7a15",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000044877.txt",
+    "label_sha256": "afe5c0f84150ea8e6b59e4df255d142c71aa8412d2827894a30e4b93fcc72d31",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      0,
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000046378.jpg",
+    "image_sha256": "927a104a4eb1ba7960946cf89ed6cc199bd7c840674787b8e77b74a7dd60aafe",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000046378.txt",
+    "label_sha256": "7b1208cf8eaddc8c4b5a22f10ddbfecd4fadef450b28d86997af62850b561c40",
+    "shape": [
+      360,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000047121.jpg",
+    "image_sha256": "ff6c860fbb42455a29074dece1073bf8edb5f5e7fa862784e00129822a8ad89c",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000047121.txt",
+    "label_sha256": "924ec7e686e9b8007afa84053bf577e61fc9791de6df65a108b7d6036a98f9bf",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000049269.jpg",
+    "image_sha256": "2fb0ce55959869151baba2d1197fb786615539d9184ea880983f7f6c4908e822",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000049269.txt",
+    "label_sha256": "a03ef8f00bf09f7d41bea4d53f46cf2d9029b5c4434f81eec775ebcb87b2da1a",
+    "shape": [
+      640,
+      431
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000049810.jpg",
+    "image_sha256": "d8fd48490a34f0f1e206a6206653881036e889e79c022f1ef97fb05dafdccf9a",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000049810.txt",
+    "label_sha256": "df52edf02cf474749cb010ccca255c53b62fae7cc0b148860810749620dcdd47",
+    "shape": [
+      424,
+      640
+    ],
+    "gt_classes": [
+      1,
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000050638.jpg",
+    "image_sha256": "7bddfb9dcb6fced3a5d40fa18ba6bd6ee2f769b37d980989620007b29765ff84",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000050638.txt",
+    "label_sha256": "b5c4b39644b290afbdb42638def04b476f90c070fbe64bfe0fb7e4bb77a44952",
+    "shape": [
+      393,
+      640
+    ],
+    "gt_classes": [
+      0,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000050844.jpg",
+    "image_sha256": "82e1bd15d418dffb439de80cf445b733a186286253732895c93d79464bcb6165",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000050844.txt",
+    "label_sha256": "a65adc63165afbe9ec3644a3dcdab5f75954512b415099b49d2106a0eb1e624a",
+    "shape": [
+      500,
+      334
+    ],
+    "gt_classes": [
+      5,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000051008.jpg",
+    "image_sha256": "cd615d2609c7ea6fa5c9c132fa8efd924477a05f0333470cf496117b7513fc3e",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000051008.txt",
+    "label_sha256": "3e437f38580ad6b2ff9ff048abb01fd0baabfcdbc41e561420d427ddd8b70bd5",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000052891.jpg",
+    "image_sha256": "e55b86a1cda874117ba1bd855e38dbc9b5427b840c362d72330019676ec47a44",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000052891.txt",
+    "label_sha256": "763e61a2d69cb6f2d6eb02b030f5cab2910199aee46c6d8a1ee105b1e2b63912",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000053529.jpg",
+    "image_sha256": "560b4e0fc5844448f15891aa241443abc17b670698b3c56c4ae17db37a8cfdbc",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000053529.txt",
+    "label_sha256": "1477dcc50e7be6e559f3cfed9ee9449df0ad544b715ef8fe076a51deb6eaa4c3",
+    "shape": [
+      333,
+      500
+    ],
+    "gt_classes": [
+      2,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000054593.jpg",
+    "image_sha256": "2927085bfe4c7b09fc4cea90216f71beedcaed0ec501cdb06630bf40b126ec25",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000054593.txt",
+    "label_sha256": "7d153d0d697d8ef6e14be8344f578b7abf85539ff8a05e27b9aeba737e6442b4",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000055950.jpg",
+    "image_sha256": "671beab7c211e59ba35ecac10c629fab690696ab64a5f0a107b8deb638ee96e8",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000055950.txt",
+    "label_sha256": "d5113f7a4808d8386ce1afbb8a3ce45c806437717820c61b214b5d17a6f56726",
+    "shape": [
+      640,
+      426
+    ],
+    "gt_classes": [
+      4,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000058111.jpg",
+    "image_sha256": "2c476318934bf7b8e6ddbb0bcb119b8ce5ed9409e3444a6b8f8b4622e59fa1fe",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000058111.txt",
+    "label_sha256": "12084a7e59d3b991100241248bab528f9ef37cc75e9d1e137ca4fed0288c73a7",
+    "shape": [
+      490,
+      500
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000060102.jpg",
+    "image_sha256": "49d1bff2f0dacffc712afc003fe3d2b8705881e5d5e241ec02d37e431d49d01c",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000060102.txt",
+    "label_sha256": "53ff3c08adda0c23b6da10678cb47a71a3ce721e8ef0b5923b856a66ce3880fd",
+    "shape": [
+      360,
+      640
+    ],
+    "gt_classes": [
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000060835.jpg",
+    "image_sha256": "e261953e1c8710e756619fd0d4332366b7abf0318d5928a17f1ef3a0b8e63d26",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000060835.txt",
+    "label_sha256": "09e3c841f16bd9aaf48a98cc4a533001f9242db647d1984c55e473e95504b63c",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000061108.jpg",
+    "image_sha256": "9b12f04a265e842ed75e9eb2c2de1c537cd3543baaf1d7e4f6f26f8b31624f4f",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000061108.txt",
+    "label_sha256": "5bb55567fd46346ef70a6e4b51ef687424988b38fe564637ae34cccedf64d834",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000061333.jpg",
+    "image_sha256": "d3c51525ef4df7b192081a4f71725a7e2b9bc09ade3eae9d1978b7768e2932a8",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000061333.txt",
+    "label_sha256": "c33642d77e2a8004448302f6a70839bf42103c51e176156ed6eac821d32535f3",
+    "shape": [
+      361,
+      500
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000061471.jpg",
+    "image_sha256": "45b86dd04506ea6e6c2d96a6dcf389150a95922146ff41b858ab40c3edb8ed1d",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000061471.txt",
+    "label_sha256": "91e81b50d9f4517346991ab221419da513afc584e284f950a61ce428e943cd39",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000063552.jpg",
+    "image_sha256": "a3a0b0e84709ed08012ed3fa37b2d6bc0d45546560c750f8e9de921c0a2de406",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000063552.txt",
+    "label_sha256": "8632b0e8f5b34ce2c407fc3a608a1068bcaafab006cb2be91416de72420cf11f",
+    "shape": [
+      586,
+      640
+    ],
+    "gt_classes": [
+      1,
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000064718.jpg",
+    "image_sha256": "23311e201fadb5ba2bd9a0d6cac209b1f91ce946362ef7100ba47993b2822ff4",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000064718.txt",
+    "label_sha256": "77be6ba0914b08288c436765355d08c744a088c7d0dee4612939f13aeaadb4d2",
+    "shape": [
+      464,
+      640
+    ],
+    "gt_classes": [
+      4,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000064868.jpg",
+    "image_sha256": "b3cde4030154cacc17d93aa0a01344ec749f96faab680016e0f680458410cb52",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000064868.txt",
+    "label_sha256": "e42e0a446d5bbf7e2eebcf50c481678f3103bfa68272a3e4837bb2341c0b9d52",
+    "shape": [
+      375,
+      500
+    ],
+    "gt_classes": [
+      2,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000065485.jpg",
+    "image_sha256": "002bafda6137a294ee0f922d012a45cafee4377b175696cb4e4c09d0d046907b",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000065485.txt",
+    "label_sha256": "9bc6145a9b7c62a2d653fa63daf882b5b38300946e6d9c8909268f3c09a1169d",
+    "shape": [
+      364,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000065736.jpg",
+    "image_sha256": "2964c5da08d186b8a875c9ec2de8aa7a829da5b6bb028a70933baf7eecf8dde8",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000065736.txt",
+    "label_sha256": "0e014b01f0970af7d42a0d13e47a7f03a7338cce18d8f5bc53780529c391edee",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      4,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000067213.jpg",
+    "image_sha256": "7c456c6e20d11fa40248d67b7d816d0aaf8106b1635243bdd1ba044245f05f8e",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000067213.txt",
+    "label_sha256": "bc957133e02b5f789976d3c2f3d8a148766c154c8bf81c23a886f5aeaebdf77c",
+    "shape": [
+      485,
+      640
+    ],
+    "gt_classes": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000068078.jpg",
+    "image_sha256": "e7ea1e161b0fb5431e7e74c76c714ec7e553fdc75c9d0c92fd938f8087933045",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000068078.txt",
+    "label_sha256": "79d38b3ada7f0c19795f8c46e8376506d236be117bd8973025360712cc8e7b98",
+    "shape": [
+      640,
+      360
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000070229.jpg",
+    "image_sha256": "2a602059419f1b4506975ea3414cdf1195a5483ed0b9651d8586d7cec8e88cc7",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000070229.txt",
+    "label_sha256": "d6a8a9c11523997170f42d3ab53955ef1d337de3dde9477abb073ca4f97b0fa4",
+    "shape": [
+      640,
+      481
+    ],
+    "gt_classes": [
+      0,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000071226.jpg",
+    "image_sha256": "11b4d1efa0a566d092e3e9ec1706bbbaa38d89229d987e4b444c4151fd4208a8",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000071226.txt",
+    "label_sha256": "dcda7832226655c5ae5e963526644e61bf4a1b23e8f9c822bba45da943310a26",
+    "shape": [
+      426,
+      640
+    ],
+    "gt_classes": [
+      2,
+      2,
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000072813.jpg",
+    "image_sha256": "77a7ce827879f9283ea40f942a687f89d3f9ed411734ce831896be88f9f685ba",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000072813.txt",
+    "label_sha256": "f8a92539015e43d7f110417a424437f018cfe4873397f23a7feeac4057e43277",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000073118.jpg",
+    "image_sha256": "b99729b8c45705912e2dbf30cdbc201dd599ff75d00b7ef54078b546195dff31",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000073118.txt",
+    "label_sha256": "74d184c1d38d0aa14ccae45251ec6c212833974d74636eb63bbf9c607bf0e38d",
+    "shape": [
+      612,
+      612
+    ],
+    "gt_classes": [
+      5,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000076417.jpg",
+    "image_sha256": "740a8f0e6c980ad0587bb352a909308782f8c3a7fa3853cc6b06aa2ed1ff4675",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000076417.txt",
+    "label_sha256": "a64b4b9017a3a505b702621bf0f4e81b6d5be8008d554236aa3d2368429569ad",
+    "shape": [
+      478,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000077396.jpg",
+    "image_sha256": "58a4aa081452ad2930aba0d5c716615aaede8e43a6e80a456132877d318991af",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000077396.txt",
+    "label_sha256": "2f0243848c7ddba87dd02c9329de389195a3de8104179556e67e33d72540a443",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000078823.jpg",
+    "image_sha256": "d9fe245622dc52d9c977eb501aa70d23a9e0fb61e2873879db6c0a89b1bc6b88",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000078823.txt",
+    "label_sha256": "4b5d00d6b2ab82a2e67db1ddda7a4f0658a438a188a36f2c30a00a3eca0ce404",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000078915.jpg",
+    "image_sha256": "800d4feb64141487b944c3ccd32554a2dc4095589b8cb4d617066a9d0e7c6c43",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000078915.txt",
+    "label_sha256": "2b147dbb92aa9f512fbc145f33a178ce16f2659e304a9ef332ecabc485a811be",
+    "shape": [
+      640,
+      481
+    ],
+    "gt_classes": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000080057.jpg",
+    "image_sha256": "2d7e55fd015c7b559a373070dbae412b241d2d0a67ece9304fa938474ccc93af",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000080057.txt",
+    "label_sha256": "ba8ebe77407fbb61a43c3dddab5d0332fc09d7505733baf837d9b627fffb803d",
+    "shape": [
+      640,
+      423
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000080413.jpg",
+    "image_sha256": "ccfbf08efc80416f38a5b732d916b9f2a4b6436ae4a0398ccbc0d9dcc7db0aae",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000080413.txt",
+    "label_sha256": "602c62c3181a087441fb1ed005cfeb91cebc0c0d61b672ce94ac1a1e4354807b",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000082180.jpg",
+    "image_sha256": "b32a8e7ae788960ee14000bb2e77bf35a43714ec8f0279e98e5af9d078f0fb0b",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000082180.txt",
+    "label_sha256": "6775a7d246b3d6b7dbe33511ce5778e69badaaa84d8b243f6189621eafb312fb",
+    "shape": [
+      425,
+      640
+    ],
+    "gt_classes": [
+      5,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000082986.jpg",
+    "image_sha256": "e7f137f0d3721b27156871278f6f1b9309541444d2dc8095f109e46cf013e8aa",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000082986.txt",
+    "label_sha256": "bbf25644a1aefc3cea10d3bf12146d9f4a8b720f7dae061a18c83b357c000456",
+    "shape": [
+      444,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000088485.jpg",
+    "image_sha256": "07cab32f1eac576ec11720ba77b4c2756a5d3f6cdd0352043c4c3a98b1dc362f",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000088485.txt",
+    "label_sha256": "e3a4e564e7e59f0cd7e117fb131278827d58b79c17d5322d9cdbb2bdd6790109",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      0,
+      3
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000090003.jpg",
+    "image_sha256": "0094c1f7d4d69e9dbaeee856da8df1771a84848d65b1240ef202500935804912",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000090003.txt",
+    "label_sha256": "b69e25e7664a474b1982a2ddafd43e5ab9c35bd8c474b9428fa6c9b9fb9a4940",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000092091.jpg",
+    "image_sha256": "55455f6c5d2881d24a5bff35286940804143eda7a23fcc1ca9062eaedc144ef5",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000092091.txt",
+    "label_sha256": "6dfe270a960ae8ac7f6e7827eeb42d74d21dd15fafd5b88102ab88bfea72a60c",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000094185.jpg",
+    "image_sha256": "ff696bc5002b5a7b5d7085a8393683ca15060a9a23d03373bd6c407a98620f8e",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000094185.txt",
+    "label_sha256": "9e1b8757824f4d21598eb84db958fcc657737a6858cb8d2a7466047a800a292c",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      0,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000100238.jpg",
+    "image_sha256": "aeebb3301d652e291323df9567bed787a7966fefbefeb0629634424b1567769b",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000100238.txt",
+    "label_sha256": "e621cb7f433a075e4504781deda75e6d293b587eb2b013a89037b6287a54d35a",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000102805.jpg",
+    "image_sha256": "66e6c4530c4a84e97b77bf32227f5f7dfebb1c22accb0e7fa5dbd009308a8c0a",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000102805.txt",
+    "label_sha256": "e853ee5e1c293a0e63eddb9a481be98174c9d3e9c4bbfdb8fed0ed605f7ef90f",
+    "shape": [
+      426,
+      640
+    ],
+    "gt_classes": [
+      0,
+      3
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000106330.jpg",
+    "image_sha256": "dca8fa3746600f66ac17fc04e6560b485566c4ef8b9d1079319e6ea4d73be7fa",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000106330.txt",
+    "label_sha256": "369db4a761dfd296627e8a62cfd25eabc88c91ee892b69ced44ef82754554d81",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000109827.jpg",
+    "image_sha256": "ffe1099692faa79018ca34fc32ab344d4117f3609692d8758a2feeb7c5543c2e",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000109827.txt",
+    "label_sha256": "106831713cd2de45f2cfc37ff04d3a21f3010d5ff26adeb872566e1d6d824bbb",
+    "shape": [
+      424,
+      640
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000113403.jpg",
+    "image_sha256": "ff974f9495b64648225c9c6fc2d13e642fec69033aa46a524596cb77c5a02224",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000113403.txt",
+    "label_sha256": "897ddfb605b841ddca7cff1ffd810bac1b9067cc3be1f7f92faebe762dfe2f1b",
+    "shape": [
+      451,
+      640
+    ],
+    "gt_classes": [
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000119088.jpg",
+    "image_sha256": "21ef6c68c76d2430c3d2a51ed3d1566c653061835842ebc74cf5820bd79015f6",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000119088.txt",
+    "label_sha256": "3a64b310303b0980805fff6d24b759a853fbaa430272cc4ec64588cb0ed07ee3",
+    "shape": [
+      375,
+      500
+    ],
+    "gt_classes": [
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000125062.jpg",
+    "image_sha256": "2e0b23c7ae0b7d4d09d7348bf0577fbdbc9c11a010cbd3f52c93ed33616d98c6",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000125062.txt",
+    "label_sha256": "283ef81ecbc59f95f8e23a08dcd84f53de46bdb322f1e0844d0934f7a07bd32a",
+    "shape": [
+      640,
+      427
+    ],
+    "gt_classes": [
+      5,
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000125405.jpg",
+    "image_sha256": "aeb172b088be9b334a97fcd4df1fe89b5730bc5836765a23c82f2b8b4ff3d03b",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000125405.txt",
+    "label_sha256": "9e77b76c9e9749bc30909564a5a50d03240438aa1ceb7dcdfa29e72d741414f0",
+    "shape": [
+      428,
+      640
+    ],
+    "gt_classes": [
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000127263.jpg",
+    "image_sha256": "aacdd27c1d31c7007fafd83676e6bb66953e8c0de02080671c811093e6058b40",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000127263.txt",
+    "label_sha256": "83f413c67e2327ea51e283047ed1819c247208544616b985524050cd8569909e",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000128654.jpg",
+    "image_sha256": "27277755090ed1ef88e78639ccff186d18f7a3db4bda2286f385e267c635dd9d",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000128654.txt",
+    "label_sha256": "f35128f9795ca7684229351275b66d28b6d61fed00d3cf47e13c72bce6085ec5",
+    "shape": [
+      384,
+      500
+    ],
+    "gt_classes": [
+      0,
+      3
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000130699.jpg",
+    "image_sha256": "d03e2319292a5fbaca1008059647103325ead81a3088dafabf4665cf9e79c48d",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000130699.txt",
+    "label_sha256": "772b38c54d2080240b588575677380d0182615bbca56bf2885972ed052097b54",
+    "shape": [
+      427,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000134882.jpg",
+    "image_sha256": "d2a42fe606563d125e105246e6cd473f098338364b51f085da8a97d5943876c5",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000134882.txt",
+    "label_sha256": "e6f732a5a0c4448fc6bc042692c57600c21b28e1d1ca16091618e92e14aaefe0",
+    "shape": [
+      639,
+      640
+    ],
+    "gt_classes": [
+      1,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000138492.jpg",
+    "image_sha256": "d2776dc38a5007addc0dfe4e700d3b9224b06b10c4a1681b92c85066e889413a",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000138492.txt",
+    "label_sha256": "4d6dff9636d5c55aeef37301252b4716811a901bf33c55b899cbaee3f84f78a3",
+    "shape": [
+      640,
+      427
+    ],
+    "gt_classes": [
+      2,
+      3
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/000000153343.jpg",
+    "image_sha256": "eecfc0bacf4f128ebeb29ef915a4df5a690b8fdaaac0742e340e9175357d0efb",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/000000153343.txt",
+    "label_sha256": "985a1ddc046d884afb8b3270b4bc39c98d06f26e065f7f3f5866db96ff41b852",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5,
+      5
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000002.png",
+    "image_sha256": "a15b121c6e967e4eab11d109e6f35208e4f74b4a7aa2783479312314b5f2b074",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000002.txt",
+    "label_sha256": "07625076877ec6516f2d555a600c4e47b935abe715b53505ec94af61e304ad20",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000007.png",
+    "image_sha256": "812ace699f00c4934b7be8913e66aa608630e217f76004befefb33adc3abb285",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000007.txt",
+    "label_sha256": "87a29b00f903ddc8a36cac7cfaaf8fc076e290a4d4ea4237e4ec742e2cc6c438",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000008.png",
+    "image_sha256": "e975e8973c8b0aede466d5f532516618f61e911aeb5e3aba264e168800db2e69",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000008.txt",
+    "label_sha256": "45592eaa5121afd62d2f987088802cc4b5a76dc6bb50d9d4efa7b4a8e412cb33",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6,
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000009.png",
+    "image_sha256": "12c0667e72751ef2dd7132f34aeceb9275ee687b692fb7aba6e31cca34642616",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000009.txt",
+    "label_sha256": "392c765d94d7e27ab001a7170b7c6d04db3585870ff4c5b1a0a92b8b5c40e873",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6,
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000023.png",
+    "image_sha256": "70930c5f9e70a44005ba465a8043bb588040398eba8368114ed21621f1ae0f2d",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000023.txt",
+    "label_sha256": "c03295f74e5f69dfc6f0bb924f8db0484b767e8d353e7abaf566195e340020b6",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000024.png",
+    "image_sha256": "9e67c7622d1588d14566296b3ac665e00ec2418b50f348c358055787a3f678e9",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000024.txt",
+    "label_sha256": "4648c8728ca8d424daf08b6442cf6c95fc9296317865d1b683db5377b5beda2b",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000027.png",
+    "image_sha256": "ab0d269b074a07dbfd8f00ee9531589838bea4f4515046850e8e3b2c16ddb68b",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000027.txt",
+    "label_sha256": "4075a290993d4e6035f635f457d26a065bb2b0fb700c53c0e328c3138339b04c",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000029.png",
+    "image_sha256": "3d0fba595e141b8a34bb52eb9b9d5d37622ad6be10af1b306437d458e8d260cd",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000029.txt",
+    "label_sha256": "ab86ba460fa808d1cb4fc6564c3dd10a526a9c9b3819d8df60135145c865d7c5",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6,
+      1
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000036.png",
+    "image_sha256": "1eef3a07e91bceb816b641462275a56d9b513ed11c39fc2ae9a167fc335859f2",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000036.txt",
+    "label_sha256": "7fad8f90e4a6843bb68bd3b9966cb5f2e04d6c59ba52c048a17fd8249eb63813",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000040.png",
+    "image_sha256": "19bd9d15ca765bc0164a0bd43a985f3e609947dd6b81977644f240e84bbd8b47",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000040.txt",
+    "label_sha256": "f53a340735689c0a50c9347494f0e53e93c2910f99078666f55335e543ebd32d",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000041.png",
+    "image_sha256": "60bf2ecf9702e38c85dba94b8265618f5dd5160cdbf5b14ec735e7645f5bf852",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000041.txt",
+    "label_sha256": "86c64fbb6503c9621fcb0971e7d85f0228ff060f53ab518179e730979d09323a",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000051.png",
+    "image_sha256": "520e6ff38a958fc15ae9b0fc4d72efd3c88ecbc0e4f619ae6b03551816c07550",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000051.txt",
+    "label_sha256": "fc630c3304d905deb324728d6dbc2a32667c5276653438051d35e6340cce15bb",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000056.png",
+    "image_sha256": "eadc68cb88f8605915ecffea7bbf3223a3c0fec03f645ce296bdaeceee9f50ee",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000056.txt",
+    "label_sha256": "5cb4f52d343550856275c05877ce56bfb3406eb8dea044cdd8ae157285d9e60f",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000057.png",
+    "image_sha256": "1c8cfd44e4dad6386f9b57eb14960aee188d5749e39894e2e27f1eb6f793669f",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000057.txt",
+    "label_sha256": "a19a249a026163720870a83f20bac085e38a5eb54bac9e086200d3a6740f4dc9",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000058.png",
+    "image_sha256": "4a06237f5253183185db2bc9432b9c5f7aa2a91b2a0fdf867e534dbfd8f19e18",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000058.txt",
+    "label_sha256": "96cd7e9b9fce8d8d6415df156f3ecc59f4cd3d0be906ff552c95191b76e437f5",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000060.png",
+    "image_sha256": "f78977d6aed42c6ad32a62c1a1121f1459e1bf1e5e08d723160a038f6168ec22",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000060.txt",
+    "label_sha256": "0bd51365e654415cf1865a0e1f9adcca1ce321ec4b53b9687164b30c61872292",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6,
+      2
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000063.png",
+    "image_sha256": "5fab7ef42dcdb9381c1c618b64cfa4ed69d8aaf6fef4c01a88f6caac2645ec7b",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000063.txt",
+    "label_sha256": "753c2dd7a81bf6b8cc42e68b5598aaa766fbed42ec7c5c27f02eabe43802fbdb",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000071.png",
+    "image_sha256": "c1aae33998a9c1339066856ac7d1ae54c76de9bb11709ea8be9f6f7a2f70da39",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000071.txt",
+    "label_sha256": "8032ca09c738d01661f7bdb87a98860672d9e3732738b3e1d135537fa84d3f3e",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000072.png",
+    "image_sha256": "04f0e77a893a7d6ac9b15f3479c4961fe1e3233629cd2630b6645fcef4019ac8",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000072.txt",
+    "label_sha256": "8b47c9618d43d064ccadd4c1e31aee5787dd6954c42fdd05f92c7f5a6d78e6a5",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/ai_garden_hose_000088.png",
+    "image_sha256": "0fec1296d55c044abab6c8e872d37ab9437b9b27103ffb90dc1c9f743e059255",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/ai_garden_hose_000088.txt",
+    "label_sha256": "173f03e7b5f94990b7c6bcf0e6ac560840fdf13830856a841121a29e6d9fb1fe",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6,
+      0
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_Batch2-IMG0131_JPG.rf.52c42f68a19dbd046ba0941c3f1345a1.jpg",
+    "image_sha256": "439fa6297d2701a458da8065ffe9cafba69914c195f8e99523bbc4b214274e77",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_Batch2-IMG0131_JPG.rf.52c42f68a19dbd046ba0941c3f1345a1.txt",
+    "label_sha256": "b883358ca2a27a0b5a0b86d76784d279f29abe7324ba26fb9672de7d40f79b56",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG0128_JPG.rf.bb4e7528c2874aae82d03748fb8f9d7c.jpg",
+    "image_sha256": "3be8a69e1be84965e4a9088f3ec2bff9b73e33fc2321c14857d736cf0a3488d0",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG0128_JPG.rf.bb4e7528c2874aae82d03748fb8f9d7c.txt",
+    "label_sha256": "ebb2d91a9bd04441b44204587ffa7241d4fc623bc83a4a3f4f7e092df8c46fbb",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG0131_JPG.rf.210a712eb9560733cefba1af26100c42.jpg",
+    "image_sha256": "439fa6297d2701a458da8065ffe9cafba69914c195f8e99523bbc4b214274e77",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG0131_JPG.rf.210a712eb9560733cefba1af26100c42.txt",
+    "label_sha256": "f2a3fd6de3a0bb2076a7975d75ff86b0a2fb501cf75fd00bb7304f56d132c07a",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG0131_JPG.rf.25f00a5b25a576025e4f0be57df4e872.jpg",
+    "image_sha256": "439fa6297d2701a458da8065ffe9cafba69914c195f8e99523bbc4b214274e77",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG0131_JPG.rf.25f00a5b25a576025e4f0be57df4e872.txt",
+    "label_sha256": "5abc9982e53cb92d5cd3283707f3ecbb4067432563a6843f187e10de6d59c94e",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9497-copy-16_jpg.rf.8e22716c95f759e6b379aceef355c6a0.jpg",
+    "image_sha256": "0df5f1104c3c002c499c8999af02d4aeafb2ff410a39519dcef89c1060b8e68e",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9497-copy-16_jpg.rf.8e22716c95f759e6b379aceef355c6a0.txt",
+    "label_sha256": "68f8d4a5def826ec00cd4d22436c657c8e968962558b79edc3aca9fbcfaefaa2",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9497-copy-21_jpg.rf.b3740a910fb08cabe398445a6174cc04.jpg",
+    "image_sha256": "8c287b00eeb747f256d4ef2e46f955a29ec78408196c1634707107e06babb9b3",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9497-copy-21_jpg.rf.b3740a910fb08cabe398445a6174cc04.txt",
+    "label_sha256": "ed980deb5dd257b8c82b02478eaf7def07cfa5c0f5254e35e037ac716547bd73",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9498-copy-18_jpg.rf.d086f0614219a1a0a61cd552d2f29b98.jpg",
+    "image_sha256": "b055f628c272c6acdea1bb663f1974bf077df3db82f60fd2ec46d300ba1eef8e",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9498-copy-18_jpg.rf.d086f0614219a1a0a61cd552d2f29b98.txt",
+    "label_sha256": "3c67f0b2af845fb8a288d5b20d1a5a79f7442ce5014c32917f8ccb8bf9bb1d1c",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9503-copy-21_jpg.rf.1f50e3dbf2bfe9600b7eb2b9eb801848.jpg",
+    "image_sha256": "987336365f259b8a0fd28d3d45c5571803ec2b2db20c6ec1007f299015c7dcc8",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9503-copy-21_jpg.rf.1f50e3dbf2bfe9600b7eb2b9eb801848.txt",
+    "label_sha256": "b8b243db2943b811631022333b0a42bb5af5f49abfa6917f0dc1c8b7ebf62ccb",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9503-copy-43_jpg.rf.3260691bb3b531fd4b8f73023451d312.jpg",
+    "image_sha256": "cd7c0deb8e5b7d97ce3ac5aa2c73896b6633290f32e44148ccb1af9c82e1d260",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9503-copy-43_jpg.rf.3260691bb3b531fd4b8f73023451d312.txt",
+    "label_sha256": "9ad96490a165ad8d0c9dc8354f3b08ad6d0298eaed4a4cdf82ef2bf17b3fcfcb",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9503-copy_jpg.rf.3cf4ffd2b8024e0ed72e9c0409c0cd23.jpg",
+    "image_sha256": "53e136b1978d9573886e7b1a2a336c23dbc31c6be42ddf084ff0ca5d9bb7858f",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9503-copy_jpg.rf.3cf4ffd2b8024e0ed72e9c0409c0cd23.txt",
+    "label_sha256": "221f0267ee86f598fa359921d5b26f67df44db437b8271f0cddbeef5694ca031",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9504-copy-19_jpg.rf.f5b78f6b6f8081df00929d31aacfe74b.jpg",
+    "image_sha256": "3010584f935cfbfeabea831fc042c18d87c11de65e2cdffa8a5ed2020a17ea12",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9504-copy-19_jpg.rf.f5b78f6b6f8081df00929d31aacfe74b.txt",
+    "label_sha256": "196a2927f84a5672276ebf76b32f57aef828a99a1871922eca350f5b5f1be2ee",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9504-copy-36_jpg.rf.93e11b983fbc7bf0e07e63c866e89720.jpg",
+    "image_sha256": "b87ee5d707780608fc58c1f5b39255a476cd232f16da0f3cfde9d5db37971511",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9504-copy-36_jpg.rf.93e11b983fbc7bf0e07e63c866e89720.txt",
+    "label_sha256": "08623938b39d892d70f92858b4d06edd27eabb358a8676a6c5492ffbb1228e2b",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7,
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9505-copy-27_jpg.rf.e77907b4275d9b917f5534a7acc6cee1.jpg",
+    "image_sha256": "a0588c6c345098a4474088f4ff6530d0da455c483108a05e2c4568d0b5c88d98",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9505-copy-27_jpg.rf.e77907b4275d9b917f5534a7acc6cee1.txt",
+    "label_sha256": "859de0899dc9afcecdb71bb2f07286847dc050cca3fb0bab4a4575cd0ad0f566",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9506-copy-13_jpg.rf.0d6deee6c8bf8e675a714c4b9c0abdaa.jpg",
+    "image_sha256": "624216654b916f5fb1b4ac22a634ebcc4bcb4058b4ec86efdf463f9a5c14abad",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9506-copy-13_jpg.rf.0d6deee6c8bf8e675a714c4b9c0abdaa.txt",
+    "label_sha256": "5c33bd954dc63a42cda7da4b54f424ad57fb96e2756b3f1b552f36a4d81f7169",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9506-copy-33_jpg.rf.a76c4c0b19bd47a721f3f33bf506881a.jpg",
+    "image_sha256": "790e4b589560a79d719ed03f7bf803593e08f33e78503aca5d32e564b45ea2f3",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9506-copy-33_jpg.rf.a76c4c0b19bd47a721f3f33bf506881a.txt",
+    "label_sha256": "a7962a78fc007a95cdeb13eec8d8059702f625aae5b489dd865f2ff258815b27",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9506-copy-7_jpg.rf.5ebd4e7a7505b0b98c7f534964f841be.jpg",
+    "image_sha256": "bdeab4c616de7874d31dd2ddfe8d5a4ec4e9bece91b85c841e009d3b0fb69708",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9506-copy-7_jpg.rf.5ebd4e7a7505b0b98c7f534964f841be.txt",
+    "label_sha256": "791e71c3d09e3c6683c721aa9294c4919cedd4e177cf236f27972ad078d00ce0",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9507-copy-10_jpg.rf.ecb675675cb77380820abecd3dae9bc4.jpg",
+    "image_sha256": "ac0588b74b91450c57157a7f60fec10558d238d34a9cf3f1aee027f2828c53b9",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9507-copy-10_jpg.rf.ecb675675cb77380820abecd3dae9bc4.txt",
+    "label_sha256": "6261145f4771b0875a2cdb776afd8c7ec39dec2a50013b49d3ae35779131d5ed",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9507-copy-22a_jpg.rf.39484360200865e8b33e3062c9b3f8fb.jpg",
+    "image_sha256": "6c1af03985c010b557cb8cd40244a99389b80a41e44186a560adf6c649275f7e",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9507-copy-22a_jpg.rf.39484360200865e8b33e3062c9b3f8fb.txt",
+    "label_sha256": "23b2d4a2d301b56c358ac902f2bea12c07e01d89375121c1fd827b98e315fba0",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9507-copy-35_jpg.rf.66a3ff33da7300e679dfc0670c88f00b.jpg",
+    "image_sha256": "0b58c0d8c607e644fcd05dc19ad44c01e65a3477fb55bf408bf44ffee159025b",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9507-copy-35_jpg.rf.66a3ff33da7300e679dfc0670c88f00b.txt",
+    "label_sha256": "c9a24c395b505a485e5264cc170b814a8884335ad6aabe3e1a1a7952594d7ba2",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "val_stratified",
+    "image": "mower_obstrast_check/data/yolo_check/images/val/obstructions_rock_IMG_9507-copy-3_jpg.rf.ebbdfa7b0ed54bce8417bbbe41f0c7c3.jpg",
+    "image_sha256": "ff4f2ad234efc832f93252345dbc75efdc65544631702d3904465f798d56c787",
+    "label": "mower_obstrast_check/data/yolo_check/labels/val/obstructions_rock_IMG_9507-copy-3_jpg.rf.ebbdfa7b0ed54bce8417bbbe41f0c7c3.txt",
+    "label_sha256": "eebc8876bbc7a1848f3a7153e5e1b60dec2386ab1ca68a4eb9e06075c318f91a",
+    "shape": [
+      640,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_001.png",
+    "image_sha256": "ac497b94245fb197f52b07e2fe67ac5240030009201fa54be7ef96464846a612",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_001.txt",
+    "label_sha256": "37f038e2f7c4d7a1485c57d717da000320af34c06a5457cc15a53f277f013a62",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_002.png",
+    "image_sha256": "a4dfa3bcc05569bc526ca535a43156c00d0baae2f27d1855ffbb5be90d74cbd1",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_002.txt",
+    "label_sha256": "246bf29d1878f92ea86caac6c6fd404dc45c5c6bca1e0357d2f3548ba809a395",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_003.png",
+    "image_sha256": "d260e314e13e646582dd3ea6bdc6e1aa23a5d0e64730f3ac30df0365f6ff6787",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_003.txt",
+    "label_sha256": "72f6cbc9835705fe939b5373fabfa0f0e5bf43c7fd2c11f4a0dd4b71eaebd5a8",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_004.png",
+    "image_sha256": "1f7b4991dafb22ea6b442b18c973892144aa2edf7de34e16a442b23ef8d8a60c",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_004.txt",
+    "label_sha256": "43034c30fa490da3e9adaa28828bbf240d92d3ebd4bc69001474337751598b4f",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_005.png",
+    "image_sha256": "8b503d56dfb620c3d3dfdf87a9c91f8bd90ad621393a8208685254d3c541c558",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_005.txt",
+    "label_sha256": "8fa5ba6ed2cc95fdca3498e3d4ce0453a7a01a61bd5d3b035f053c03f42fe38d",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_006.png",
+    "image_sha256": "b8bb42e0f96b4458de2e92cc21958642864556d5d10feaa29081035ac3165a90",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_006.txt",
+    "label_sha256": "8cddd78573162c8913cf62fdc3ea25e3044997f3d26d37297527856805d0a8bf",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_007.png",
+    "image_sha256": "f90a0ccac6d393d540015f957a7be2bc9cfb1d28b77f9ce3fbce0beb891e4a84",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_007.txt",
+    "label_sha256": "bd37f617d914fcc71f1ae7506efd7038f17462bb29ca5c5fac9c2223f226ac86",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_008.png",
+    "image_sha256": "72577ade56dfc6449407272eac51f04c5a963983566a1884a6cc1cc4c66e6388",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_008.txt",
+    "label_sha256": "2a329f095d130f24f08349d79170cada4c7ab4b0c79102d21407ea2290d58ae7",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_009.png",
+    "image_sha256": "ce43789eda1fea451644c4f0f0bb62751f5a209e8d172bd1ae15b1a145b99b0e",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_009.txt",
+    "label_sha256": "c2f821586040440230f93d3fa0706f1f469263f6a091e5e61dd8a7e2f588e06b",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_010.png",
+    "image_sha256": "19c7a5794ac721f67262b6d06f33a9687ce2543f34cdbc95205afafeb7134021",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_010.txt",
+    "label_sha256": "1ea1f5be7c3cf4c386b95e940eb8961e49bb5113935a72565dd124cd62d9e264",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_011.png",
+    "image_sha256": "adc34eabb76dc1d3cdc095d2691169b0e7c291785249f3ca932f9007ac8fe48d",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_011.txt",
+    "label_sha256": "bfa3408b378c24a542e730c77810141fd689f839c435b9a90a7702f9feebe980",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_012.png",
+    "image_sha256": "0992bfc4ada6e1036fa9c27ead9f478290a488770c8ac1845f5c6674f93ecc83",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_012.txt",
+    "label_sha256": "b7cf1cb8168946c1e07e94bdbacc680b303b5125e0413ab8dba6dc7324208d62",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_013.png",
+    "image_sha256": "6b20013d60ab1201b96aafd118a0680c9fce339f46d047770ad3418a28391580",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_013.txt",
+    "label_sha256": "acdaa46f6e6b43ef5d1ec12ebfc3e333e3e59b23ea406b59c0817b91e7156033",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_014.png",
+    "image_sha256": "0add612101f65269827090fbfa0def9f7252462d658054195280c62b7400944b",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_014.txt",
+    "label_sha256": "4e78ca26096cab0d89863659b5847f2a41f1242c143433ffbfa6cbbd4547cb90",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_015.png",
+    "image_sha256": "07aee04bd25c2f28aef24e963771a84b00a841f192eaa200c98c45350f0eafae",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_015.txt",
+    "label_sha256": "082153b2a65a6c27433c6289529253fd1b058dc9d082f78c36790bca2f79f2f0",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_016.png",
+    "image_sha256": "afd0faa6d34fcb64f1e4ed43cf959a4cc435df38c262317bdb0a17e378ef5bd5",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_016.txt",
+    "label_sha256": "39be43797a414d18a25e43435fd6a4dc80e1edd848a3844565332fc5ba31a0b9",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_017.png",
+    "image_sha256": "9e76cb5650af478eb9c986176b507d4692c2c936c09667b44630f3ccd3105ff7",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_017.txt",
+    "label_sha256": "5ae9ed05f22a9288a601e3cf881a888d11c90e86dc88a6c6e280587969400ccc",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_018.png",
+    "image_sha256": "935d283d0e9047c3ee3aef8702dcb0a4dad4af83911617639966adcd00b88dc8",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_018.txt",
+    "label_sha256": "3f7cea9aefc9b1b5b51b43cf1c6631f42c05b0eab94c9151f0e787cc1b97f07b",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_019.png",
+    "image_sha256": "5864ed81e4323805a7ce987b9655b096fa0f991417cd8225b60260955a584383",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_019.txt",
+    "label_sha256": "d1019bab6bf8da237c9f63866fbfa7acf143ab1dcfaefd7d64924471c499acb0",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c0_020.png",
+    "image_sha256": "de20ade799e2d4ad4733aa81ef0a66d4dc58f6eef21713ab6782f356dd07e863",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c0_020.txt",
+    "label_sha256": "5297cf2c5b1a81ad51100689dc1ba9c3633eced791323d9ce24e497cc5db2f13",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c1_001.png",
+    "image_sha256": "b03ea3d67d67ac5fa002bf03bdb8007f5080ec4f567a28c4531362a03f8cdb09",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c1_001.txt",
+    "label_sha256": "dfc55395859175702767f3da2b67af96636e4620ceabf1bd9eb63136da451067",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c1_002.png",
+    "image_sha256": "8109fb48d4ad0fe205ab31af3d90d422e1db20107625f1c78f5ec50e0e18cbbe",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c1_002.txt",
+    "label_sha256": "e76c1c1cc58152acb44f5a8eb6a05e6e659322ad8af66c3d5da5688b0b2f57de",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c1_003.png",
+    "image_sha256": "1a3f3ca16f0c9509192504759cd27bb01178aaf5a8e1b5442bea7499e666b460",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c1_003.txt",
+    "label_sha256": "c62ba3fcfebed070a5508292a6a204b6c88c8a6be29323ca71244cd7c103d688",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c1_004.png",
+    "image_sha256": "ca1800700a362b9ca15c9f9970e41393a4f39d8ece53e986a08790ce0854a6b8",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c1_004.txt",
+    "label_sha256": "b992c84bc765230a12b17ffce9999603066d88fe81175edb4125e86584410878",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c1_005.png",
+    "image_sha256": "533cb71c6f051d1a9a20b0f55901030268461ce1ac0c853f5f78b020931b4fca",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c1_005.txt",
+    "label_sha256": "71c6315785632b5caf2638eca6a736f57ca8d68da1d5498ca016d857c452bea0",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c1_006.png",
+    "image_sha256": "84e0a7037f664508d7fefc3706da8b5d6c4dbc588f4df3a85ed6e65f8e08e952",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c1_006.txt",
+    "label_sha256": "764d9ea657a6414d8372535c03c72a75073cf9310c60324cec89a8f7369b133a",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c1_007.png",
+    "image_sha256": "5e6349d7e290286e7d16b68e8dc3a600fb54b481726f1f624c142e18b2bb6960",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c1_007.txt",
+    "label_sha256": "d2641a0fbe01a32c52c131c99104bb37ff1381ea64a1bf4dd9ac51c2134c9acd",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c1_008.png",
+    "image_sha256": "edd4900333d31905624ae294ef6bfef5f053c5047ed6175c493bebae80bb7c9a",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c1_008.txt",
+    "label_sha256": "b0949aaf715a4fd05332c50155511ed24b1f1ebd5c4d75ddf1a8b46eaa4cc9bc",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c1_009.png",
+    "image_sha256": "ee47ff078ca2dc8394db517b81b8d82f0c1d156a42f527cf8fc27a673f64dd88",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c1_009.txt",
+    "label_sha256": "59ba71cd095687737fffdd120bdcc6d13f20b0c315f3ddee40a8f15098aa1b01",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c1_010.png",
+    "image_sha256": "f85ebbb5d2721691e44127ef82736224ddbc11a7665b517ef788c7544fbaa15b",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c1_010.txt",
+    "label_sha256": "7a3d00a312e7e4efe2c1519c0cf5921e20a6c856dbfd650ec1a4b3194ffa1c57",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c2_001.png",
+    "image_sha256": "0a852d54c8e8a0b91d25c18c93a1f21983a516f464408e9985278600d88c452c",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c2_001.txt",
+    "label_sha256": "940a62dc51278c67b5c1ebfe8da652404b63e21c587fa2edb05d87fd60e1fb5a",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c2_002.png",
+    "image_sha256": "991f0db9e0bc5373fa932da6ea9007b17d0c0773c2ed25ce507236207f62b9f7",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c2_002.txt",
+    "label_sha256": "76415cbef3be029e52f60c5ce2aa305d8de3f3179c52cbec9fdcb03670c4c0f1",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c2_003.png",
+    "image_sha256": "576e0047b639fa34d7dbaf4df34def073dcc7f73f21d8cfc406001f4cf9b131f",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c2_003.txt",
+    "label_sha256": "be502f38a23c4a68f69140f8de0b765375e05b0a99e3d8e1773215686c75e814",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c2_004.png",
+    "image_sha256": "9dfa7911807967614e4ea2f447ddae294d9e7829ebe378e3f403ce10aa55552b",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c2_004.txt",
+    "label_sha256": "22989c63b1f980ca8c488427d4a37ef02905fb9fdfa21722698500f6c92ea7a9",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c2_005.png",
+    "image_sha256": "cb80e1a92ee573053b4e93ce65f9c276689decfa8d5c2ca9885ae464e56999a9",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c2_005.txt",
+    "label_sha256": "7edbf4372f2264d4d1ac6f5093b8cb6cf40e18a1e29b1c50fecfad4e43a1f80c",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c2_006.png",
+    "image_sha256": "6917b9411a31b085dbd222e0740e9492634be4b68bd0ea2451dffef0fe7fab99",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c2_006.txt",
+    "label_sha256": "90443f248e9f53e72a13684fb1ce299bf43108373ef9e7406817cd69eb697976",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c2_007.png",
+    "image_sha256": "d954914703df6a344bdef229cdff0d63fab04bb956b164ea6c0ff87b45edd26d",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c2_007.txt",
+    "label_sha256": "cf165b07c226be0243c61ba7a84a2be38da789367ab1381dd935f2fc3411344d",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c2_008.png",
+    "image_sha256": "a5c5992e9a90d44143716c22e519b4bdee5ab12dd90fbc438e122f053ffa1e68",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c2_008.txt",
+    "label_sha256": "eb17d98ce76514119465a6d0475c48c92532e7bd309be7c9bd58684ec08f1962",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c2_009.png",
+    "image_sha256": "7945fa444db6cbf05be67edcef1201a7a40eac3506798495a29251ecefff085a",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c2_009.txt",
+    "label_sha256": "424e4679ccbf8813c38199140d9efb12b754d0a44ece245c1848e1a53c5967d9",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c2_010.png",
+    "image_sha256": "ea833c2192269c6af349423f8fab3e6228fad1d20d3b6fd4b469c6e54a4d9b66",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c2_010.txt",
+    "label_sha256": "f0b92f2877a3527aac1055895b099e90de30eeffa3d695929b455fc0663331ff",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c3_001.png",
+    "image_sha256": "08a22704a27b7eddc716438eb2cc426a7fe357e7ac121e67397a63cd46943f50",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c3_001.txt",
+    "label_sha256": "99fe183f8634ea65a4dbb01756d223859b5b7ee378364d990b54da5e2114885e",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c3_002.png",
+    "image_sha256": "6de8ea1e40b0d72e0c5306359fe2fcafcc1246db54f8d392a56771b3445f681a",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c3_002.txt",
+    "label_sha256": "742f77f94f8ed60f4b812275b823835f3946746cb2eb3d0a1c8cc36d915597b3",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c3_003.png",
+    "image_sha256": "adbeaa48dc8613a2a3ca19f94e24ef750b44595c0bcf83fc8dc8e6932f801f7a",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c3_003.txt",
+    "label_sha256": "9f68fa41ba75dea22e5d6d02e11afb19dec6612c1cd0bd8354cb9b7dde4cd2b5",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c3_004.png",
+    "image_sha256": "b886a1ec3eb9fa82dd2adaf420cfa55b03faff23a3af12da0863e0759774ee8f",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c3_004.txt",
+    "label_sha256": "98a811c7782e09695faf43dbc125da66c8415fa1218b3cd4de33a02473fb2ecc",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c3_005.png",
+    "image_sha256": "63345b0e3011494199e918ac052dab59221f5b07aee3dfdcba394775a53a4f6f",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c3_005.txt",
+    "label_sha256": "967df7c1ba18c523d55c564730c9dfc1e15b1d210c8f8c0de68745131bc8b590",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c3_006.png",
+    "image_sha256": "8b5cdad5cd5a8c0dfc6623c132194c7a3b6e676f9b02ad03a7235b4531ff513a",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c3_006.txt",
+    "label_sha256": "fa9a19ba0e0f5912490bfd06402d92dc5b8439de9883fb4265bec61ab1a2b606",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c3_007.png",
+    "image_sha256": "c0440274f8cc049641af068ee8f381b77b8a12e76628a0451cb6503be7d94541",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c3_007.txt",
+    "label_sha256": "5d673fd9cbd07c5bf8a84414d57daad51dae33596333682ac88f4978828c672e",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c3_008.png",
+    "image_sha256": "8d9d07a8d59e6d6fb0d95f25b79c2f45934afa1cdfdc2846dfda1cf242e9c6e1",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c3_008.txt",
+    "label_sha256": "5927401c51ff00147f9f559f7b436eeb3fdbd669df62e6f00be250c7ea4efcb8",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c3_009.png",
+    "image_sha256": "fa8ffb23ae800bb2ca59408088bbfee67fd16613e27ac62bc8391198b4eb3db8",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c3_009.txt",
+    "label_sha256": "a90517267d32ec3febc1ef5662810f9f8d7ae6f1569fd0547d825f62cf734a2b",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c3_010.png",
+    "image_sha256": "063017ed41c914e87a5abd8a95fb2c4a6afadddf5300d5b8c4db628234dfbe55",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c3_010.txt",
+    "label_sha256": "b0c715e5bf85cf72316e3fbe7d3cf45d2ae1632b4626beace9631ea6d2b3d783",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c4_001.png",
+    "image_sha256": "3bab473fcea720f2a671949c10ef5c2411cdf247cfabfa1cc4d6f179a16c48fb",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c4_001.txt",
+    "label_sha256": "df797de089942382d68a04bc14446bc364a26696ab4c0e51b7b597eae9ac90dd",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c4_002.png",
+    "image_sha256": "a20d3a4e759862f01bb766d3ac4ef08613edd5e40624005e46fb727bcc5d47ba",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c4_002.txt",
+    "label_sha256": "34d7870f064a940a7a9d151bfedc8facd36c82efd4ac9ba99980056e852e421c",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c4_003.png",
+    "image_sha256": "86f866fed43f60a02d886f6f960c9f3e06fe2579544b6ff4a2d772cf3da8c13c",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c4_003.txt",
+    "label_sha256": "c15867b19c941be55ca0e60c9362b42d5bef36a215f5787b2d79d27869145748",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c4_004.png",
+    "image_sha256": "928c5f397e3fd9365b0b6f1f888b4ade21bbc6713c01851d9a34c9269d9bddc5",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c4_004.txt",
+    "label_sha256": "368b071193157ec1d68baed8b33a9e35079b955967704b2062c75e7789354873",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c4_005.png",
+    "image_sha256": "686b8d4c609bd0bf5293cd8c94106e2ad0ce165d43dda93ecc691d105953d362",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c4_005.txt",
+    "label_sha256": "9d2925dc7c3faad33f36ac7d78587fc60d7c1973b031fd7c24824db6e1ad8e34",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c4_006.png",
+    "image_sha256": "7b104944fcdab5dac0f192df221859a4f11e771925ab8243b7b718267d04855d",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c4_006.txt",
+    "label_sha256": "e0a21dc3e4f2c596cb79b042c83dab22563d703974f61372cb96e88738c3b808",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c4_007.png",
+    "image_sha256": "2881bcd4db6ac68ee21b9e6513631c16b1ad668d40184f57597762d26dd01414",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c4_007.txt",
+    "label_sha256": "06a91f4f2bcb2e77b15abab1e09a4aec66b5dae497cf37e7d71123549496805a",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c4_008.png",
+    "image_sha256": "ef2a0d6e5eb4d1d29e118fd7038ad9a04257a387ff2f5b61668c8b2177ce8224",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c4_008.txt",
+    "label_sha256": "8deecc8d739ab78b56e16958a9ed16bf280071d7c2c15ec4ca3668f557242c1e",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c4_009.png",
+    "image_sha256": "9dd4cc3fc32e65668b1e30f8dd568a50a82f12f1b36363a13325466c228698b2",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c4_009.txt",
+    "label_sha256": "1cd24bbc8876ba03298bad1abca839e104275cc36fafa98c9773ad02828e8f5d",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c4_010.png",
+    "image_sha256": "a4d0c6743ea887e5be711e8846d019f4b5fe850317b27ad80da5f60d53c66bd5",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c4_010.txt",
+    "label_sha256": "17d874e401ca2261d302eed36316482f3ea66d47b4c33996e427a864b1559943",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c5_001.png",
+    "image_sha256": "aec84728821e8155d2fc115986880ebb699f7c5940ae5bfc3fb0fbd7c944130c",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c5_001.txt",
+    "label_sha256": "700a3233a668ee0392002f76984ebc232aff72ce5d0dfcccd36c692a6e8c20ba",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c5_002.png",
+    "image_sha256": "048edcd601f5f99172cc1808912d3088e37dae2be631f8ef8413383c5f2ca426",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c5_002.txt",
+    "label_sha256": "19e77ff48e3a188b0bf46ab5305f595f870de463a622a7eeaa75095ff62ec292",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c5_003.png",
+    "image_sha256": "bc41e765de47b538ad35581d6758ffb5d4a07f2b38c7764b9c0e00041b53d100",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c5_003.txt",
+    "label_sha256": "9b0684bd8fe71885bb66d39116f23237f9989fd3e7694d651ad1d5380fc58667",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c5_004.png",
+    "image_sha256": "ccc5564c1e8f7431fae41fd1fdfcdf8f4759766b837152aeb4bd2f6e641c3f41",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c5_004.txt",
+    "label_sha256": "12543017d39c981dd2d1094277fc287950186a63d7cd09ac48ec45ef8b50b189",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c5_005.png",
+    "image_sha256": "408ffc6855442fab01f280c348ae20ff83c28abe495d4eb280952a1ea78531a5",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c5_005.txt",
+    "label_sha256": "b25f0bfd74fcec25504c7e3480e8fe8bad0550c0bcd89c6180e824e172a07bfb",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c5_006.png",
+    "image_sha256": "29f09ad47e39c409b53d3482074ea96fc71e88652cac6bdcb135a66e34860200",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c5_006.txt",
+    "label_sha256": "9b90062de654aaab041d951fee914b1aab8b1a4eaaf0e596ba8196c0889a891b",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c5_007.png",
+    "image_sha256": "3454de6a0d28c4aeb758753c9929bb71b7101f97dcde8a97ece931b71e20b843",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c5_007.txt",
+    "label_sha256": "60d74c944023e0e7b3f55514c2d81c8292149dfbf6d7c56bdd11b917575ac762",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c5_008.png",
+    "image_sha256": "4c56f71a6a56f29f1cbf45b4bd4c31bddc76c0f85a6138e380ef03fc11f31861",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c5_008.txt",
+    "label_sha256": "5cbccdf8e4c03a9bec53defbc8e9a50a97e69690259213cd81b086933f74e0f2",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c5_009.png",
+    "image_sha256": "0a3212b631452189c74acceb4060274413de517b59e362a1ea76951df8d3aa67",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c5_009.txt",
+    "label_sha256": "14f1e284369931c0d9ed463c651ed3629bede2f9afa937acea94418cce5edc0d",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c5_010.png",
+    "image_sha256": "1b0772eeb33f921edab0e3821ac355a6ee6e1558a10337575700c05cba4b3e1f",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c5_010.txt",
+    "label_sha256": "81e294bb29fbd97b1d9727739bbc33275aceeaf43891da58f22eb44a4a77b045",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c6_001.png",
+    "image_sha256": "3fb188721dacb5af3f4e4f9e653129341e1b4e29439b50fe15b68730708a3804",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c6_001.txt",
+    "label_sha256": "208c16ecc946664d95fc066020db0242bb155cea01b10ac9a1e62ddd69b75c07",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c6_002.png",
+    "image_sha256": "2470218f9182b38d9ad7e969b8c624b25fa15974637171a366776563380a7591",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c6_002.txt",
+    "label_sha256": "ef090c9ef656b4b1bb749cba923f3227bd29e9c1411e02a58198dc20acc73e65",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c6_003.png",
+    "image_sha256": "2f47ac458bf28194e1cd92a1d02622d68934541d050d0ce05e255fd466205288",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c6_003.txt",
+    "label_sha256": "f5711bcd0e72c76226f6cba3ddac8fef5c0145c1e447c8fade18739293d30a2c",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c6_004.png",
+    "image_sha256": "b5d7290f79da43557813b06042f011986e57eb283a338d31a2c4d8e7b2f9b5b5",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c6_004.txt",
+    "label_sha256": "aa5eb0d63a7087dce61899e03636b132c7a4a5d7f19063d4a9ae1ab5f22a3ac3",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c6_005.png",
+    "image_sha256": "3221094bd1a618b8a71497f779be7c99a3d4df0da3f0f9c8c1b0927425bfc417",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c6_005.txt",
+    "label_sha256": "8e7bbcff7eb69ab735e9ec1c42b92e6b568fa2332ea2b722645c8d114cf1c85a",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c6_006.png",
+    "image_sha256": "3e67c49fc62ef84ac2cd5cc74494d27d7504691dbcf64114d94c0d5e5960e6ef",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c6_006.txt",
+    "label_sha256": "05d2c15f5ff101b54c1cff89d4a22dec2f59595d29db132ba00f1d99217359f4",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c6_007.png",
+    "image_sha256": "4d1b7a82b0c23c10310fb0802c28ac9a54187093be38580978b959a5d9557c49",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c6_007.txt",
+    "label_sha256": "c9a0662a059701eb31b913868b07b2de14bbf6d2301e1e0b6636c94e0d467b04",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c6_008.png",
+    "image_sha256": "fc5509ee36ae41631474d45875c39ab147d87a68fa6e48b5fcffe20b1b46657b",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c6_008.txt",
+    "label_sha256": "998d310f23527215c69843cffa7dec86f4d04d176d9816f41a0438c6bb7eebfb",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c6_009.png",
+    "image_sha256": "5bd1c581bf677d7a1d7b3a9114a300c3114325c0e042db0b6f422451222d8d1e",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c6_009.txt",
+    "label_sha256": "275bb28ad1b8bbccd8014a9770061f4501c1545c107c5e0fd882a1c190d719f4",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c6_010.png",
+    "image_sha256": "5cf956bf442f98f064a99f8b3765b7a1f52bdb3b1f27afeed9785013a069093d",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c6_010.txt",
+    "label_sha256": "9cbf1be60e135da762f37ef5585fc7b8845dbab668d6edd3188c6e6b357ecf58",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c7_001.png",
+    "image_sha256": "f5f9428f85d20f9fdf1f3524d6388632d78760ce6164833ed0539ce96a56e40f",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c7_001.txt",
+    "label_sha256": "787034b870a66ad46482309339f38c3473d7431cfcc4dec728139fb683089668",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c7_002.png",
+    "image_sha256": "ba266544a9baca5df515fa484b8486cd21e3571d9eec05037a5b6d251ea8cc63",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c7_002.txt",
+    "label_sha256": "575ee3be1a7c0d22d32a1bdd64898b708cd74f854e4be04894e31cdfa2654a9c",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c7_003.png",
+    "image_sha256": "965999e403ebbe3d62efb502b82dc1bbaded38dec9e842e6769ebb816f3fc8a8",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c7_003.txt",
+    "label_sha256": "18f6125eb831ba31d2da60597c319353ed95d1c4b651932d61f577e8a3d79512",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c7_004.png",
+    "image_sha256": "b72d38efade1c08d21b007b31dfc2055a6025c87f7d55d8c3ed19f8450029d67",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c7_004.txt",
+    "label_sha256": "90dc41947e8fd7462f7aa1d6f182be22f16b5d952fe5c693a810cff53c11b373",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c7_005.png",
+    "image_sha256": "45e2a7cb15746435faf5d9d762c5cf11c7579b6199c46e29fe30b035df562628",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c7_005.txt",
+    "label_sha256": "41cd07aa59c455f6bbff01f8c2744bef93fe1016f4c3859325431bf648bd76ff",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c7_006.png",
+    "image_sha256": "55c338e8517a7785316bbdf0186f31a9c25a693e6903e70be7702b2b4b5f4f42",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c7_006.txt",
+    "label_sha256": "6fe0f81623f6668531bfc381e9590ca31c7abe1e93e53447d87c039ec89e1630",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c7_007.png",
+    "image_sha256": "e190ed42faf79d61a7c444f5b15dd4a893bdd119faa4231fd9435cf36d58f997",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c7_007.txt",
+    "label_sha256": "213eb97ba49324c7a5d364ea9ca30b7d216a89cd3fc705b7e39c75656094a514",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c7_008.png",
+    "image_sha256": "840e13fa0495e48780f0fa82642627f4e4a3fc4ab71561814be64465bde848c2",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c7_008.txt",
+    "label_sha256": "20f2ed419196d3c4e867dc4cdccd90e633ffc216aa52190832925184421ee512",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c7_009.png",
+    "image_sha256": "2beb080e3f96cd44d1345ed3bcf8263b798dbcf325dcaf0191b03de760b57b53",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c7_009.txt",
+    "label_sha256": "282cef4106aee7891cab571622623c0cfd23e3eb071cfff2e27102b2e0b7376a",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/test90_c7_010.png",
+    "image_sha256": "9676df3016ddf95c40d9906ef9cb26d47adfb9f23c2cc34cdb2ce7922b037c16",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/test90_c7_010.txt",
+    "label_sha256": "7f03b946135ba4942d74eec964a0ef83bc402c8ec1b51d45fd9860bc2c98d708",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      7,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_001.png",
+    "image_sha256": "12c46645059d9d93f3466657bb80ab03bd8f3d09daa27c3a72ceb210c614d415",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_001.txt",
+    "label_sha256": "9d4cede55d31536d49fdfaa423c42a1c463aefbba9d34eb4d92374e8dfde63ee",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      1
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_002.png",
+    "image_sha256": "d86f0da0ca3797d4a7012e2d3c1ff65deff17232a219af0fe1c4e2089b9b555a",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_002.txt",
+    "label_sha256": "dc92de6b583a32b559754ebb4aa64d1a4971474dfbc789fe18831b6cb8e5f398",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      2,
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_003.png",
+    "image_sha256": "d66379e79df1f8210405a611b31148e0695af63cbe79f6c28c9c003676238a9e",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_003.txt",
+    "label_sha256": "b22ef20cdc9df764d38ba5265e26f953465a344a9483996025f77513eec74e39",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      3,
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_004.png",
+    "image_sha256": "4f8d4deab4f24e71c0dc35a5b9ab84c02a912f117261f56e729860dc94215892",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_004.txt",
+    "label_sha256": "50fca9fe8a3cc5f68d114155b55a5391060cae7237273a4296406f99592f3746",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      5,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_005.png",
+    "image_sha256": "eae29b9f35856d793f142a7d80b885cfd4fb7ad6c237b8dee479bde4680f20c5",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_005.txt",
+    "label_sha256": "e782aba50bd07dffe8b04588e6798f47330836c0d74154b92eca1f7456a48c8a",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      2
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_006.png",
+    "image_sha256": "8cc88124d72373536b50ccd439b0d6a2b25a2e4ea9c8b8ade9dddc9cae8afac9",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_006.txt",
+    "label_sha256": "1c629891c78015fa5b592ee0a45b817302112e9d2340a2173b0480edb4f54d25",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_007.png",
+    "image_sha256": "c40c3a7576de80ca388e957b69dde81bf4cb5315edf8d6a648221c21f651fd81",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_007.txt",
+    "label_sha256": "58e776a49b8f6de4aa3765382c5c523cb25a7604f283024af9d9a7018e404b08",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      5,
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_008.png",
+    "image_sha256": "5d5811849416cb1a351c0bc90960c1957cf12286a8aa97d7c828d5c0aafe6e18",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_008.txt",
+    "label_sha256": "407e37e305190ae1d09c7bf5ea82c8a27ac8695aa80616af37ac58db5aca8d18",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_009.png",
+    "image_sha256": "de67e5e0e828927bada25e9a72b656f02b2bd9a103ae11653fcc3f2bcbbc804f",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_009.txt",
+    "label_sha256": "3e0c1dbfb0cc880710ce9e304c2ca8d92683c54aa80f2a996b3b1784fe33159a",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2,
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_010.png",
+    "image_sha256": "9f89ba8fc0b1fabdbdf6d4f3a54dfd2bc36830556a9eb00564dd3005a52123b8",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_010.txt",
+    "label_sha256": "3ddbb533b7ba96ef891ce764146975802373c2f40d9663793f9dfa0f3a4671a0",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_011.png",
+    "image_sha256": "92d79bfa0fa5b10fb7eee3dbe31748217239977bfdf2622afbf1311ae55a6651",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_011.txt",
+    "label_sha256": "79bd9924dab3f139bce54003794b9534de596c0de45b485c689fd0688e3a5d53",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2,
+      6,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_012.png",
+    "image_sha256": "f5893ffcf580affe7d3df640937417f0a4ac5590bc306835fd8bbda6f74c9337",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_012.txt",
+    "label_sha256": "8d20879cde5157fce7d6fe9a31533ebde4fef686b2bce79a074ef3ecf99d8a43",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3,
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_013.png",
+    "image_sha256": "da1015e1b91f32a440a891e65198792a2d293e88513fb6f709aa7c926567c810",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_013.txt",
+    "label_sha256": "9ce60e33a62f0bf5c1c69a8ef91e26be43de707b3151cb06b716b3bc46587155",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3,
+      5,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_014.png",
+    "image_sha256": "cc6b8fc48a058482729146cff88ee8c6216d45620e6dd6136457ca79fb57b92a",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_014.txt",
+    "label_sha256": "53e437da9070e3fd139ee369f8688cbcccfff7e80835511af1d5f626039afc11",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3,
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_015.png",
+    "image_sha256": "6be8fe73761655cb8547a4f6f2b6108375bfb7fd67c3cadebab0c0a2126bba38",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_015.txt",
+    "label_sha256": "02404a924962c0a7ae6a5cfad9ac02fc556be5bed1501c0c5498ce91552074f4",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_016.png",
+    "image_sha256": "feb2f4faf988fa6b606b8216751f273ee18fed790b83a6eb875a1ebbdae6891a",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_016.txt",
+    "label_sha256": "b8c73f5f0e34094f9a372596438132be368d92078d5bf2ca030132f0a8e23d7a",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_017.png",
+    "image_sha256": "48e844a9434e9c8abf6f85b2b246dc869e2274316e5dcb749a1e9370c4b3ae14",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_017.txt",
+    "label_sha256": "cec16e377fd724150b037c67d14886eaec5844bdebccc0b304bdce18076eee30",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_018.png",
+    "image_sha256": "f0f56974521a9cddaab83aaf81bb2e341381fdeb32306cf5e578cdf7a5c95148",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_018.txt",
+    "label_sha256": "8b820532abbebee1f986a011c11551aba439acf7e8b0bf49b403fece9b0b1eda",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_019.png",
+    "image_sha256": "ae661fdcd24d490274e260b9b2528c363e182de8d0c5e961198fc1a628acc93c",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_019.txt",
+    "label_sha256": "059b73d19912c604f04ec7a8314f513f4ea85c190c48fa31196c4d0fa8f0c45a",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_020.png",
+    "image_sha256": "a7e33ef6b92039a4feee7aaba9a7cc1b36e5e24d4f4dceb4b594964b61602aff",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_020.txt",
+    "label_sha256": "2ce2621c6355ea65cb2b34b9a289deedfa123eca1a5396db0e75852a1d50713f",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_021.png",
+    "image_sha256": "9960d2f9640a32d7d2ff96e4b4e1c936acbd7a4ba300cc4c212540d56be6bc97",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_021.txt",
+    "label_sha256": "ea4db165d4751c88109d84822ef07bb6601462141a3cf5f3a19e13a70e1b6e20",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2,
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_022.png",
+    "image_sha256": "49e07f3cc8de7b0bce929fab3959b5f60452ea1d3b81c71838755c5839407ef7",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_022.txt",
+    "label_sha256": "c9e5dd4df3bfe23ef19b268cf8d382f7ac70d803fe2519e93f295d539ec0b444",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      6,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_023.png",
+    "image_sha256": "71448180f543c0665e89bb1d4f1b38ee8f31a78eb323d1ca3f530aec7a38754f",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_023.txt",
+    "label_sha256": "b680062e4efda70d3e4bbe9de2de0e0527aa8b825e220a1d220a1de9a5f5f230",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      4,
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_024.png",
+    "image_sha256": "4a772978f41b6c9815251c9650e564fca47d4503c0ee3d67694c00bfc04e9300",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_024.txt",
+    "label_sha256": "dd1d372fd08f105a40279e54d633ed2e1763dc7230811b3f99c814e7952acc2d",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      5,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_025.png",
+    "image_sha256": "e78a0c4bbe497f3aa218c3c9b77538ad9464a231ec9e64fc6f4a0796d6106d87",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_025.txt",
+    "label_sha256": "c6862219efaaadae96c8cca2be8dfb1be4ca4158b2582affac16f7461f2997f2",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2,
+      3,
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_026.png",
+    "image_sha256": "4ac36c3744291a727b66bb502e906e5e6a054803b0feb0a9b6023d30211e36d9",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_026.txt",
+    "label_sha256": "b5ee662738dd5b3ba22e8298019907168c67b74f0ddfeabdb0cf39d46160efbd",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      1,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_027.png",
+    "image_sha256": "033596739d410fd7310f5e8674fce81f9f005f98f96e04ad736d1cb02e98c9cd",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_027.txt",
+    "label_sha256": "d39838bd8752e09ff7cbc14d9dfe260b47f6a015ffd1b5b5372323fcbe68625c",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2,
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_028.png",
+    "image_sha256": "deee8ce154f2a2de28268cba8bd79fd60508d2d402f7b84508c63da64b9db533",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_028.txt",
+    "label_sha256": "394af7b69cf1fa970e83de48c9e6c31bf41a053fecba8df6e9db0bd35e83025d",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3,
+      3,
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_029.png",
+    "image_sha256": "a238a069f8b499e270dfb729f1776bf1f0bc11eef456fcc56b5f5476935ed384",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_029.txt",
+    "label_sha256": "b13e7d2f85dcf4a65d6242e73aacd9af28a352c798bf22be145b98f8fbaaa73a",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_030.png",
+    "image_sha256": "013573ef8be1ed1e47f52de12b4d001202508d1cf7f5f5a3a1cf797d046f1441",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_030.txt",
+    "label_sha256": "cd47549f826c00ec060d227138a70dac2b2cdeeffc30487bde5cbfad5a8b3a9b",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_031.png",
+    "image_sha256": "c1034737b882e7f2e2742295b1226f4121ca2b1bfdafb168f0920c9964035fbb",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_031.txt",
+    "label_sha256": "a3135014e6033cd393b71890d7ea13616783d4f9d53ff6ea2dc7c6223837b314",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_032.png",
+    "image_sha256": "71e3165ba019ba7c5b57bead9225e2630efc26013c11183b67e8275eb5353ee4",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_032.txt",
+    "label_sha256": "7d1e2550631551f22e2ba597e68c572176ffef004744977311d992e9b9dd84f1",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_033.png",
+    "image_sha256": "23a1dd9a52f4cded6a00feb86dd65078691dad22f0e45bf0554aeec53f6ca8c8",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_033.txt",
+    "label_sha256": "f80943a8c89db216c14d3019a86b67792e412c105cbd4030e56b282991b3f931",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      2,
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_034.png",
+    "image_sha256": "2f6abfa56a0449f788c0607163f8f08b31e6824299c7b5c2213a6ce222038861",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_034.txt",
+    "label_sha256": "ba011a9ab4fec771859aa7569038ad93005c18e3b13827eac0da0541bb19ab10",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3,
+      4,
+      5,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_035.png",
+    "image_sha256": "48f6053740401b1e44fbe6e29587781f7f62bca0782348a59ca5ef7fb1c0d87c",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_035.txt",
+    "label_sha256": "d32e5e2d0bf50bb2f84dd25de793b9119b7b71809782a0ded646a942bc53d11c",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_036.png",
+    "image_sha256": "328aa5ea78f119ee628ff971f7abdaf6e56039da9ca1dd5db4f93443dec82f0e",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_036.txt",
+    "label_sha256": "21ed498cba662285f2bbbfef4aa529584d502669f372b6f50c80912d705ed685",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_037.png",
+    "image_sha256": "5111456dbde1951369f125eadcaf45a504f0554cf0c9f691607b8b732228dc55",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_037.txt",
+    "label_sha256": "cefa762da30424b37d953dbea2c5f369b007bc52fb14b72b9ad8975e113b7f56",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2,
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_038.png",
+    "image_sha256": "0833d148e7cb736f82561aa6de08e9cc9d1d2a37913f178a21b8cb0a78e7cdd5",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_038.txt",
+    "label_sha256": "b2b5517503ba15f592c32c7351beb9cc1805eb87c54e7e560610a283f73d19e8",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3,
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_039.png",
+    "image_sha256": "a5c356a82b807038a3d6c042d1a87146340259715f8f1f322961110a9fcb5c6c",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_039.txt",
+    "label_sha256": "0378a6d33c4442a2bd40a6d7a6d65d320fe6cbeca7080ded1c8269e29adee9fb",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      2,
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_040.png",
+    "image_sha256": "20cfc4da6a2da85481fab802eb5682ecc55bf750e106d4e97de81c1dc1b5060a",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_040.txt",
+    "label_sha256": "36322265322fa6b8484d82e0bd80b709bbc6c2c36bb28a922096981602934c01",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      3,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_041.png",
+    "image_sha256": "da3562982d7ad281cf8c98d7d52991eed5cbe3dfc6b63a18176b184a01eb032b",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_041.txt",
+    "label_sha256": "5fe213ab210c6d76af7b954a1edebda65d239b95c0dfb077dc4613c00d5d1889",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      4,
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_042.png",
+    "image_sha256": "e5e4df3715b242b4268a004d3bd18d5b2cd4ac4a7c57e58c75c7a6405cdb6f9e",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_042.txt",
+    "label_sha256": "0f7ead5efe17af561af0c87248d89e8948378bb3e52fc5fc5a17a6d5154cf616",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_043.png",
+    "image_sha256": "c0ff4e99a60c4fe0bae4cff859a9734f48a483f6757dc8d734540003b67a3ad7",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_043.txt",
+    "label_sha256": "0d4f8bdaf1bc51dccf797264754e5a3dd14a0dc2008266771d17afa153af2be7",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      4,
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_044.png",
+    "image_sha256": "ddab3b170d046361c89abfbc45c98aa90570ab5a195e63efe335235492e9a436",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_044.txt",
+    "label_sha256": "219880f66e3f807f5d02caafc2d75bc6b1c4d7bde49bf1ef342155fea131b1fb",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      5,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_045.png",
+    "image_sha256": "eef609d1911804e5eb337f4c8fd1990019dc5f6552bb4be2470842b96a97daee",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_045.txt",
+    "label_sha256": "18e388f483c00fac5b3dce31b87387cd0256c2f87b71ff97a6aa4a7d75f5aee7",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_046.png",
+    "image_sha256": "fb72027a805c95172c1332400fe187d322a2c896cb65996295fb29678d51df3c",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_046.txt",
+    "label_sha256": "66cf7c6554cc7487ae7cef5fb9d6b0577515d5f3a598dfe90c6290e9fad97df6",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      1,
+      4
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_047.png",
+    "image_sha256": "76041089c8840e53abef277cb243cd1c5eabd82ae8f20dc1037c62f5ba6ef50c",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_047.txt",
+    "label_sha256": "f3acfdbce98e3adfe8d173e8deb5e3f465188a63f64be26c436fff8eb8ad1b2d",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2,
+      5,
+      6
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_048.png",
+    "image_sha256": "f68d3004d52b0b87a7116c0ad702ddd5b10c2c9603529a775340933c1123d4db",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_048.txt",
+    "label_sha256": "b36d389752e73ad92543d7998da014b445596264c449604ca8eb18c1206a033b",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      3,
+      6,
+      7
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_049.png",
+    "image_sha256": "aa16c27dd04b80d7fe9f0ab79aac271f78c61c3156e95630b18005b5d05c2a22",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_049.txt",
+    "label_sha256": "d448fb795c1a0a21c6c5513c9fa14f7b3c644e6aeff5c9c2d22653192fba7b37",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      0,
+      1,
+      5
+    ]
+  },
+  {
+    "split": "synthetic140",
+    "image": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/images/test/testmix_050.png",
+    "image_sha256": "128db714de5bae22157e4577ff8886ccfe93a27a64508a42ea30f91bbfaff6a4",
+    "label": "mower_obstrast_check/data/test_sets/synthetic_8cls_140_20261030/labels/test/testmix_050.txt",
+    "label_sha256": "69e3c2027044b68a4cc9951d2feb7bce13bde1aa01c26e140e8ed588fbf5a606",
+    "shape": [
+      480,
+      640
+    ],
+    "gt_classes": [
+      2,
+      4,
+      7
+    ]
+  }
+]

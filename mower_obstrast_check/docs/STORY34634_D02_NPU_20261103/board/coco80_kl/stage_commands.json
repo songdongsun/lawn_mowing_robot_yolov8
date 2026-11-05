@@ -1,0 +1,8 @@
+[
+  {
+    "command": "test ! -e /root/d02_detect_static_20261103/coco80_kl && mkdir /root/d02_detect_static_20261103/coco80_kl && cd /root/d02_detect_static_20261103/coco80_kl && ln -s ../inputs inputs && cp ../input_list.txt ../detectStatic .",
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "command": "cd /root/d02_detect_static_20261103/coco80_kl && test \"$(cat exit_code.txt)\" = 0",
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0
+  },
+  {
+    "mode": "stream_tar",
+    "verified_files": 283
+  }
+]

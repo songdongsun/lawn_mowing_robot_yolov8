@@ -1,0 +1,14 @@
+[
+  "/root/cpp_project/am970/model/tools/conda-acuity310/bin/python",
+  "/root/cpp_project/am970/model/tools/acuity-toolkit-whl-6.33.31/bin/pegasus.py",
+  "import",
+  "onnx",
+  "--model",
+  "d02.onnx",
+  "--inputs",
+  "images",
+  "--input-size-list",
+  "3,640,640",
+  "--outputs",
+  "output0"
+]

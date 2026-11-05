@@ -1,0 +1,114 @@
+{
+  "reason": "Decoded coordinates use pixel-scale ranges; preserve coordinate arithmetic and mixed coordinate/class output in FP16. Selected by D02 graph node names and recorded dependencies, not copied segmentation node IDs.",
+  "overrides": {
+    "@output0_1:out0": {
+      "name": "output0",
+      "op": "concat",
+      "parameters": {
+        "dim": 1
+      },
+      "inputs": [
+        "@model.22/Mul_2_output_0_2:out0",
+        "@model.22/Sigmoid_output_0_3:out0"
+      ],
+      "outputs": [
+        "out0"
+      ]
+    },
+    "@attach_output0/out0_0:out0": {
+      "name": "attach_output0/out0",
+      "op": "output",
+      "parameters": {},
+      "inputs": [
+        "@output0_1:out0"
+      ],
+      "outputs": [
+        "out0"
+      ]
+    },
+    "@model.22/Mul_2_output_0_2:out0": {
+      "name": "model.22/Mul_2_output_0",
+      "op": "multiply",
+      "parameters": {
+        "axis": 1,
+        "bias": false
+      },
+      "inputs": [
+        "@model.22/Concat_2_output_0_4:out0",
+        "@model.22/Constant_15_output_0_5:out0"
+      ],
+      "outputs": [
+        "out0"
+      ]
+    },
+    "@model.22/Concat_2_output_0_4:out0": {
+      "name": "model.22/Concat_2_output_0",
+      "op": "concat",
+      "parameters": {
+        "dim": 1
+      },
+      "inputs": [
+        "@model.22/Div_1_output_0_7:out0",
+        "@model.22/Sub_1_output_0_8:out0"
+      ],
+      "outputs": [
+        "out0"
+      ]
+    },
+    "@model.22/Div_1_output_0_7:out0": {
+      "name": "model.22/Div_1_output_0",
+      "op": "real_div",
+      "inputs": [
+        "@model.22/Add_2_output_0_12:out0",
+        "@model.22/Constant_14_output_0_13:out0"
+      ],
+      "outputs": [
+        "out0"
+      ]
+    },
+    "@model.22/Sub_1_output_0_8:out0": {
+      "name": "model.22/Sub_1_output_0",
+      "op": "subtract",
+      "inputs": [
+        "@model.22/Add_1_output_0_14:out0",
+        "@model.22/Sub_output_0_15:out0"
+      ],
+      "outputs": [
+        "out0"
+      ]
+    },
+    "@model.22/Add_2_output_0_12:out0": {
+      "name": "model.22/Add_2_output_0",
+      "op": "add",
+      "inputs": [
+        "@model.22/Sub_output_0_15:out0",
+        "@model.22/Add_1_output_0_14:out0"
+      ],
+      "outputs": [
+        "out0"
+      ]
+    },
+    "@model.22/Add_1_output_0_14:out0": {
+      "name": "model.22/Add_1_output_0",
+      "op": "add",
+      "inputs": [
+        "@model.22/Constant_13_output_0_21:out0",
+        "@model.22/Slice_1_output_0_22:out0"
+      ],
+      "outputs": [
+        "out0"
+      ]
+    },
+    "@model.22/Sub_output_0_15:out0": {
+      "name": "model.22/Sub_output_0",
+      "op": "subtract",
+      "inputs": [
+        "@model.22/Constant_12_output_0_23:out0",
+        "@model.22/Slice_output_0_24:out0"
+      ],
+      "outputs": [
+        "out0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "082",
+    "file": "test90_c7_003.png",
+    "gt_index": 0,
+    "backends": {
+      "ONNX": {
+        "candidate_index": 8189,
+        "iou": 0.935283634590465,
+        "rock_score": 0.8575376272201538,
+        "top_class": 7,
+        "top_score": 0.8575376272201538,
+        "candidates_iou_ge_05": 155
+      },
+      "uint8_hybrid": {
+        "candidate_index": 8188,
+        "iou": 0.9485079888325617,
+        "rock_score": 0.19873046875,
+        "top_class": 7,
+        "top_score": 0.19873046875,
+        "candidates_iou_ge_05": 149
+      },
+      "attention_tail_fp16": {
+        "candidate_index": 8189,
+        "iou": 0.9460551113702085,
+        "rock_score": 0.2413330078125,
+        "top_class": 7,
+        "top_score": 0.2413330078125,
+        "candidates_iou_ge_05": 148
+      },
+      "fp16": {
+        "candidate_index": 8189,
+        "iou": 0.9360399692457054,
+        "rock_score": 0.8583984375,
+        "top_class": 7,
+        "top_score": 0.8583984375,
+        "candidates_iou_ge_05": 155
+      },
+      "attention_tail_kl": {
+        "candidate_index": 8229,
+        "iou": 0.9359399389769437,
+        "rock_score": 0.84814453125,
+        "top_class": 7,
+        "top_score": 0.84814453125,
+        "candidates_iou_ge_05": 159
+      },
+      "p5_class_fp16": {
+        "candidate_index": 8230,
+        "iou": 0.9304480008296161,
+        "rock_score": 0.09356689453125,
+        "top_class": 7,
+        "top_score": 0.09356689453125,
+        "candidates_iou_ge_05": 148
+      }
+    }
+  },
+  {
+    "id": "084",
+    "file": "test90_c7_005.png",
+    "gt_index": 0,
+    "backends": {
+      "ONNX": {
+        "candidate_index": 8231,
+        "iou": 0.9357322063171627,
+        "rock_score": 0.5125681161880493,
+        "top_class": 7,
+        "top_score": 0.5125681161880493,
+        "candidates_iou_ge_05": 115
+      },
+      "uint8_hybrid": {
+        "candidate_index": 8211,
+        "iou": 0.9149793739098964,
+        "rock_score": 0.0382080078125,
+        "top_class": 3,
+        "top_score": 0.0916748046875,
+        "candidates_iou_ge_05": 114
+      },
+      "attention_tail_fp16": {
+        "candidate_index": 8250,
+        "iou": 0.9640332793698898,
+        "rock_score": 0.038665771484375,
+        "top_class": 3,
+        "top_score": 0.1600341796875,
+        "candidates_iou_ge_05": 114
+      },
+      "fp16": {
+        "candidate_index": 8231,
+        "iou": 0.9340062483201117,
+        "rock_score": 0.5146484375,
+        "top_class": 7,
+        "top_score": 0.5146484375,
+        "candidates_iou_ge_05": 115
+      },
+      "attention_tail_kl": {
+        "candidate_index": 8231,
+        "iou": 0.9327790666856844,
+        "rock_score": 0.0819091796875,
+        "top_class": 7,
+        "top_score": 0.0819091796875,
+        "candidates_iou_ge_05": 122
+      },
+      "p5_class_fp16": {
+        "candidate_index": 8231,
+        "iou": 0.9011249989717377,
+        "rock_score": 0.0137786865234375,
+        "top_class": 3,
+        "top_score": 0.048187255859375,
+        "candidates_iou_ge_05": 114
+      }
+    }
+  },
+  {
+    "id": "133",
+    "file": "testmix_044.png",
+    "gt_index": 1,
+    "backends": {
+      "ONNX": {
+        "candidate_index": 8156,
+        "iou": 0.9445532770288657,
+        "rock_score": 0.6580932140350342,
+        "top_class": 7,
+        "top_score": 0.6580932140350342,
+        "candidates_iou_ge_05": 96
+      },
+      "uint8_hybrid": {
+        "candidate_index": 8156,
+        "iou": 0.9230343605231852,
+        "rock_score": 0.1375732421875,
+        "top_class": 7,
+        "top_score": 0.1375732421875,
+        "candidates_iou_ge_05": 101
+      },
+      "attention_tail_fp16": {
+        "candidate_index": 8156,
+        "iou": 0.937951340645337,
+        "rock_score": 0.1566162109375,
+        "top_class": 7,
+        "top_score": 0.1566162109375,
+        "candidates_iou_ge_05": 100
+      },
+      "fp16": {
+        "candidate_index": 8156,
+        "iou": 0.944788871484887,
+        "rock_score": 0.66259765625,
+        "top_class": 7,
+        "top_score": 0.66259765625,
+        "candidates_iou_ge_05": 95
+      },
+      "attention_tail_kl": {
+        "candidate_index": 8176,
+        "iou": 0.948189749452451,
+        "rock_score": 0.6611328125,
+        "top_class": 7,
+        "top_score": 0.6611328125,
+        "candidates_iou_ge_05": 96
+      },
+      "p5_class_fp16": {
+        "candidate_index": 8156,
+        "iou": 0.937951340645337,
+        "rock_score": 0.054229736328125,
+        "top_class": 7,
+        "top_score": 0.054229736328125,
+        "candidates_iou_ge_05": 100
+      }
+    }
+  }
+]

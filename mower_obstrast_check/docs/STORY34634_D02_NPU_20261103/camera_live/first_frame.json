@@ -1,0 +1,12 @@
+{
+  "frame": 615,
+  "sequence": 1240,
+  "capture_timestamp_ms": 21966549.904,
+  "capture_clock_monotonic": true,
+  "frame_age_ms": 77.5524400026,
+  "fps": 14.7434784486,
+  "inference_ms": 45.81236,
+  "mean_inference_ms": 45.6784759675,
+  "processing_ms": 74.9134,
+  "boxes": []
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "command": "cd /root/d02_detect_static_20261103/attention_tail_kl && test \"$(cat exit_code.txt)\" = 0 && tar cf results.tar outputs board_run.log exit_code.txt && sha256sum results.tar",
+    "stdout": "4e399cfa6dc58ac2df10cf29fcf78d3fa1de5799a2c956bcce2a1c2fc7ca7a4f  results.tar\n",
+    "stderr": "",
+    "exit_code": 0
+  },
+  {
+    "command": "sha256sum /root/d02_detect_static_20261103/attention_tail_kl/results.tar",
+    "stdout": "4e399cfa6dc58ac2df10cf29fcf78d3fa1de5799a2c956bcce2a1c2fc7ca7a4f  /root/d02_detect_static_20261103/attention_tail_kl/results.tar\n",
+    "stderr": "",
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "qtypes": {
+    "i8": 267,
+    "i32": 64
+  },
+  "overrides": {},
+  "requested": "signed INT8 weights/activations; INT32 bias; no FP16 overrides"
+}

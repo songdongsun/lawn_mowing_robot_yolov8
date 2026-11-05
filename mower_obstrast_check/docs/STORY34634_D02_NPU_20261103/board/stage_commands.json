@@ -1,0 +1,20 @@
+[
+  {
+    "command": "test ! -e /root/d02_detect_static_20261103 && mkdir /root/d02_detect_static_20261103",
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0
+  },
+  {
+    "command": "sha256sum /root/d02_detect_static_20261103/payload.tar",
+    "stdout": "9ddf43e615fb391414e85e974d68a55c22933ab4cf5678b54b98af29a44abd56  /root/d02_detect_static_20261103/payload.tar\n",
+    "stderr": "",
+    "exit_code": 0
+  },
+  {
+    "command": "cd /root/d02_detect_static_20261103 && tar xf payload.tar && chmod +x detectStatic",
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0
+  }
+]

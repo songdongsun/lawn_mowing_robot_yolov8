@@ -1,0 +1,8 @@
+[
+  {
+    "command": "test ! -e /root/d02_detect_static_20261103/attention_tail_kl && mkdir /root/d02_detect_static_20261103/attention_tail_kl && cd /root/d02_detect_static_20261103/attention_tail_kl && ln -s ../inputs inputs && cp ../input_list.txt ../detectStatic .",
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "images": 140,
+  "matched_boxes": 226,
+  "unmatched_boxes": 0,
+  "max_coordinate_difference_px": 0.000732421875,
+  "max_score_difference": 7.152557373046875e-06,
+  "matching": "same class IoU>=0.5; conf=.25; class-wise NMS=.7"
+}

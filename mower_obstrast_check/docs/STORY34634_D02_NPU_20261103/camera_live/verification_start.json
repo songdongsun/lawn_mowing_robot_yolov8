@@ -1,0 +1,15 @@
+{
+  "runtime": {
+    "frame": 1572,
+    "sequence": 3173,
+    "capture_timestamp_ms": 22030981.896,
+    "capture_clock_monotonic": true,
+    "frame_age_ms": 86.2962399982,
+    "fps": 14.8081086716,
+    "inference_ms": 45.56972,
+    "mean_inference_ms": 45.679465827,
+    "processing_ms": 65.36604,
+    "boxes": []
+  },
+  "processes": "1115  1852 bash -c cd /root/d02_camera_20261103 && nohup sh -c 'LD_LIBRARY_PATH=/root/yolov8n_detect_npu_20260706/lib:$LD_LIBRARY_PATH ./detectStatic --camera /dev/video0 /dev/shm/d02_live > camera.log 2>&1; echo $? > camera_exit.txt' > launcher.log 2>&1 < /dev/null &\n1116  2172 sh -c LD_LIBRARY_PATH=/root/yolov8n_detect_npu_20260706/lib:$LD_LIBRARY_PATH ./detectStatic --camera /dev/video0 /dev/shm/d02_live > camera.log 2>&1; echo $? > camera_exit.txt\n1117 15164 ./detectStatic --camera /dev/video0 /dev/shm/d02_live\n1154 14464 python3 camera_preview.py /dev/shm/d02_live\n1182  2144 bash -c ps -eo pid,rss,args | grep -E 'detectStatic --camera|python3 camera_preview'; du -k /dev/shm/d02_live; tail -5 /root/d02_camera_20261103/camera.log; cat /root/d02_camera_20261103/camera_exit.txt 2>/dev/null\n1184   520 grep -E detectStatic --camera|python3 camera_preview\n28\t/dev/shm/d02_live\nLIVE frames=300 mean_npu_ms=45.6716\nLIVE frames=600 mean_npu_ms=45.678\nLIVE frames=900 mean_npu_ms=45.6835\nLIVE frames=1200 mean_npu_ms=45.678\nLIVE frames=1500 mean_npu_ms=45.6792\n"
+}

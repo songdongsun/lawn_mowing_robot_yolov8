@@ -1,0 +1,9 @@
+{
+  "images": 128,
+  "mismatches": [],
+  "checks": [
+    "source_sha256",
+    "label_sha256",
+    "prepared_sha256"
+  ]
+}

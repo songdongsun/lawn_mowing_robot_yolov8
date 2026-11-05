@@ -1,0 +1,6 @@
+{
+  "variants/uint8_hybrid/network_binary.nb": "34d2b7f51920e2397bc89fa5665964e53cda5bc1374f60ae9d7ff415d5cf370a",
+  "variants/fp16/network_binary.nb": "680fe750b5860b92d980bda7cb1e7c48324b84832d0020dbdd5e727051567643",
+  "source_ONNX": "c254d79f1e58cbd5d558e8dcc36b84428a3e4cf5265202ef7ecf13077f8af130",
+  "source_PT": "388902aeff6d18f3b8313fef38a5ad548a4099abc73ec7d256fe7b4798339d5f"
+}

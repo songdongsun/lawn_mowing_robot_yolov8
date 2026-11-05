@@ -1,0 +1,360 @@
+{
+  "thresholds": [
+    {
+      "conf": 0.1,
+      "cls": 0,
+      "name": "person",
+      "tp": 6470,
+      "fp": 4563,
+      "fn": 1365,
+      "precision": 0.5864225505302275,
+      "recall": 0.8257817485641353
+    },
+    {
+      "conf": 0.1,
+      "cls": 1,
+      "name": "cat",
+      "tp": 187,
+      "fp": 81,
+      "fn": 19,
+      "precision": 0.6977611940298507,
+      "recall": 0.9077669902912622
+    },
+    {
+      "conf": 0.1,
+      "cls": 2,
+      "name": "dog",
+      "tp": 180,
+      "fp": 108,
+      "fn": 38,
+      "precision": 0.625,
+      "recall": 0.8256880733944955
+    },
+    {
+      "conf": 0.1,
+      "cls": 3,
+      "name": "frisbee",
+      "tp": 88,
+      "fp": 37,
+      "fn": 23,
+      "precision": 0.704,
+      "recall": 0.7927927927927928
+    },
+    {
+      "conf": 0.1,
+      "cls": 4,
+      "name": "sports ball",
+      "tp": 115,
+      "fp": 111,
+      "fn": 73,
+      "precision": 0.5088495575221239,
+      "recall": 0.6117021276595744
+    },
+    {
+      "conf": 0.1,
+      "cls": 5,
+      "name": "teddy bear",
+      "tp": 122,
+      "fp": 103,
+      "fn": 36,
+      "precision": 0.5422222222222223,
+      "recall": 0.7721518987341772
+    },
+    {
+      "conf": 0.1,
+      "cls": 6,
+      "name": "garden hose",
+      "tp": 100,
+      "fp": 12,
+      "fn": 0,
+      "precision": 0.8928571428571429,
+      "recall": 1.0
+    },
+    {
+      "conf": 0.1,
+      "cls": 7,
+      "name": "rock",
+      "tp": 168,
+      "fp": 283,
+      "fn": 115,
+      "precision": 0.37250554323725055,
+      "recall": 0.5936395759717314
+    },
+    {
+      "conf": 0.25,
+      "cls": 0,
+      "name": "person",
+      "tp": 5883,
+      "fp": 1410,
+      "fn": 1952,
+      "precision": 0.8066639243109831,
+      "recall": 0.7508615188257818
+    },
+    {
+      "conf": 0.25,
+      "cls": 1,
+      "name": "cat",
+      "tp": 177,
+      "fp": 43,
+      "fn": 29,
+      "precision": 0.8045454545454546,
+      "recall": 0.8592233009708737
+    },
+    {
+      "conf": 0.25,
+      "cls": 2,
+      "name": "dog",
+      "tp": 169,
+      "fp": 46,
+      "fn": 49,
+      "precision": 0.786046511627907,
+      "recall": 0.7752293577981652
+    },
+    {
+      "conf": 0.25,
+      "cls": 3,
+      "name": "frisbee",
+      "tp": 84,
+      "fp": 16,
+      "fn": 27,
+      "precision": 0.84,
+      "recall": 0.7567567567567568
+    },
+    {
+      "conf": 0.25,
+      "cls": 4,
+      "name": "sports ball",
+      "tp": 101,
+      "fp": 37,
+      "fn": 87,
+      "precision": 0.7318840579710145,
+      "recall": 0.5372340425531915
+    },
+    {
+      "conf": 0.25,
+      "cls": 5,
+      "name": "teddy bear",
+      "tp": 108,
+      "fp": 44,
+      "fn": 50,
+      "precision": 0.7105263157894737,
+      "recall": 0.6835443037974683
+    },
+    {
+      "conf": 0.25,
+      "cls": 6,
+      "name": "garden hose",
+      "tp": 100,
+      "fp": 7,
+      "fn": 0,
+      "precision": 0.9345794392523364,
+      "recall": 1.0
+    },
+    {
+      "conf": 0.25,
+      "cls": 7,
+      "name": "rock",
+      "tp": 142,
+      "fp": 114,
+      "fn": 141,
+      "precision": 0.5546875,
+      "recall": 0.5017667844522968
+    },
+    {
+      "conf": 0.5,
+      "cls": 0,
+      "name": "person",
+      "tp": 5032,
+      "fp": 375,
+      "fn": 2803,
+      "precision": 0.9306454595894211,
+      "recall": 0.6422463305679642
+    },
+    {
+      "conf": 0.5,
+      "cls": 1,
+      "name": "cat",
+      "tp": 167,
+      "fp": 23,
+      "fn": 39,
+      "precision": 0.8789473684210526,
+      "recall": 0.8106796116504854
+    },
+    {
+      "conf": 0.5,
+      "cls": 2,
+      "name": "dog",
+      "tp": 153,
+      "fp": 23,
+      "fn": 65,
+      "precision": 0.8693181818181818,
+      "recall": 0.7018348623853211
+    },
+    {
+      "conf": 0.5,
+      "cls": 3,
+      "name": "frisbee",
+      "tp": 76,
+      "fp": 8,
+      "fn": 35,
+      "precision": 0.9047619047619048,
+      "recall": 0.6846846846846847
+    },
+    {
+      "conf": 0.5,
+      "cls": 4,
+      "name": "sports ball",
+      "tp": 87,
+      "fp": 15,
+      "fn": 101,
+      "precision": 0.8529411764705882,
+      "recall": 0.4627659574468085
+    },
+    {
+      "conf": 0.5,
+      "cls": 5,
+      "name": "teddy bear",
+      "tp": 97,
+      "fp": 15,
+      "fn": 61,
+      "precision": 0.8660714285714286,
+      "recall": 0.6139240506329114
+    },
+    {
+      "conf": 0.5,
+      "cls": 6,
+      "name": "garden hose",
+      "tp": 100,
+      "fp": 5,
+      "fn": 0,
+      "precision": 0.9523809523809523,
+      "recall": 1.0
+    },
+    {
+      "conf": 0.5,
+      "cls": 7,
+      "name": "rock",
+      "tp": 112,
+      "fp": 20,
+      "fn": 171,
+      "precision": 0.8484848484848485,
+      "recall": 0.3957597173144876
+    }
+  ],
+  "size_counts": [
+    [
+      [
+        1893,
+        769
+      ],
+      [
+        2407,
+        1854
+      ],
+      [
+        3535,
+        3260
+      ]
+    ],
+    [
+      [
+        2,
+        0
+      ],
+      [
+        15,
+        7
+      ],
+      [
+        189,
+        170
+      ]
+    ],
+    [
+      [
+        7,
+        2
+      ],
+      [
+        40,
+        27
+      ],
+      [
+        171,
+        140
+      ]
+    ],
+    [
+      [
+        42,
+        27
+      ],
+      [
+        53,
+        44
+      ],
+      [
+        16,
+        13
+      ]
+    ],
+    [
+      [
+        148,
+        75
+      ],
+      [
+        33,
+        23
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    [
+      [
+        8,
+        0
+      ],
+      [
+        31,
+        8
+      ],
+      [
+        119,
+        100
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        100,
+        100
+      ]
+    ],
+    [
+      [
+        135,
+        26
+      ],
+      [
+        74,
+        47
+      ],
+      [
+        74,
+        69
+      ]
+    ]
+  ],
+  "size_definition": "GT box area after isotropic scaling max(h,w) to 640; small<32^2, medium<96^2, large>=96^2. Diagnostic bins, not COCO APs/APm/APl.",
+  "matching": "Class-aware IoU>=0.5, greedy IoU one-to-one; cached post-NMS predictions; confidence filtering after same NMS IoU=0.7."
+}

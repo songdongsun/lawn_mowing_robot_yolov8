@@ -1,0 +1,20 @@
+[
+  "/root/cpp_project/am970/model/tools/conda-acuity310/bin/python",
+  "/root/cpp_project/am970/model/tools/acuity-toolkit-whl-6.33.31/bin/pegasus.py",
+  "quantize",
+  "--model",
+  "d02.json",
+  "--model-data",
+  "d02.data",
+  "--with-input-meta",
+  "d02_inputmeta.yml",
+  "--quantizer",
+  "asymmetric_affine",
+  "--qtype",
+  "uint8",
+  "--iterations",
+  "128",
+  "--model-quantize",
+  "d02.quantize",
+  "--hybrid"
+]

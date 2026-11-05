@@ -1,0 +1,14 @@
+[
+  {
+    "command": "sha256sum /root/d02_detect_static_20261103/head_tail_fp16/network_binary.nb",
+    "stdout": "c2f013f79b987a96233e29cf40eeefefa5ceb0d88d82671e756c310e2de8761d  /root/d02_detect_static_20261103/head_tail_fp16/network_binary.nb\n",
+    "stderr": "",
+    "exit_code": 0
+  },
+  {
+    "command": "cd /root/d02_detect_static_20261103/head_tail_fp16 && mkdir outputs && (nohup sh -c 'LD_LIBRARY_PATH=/root/yolov8n_detect_npu_20260706/lib:$LD_LIBRARY_PATH ./detectStatic > board_run.log 2>&1; echo $? > exit_code.txt' > launcher.log 2>&1 < /dev/null & )",
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0
+  }
+]

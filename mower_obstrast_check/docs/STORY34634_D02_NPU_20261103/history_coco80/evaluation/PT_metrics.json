@@ -1,0 +1,371 @@
+{
+  "images": 140,
+  "scope": "six shared labelled classes only; not COCO80 benchmark; hose/rock excluded",
+  "nms_backend": "torchvision 0.17.2+cu121",
+  "overall": {
+    "metrics/precision(B)": 0.8472223171039741,
+    "metrics/recall(B)": 0.8778001540822067,
+    "metrics/mAP50(B)": 0.9378869060995738,
+    "metrics/mAP50-95(B)": 0.8881837793527839,
+    "fitness": 0.8881837793527839
+  },
+  "classes": [
+    {
+      "Class": "person",
+      "Images": 35,
+      "Instances": 47,
+      "Box-P": 0.92765144,
+      "Box-R": 0.9787234,
+      "Box-F1": 0.95250331,
+      "mAP50": 0.98376655,
+      "mAP50-95": 0.95284627
+    },
+    {
+      "Class": "cat",
+      "Images": 26,
+      "Instances": 26,
+      "Box-P": 0.85907595,
+      "Box-R": 0.93816988,
+      "Box-F1": 0.89688252,
+      "mAP50": 0.94743535,
+      "mAP50-95": 0.85367932
+    },
+    {
+      "Class": "dog",
+      "Images": 26,
+      "Instances": 26,
+      "Box-P": 0.82488893,
+      "Box-R": 0.96153846,
+      "Box-F1": 0.88798732,
+      "mAP50": 0.96757762,
+      "mAP50-95": 0.94412029
+    },
+    {
+      "Class": "frisbee",
+      "Images": 26,
+      "Instances": 27,
+      "Box-P": 0.65042308,
+      "Box-R": 0.88888889,
+      "Box-F1": 0.75118476,
+      "mAP50": 0.91585729,
+      "mAP50-95": 0.89169191
+    },
+    {
+      "Class": "sports ball",
+      "Images": 26,
+      "Instances": 26,
+      "Box-P": 0.92849718,
+      "Box-R": 0.49948029,
+      "Box-F1": 0.64954251,
+      "mAP50": 0.82324018,
+      "mAP50-95": 0.76788803
+    },
+    {
+      "Class": "teddy bear",
+      "Images": 26,
+      "Instances": 26,
+      "Box-P": 0.89279732,
+      "Box-R": 1.0,
+      "Box-F1": 0.94336283,
+      "mAP50": 0.98944444,
+      "mAP50-95": 0.91887686
+    }
+  ],
+  "totals_columns": [
+    "TP",
+    "FP",
+    "FN"
+  ],
+  "totals_conf025": [
+    [
+      47,
+      7,
+      0
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      24,
+      4,
+      2
+    ],
+    [
+      24,
+      6,
+      2
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      26,
+      17,
+      1
+    ],
+    null,
+    null,
+    [
+      13,
+      0,
+      13
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      26,
+      5,
+      0
+    ],
+    null,
+    null
+  ],
+  "size_bins": "area after scaling longest side to 640: small<32^2; medium<96^2; large>=96^2",
+  "size_counts_gt_hit": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        42,
+        42
+      ]
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        26,
+        24
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        26,
+        24
+      ]
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      [
+        0,
+        0
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        23,
+        22
+      ]
+    ],
+    null,
+    null,
+    [
+      [
+        0,
+        0
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        19,
+        8
+      ]
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        24,
+        24
+      ]
+    ],
+    null,
+    null
+  ],
+  "ap_config": {
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "multi_label": true
+  },
+  "deployment_config": {
+    "conf": 0.25,
+    "iou": 0.7,
+    "max_det": 300,
+    "multi_label": false
+  },
+  "unassessed_detection_counts": {
+    "boat": 1,
+    "fire hydrant": 1,
+    "bird": 6,
+    "sheep": 6,
+    "cow": 1,
+    "tie": 1,
+    "kite": 1,
+    "baseball bat": 2,
+    "skateboard": 1,
+    "tennis racket": 6,
+    "bowl": 1
+  }
+}

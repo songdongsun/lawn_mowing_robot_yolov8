@@ -1,0 +1,7 @@
+{
+  "images": 140,
+  "matched_boxes": 225,
+  "unmatched_boxes": 1,
+  "max_coordinate_difference_px": 10.665863037109375,
+  "max_score_difference": 0.007172763347625732
+}

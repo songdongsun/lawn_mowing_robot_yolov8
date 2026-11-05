@@ -1,0 +1,14 @@
+[
+  {
+    "command": "cd /root/d02_detect_static_20261103/fp16 && test \"$(cat exit_code.txt)\" = 0 && tar cf results.tar outputs board_run.log exit_code.txt && sha256sum results.tar",
+    "stdout": "a9965f0d1adb9f0e3237cac825f86ddf27ee1ef2d7e0008674402e35567e1cb1  results.tar\n",
+    "stderr": "",
+    "exit_code": 0
+  },
+  {
+    "command": "sha256sum /root/d02_detect_static_20261103/fp16/results.tar",
+    "stdout": "a9965f0d1adb9f0e3237cac825f86ddf27ee1ef2d7e0008674402e35567e1cb1  /root/d02_detect_static_20261103/fp16/results.tar\n",
+    "stderr": "",
+    "exit_code": 0
+  }
+]

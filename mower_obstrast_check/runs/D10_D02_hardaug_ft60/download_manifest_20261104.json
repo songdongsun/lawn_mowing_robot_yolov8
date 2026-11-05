@@ -1,0 +1,104 @@
+{
+  "files": {
+    "confusion_matrix_normalized.png": {
+      "bytes": 229742,
+      "sha256": "6bdfa67f24d8dd62564e15fd72fb464a4a946465624dae351e7e3d19e8f10569"
+    },
+    "val_batch2_labels.jpg": {
+      "bytes": 504958,
+      "sha256": "4b7ad03df3a6c94457cc726dbafc9641d97e388f3fd0733dd6c630c0970d3cfd"
+    },
+    "train_batch1.jpg": {
+      "bytes": 599399,
+      "sha256": "ed5970dc6510155da22bc38d787ed3468fcebc5c515f7744c0ce1b066968f671"
+    },
+    "BoxR_curve.png": {
+      "bytes": 288567,
+      "sha256": "66f2f6884d7977618b2990ef4461ae3376dce74e38fb6532af50ee733fe830f9"
+    },
+    "labels.jpg": {
+      "bytes": 197349,
+      "sha256": "0b458da86de43dfa08c486a729bff299c9521fc56cbd0f5da1bbaf8134c1fe8f"
+    },
+    "val_batch0_labels.jpg": {
+      "bytes": 386558,
+      "sha256": "37ed1d863275d223f879e81e7804b1978c8c00c1d0368ce6aac172de7731f611"
+    },
+    "val_batch1_labels.jpg": {
+      "bytes": 499275,
+      "sha256": "35154ee445669cc847c459ea7635a2e418fdcbb60e9f461e0e2fcff9ba35146c"
+    },
+    "val_batch2_pred.jpg": {
+      "bytes": 514739,
+      "sha256": "5de2492008e56f3c95c8fb27aee415bfb90347e7bdc3079b301156b23ca541dc"
+    },
+    "val_batch1_pred.jpg": {
+      "bytes": 505318,
+      "sha256": "7b4eb704acaac6f3d87be831939c8726af20f3c5ce280ebd1ba7ed174158b322"
+    },
+    "args.yaml": {
+      "bytes": 2013,
+      "sha256": "a47008a6aee390fa5ffce54ea067d049dd4f0da8d262731be7fcd46bf5c70d1e"
+    },
+    "val_batch0_pred.jpg": {
+      "bytes": 397576,
+      "sha256": "346892e64359c6f91996bba3d563b5f0ae2ea2b6273bf1d506b202d75ee0a18a"
+    },
+    "BoxP_curve.png": {
+      "bytes": 265916,
+      "sha256": "445523fc8f00e6dbbe78f766d12557e8ec450206225ec2d41773a41d0bf7ca64"
+    },
+    "confusion_matrix.png": {
+      "bytes": 210374,
+      "sha256": "d3c0a4733d070ed5e006233065b205771f9e0cc3fba06118781310d3f76bd4d2"
+    },
+    "train_batch0.jpg": {
+      "bytes": 554479,
+      "sha256": "d84b73f8c69a22cf57e53ab9a1489d1ce817d36e62d4768d71477af20c5aa0a1"
+    },
+    "results.csv": {
+      "bytes": 4383,
+      "sha256": "39cf841e1f04ee2d633e6ec9a9f2d4f536445c3933c339bf90ff315f4f8bca90"
+    },
+    "BoxPR_curve.png": {
+      "bytes": 245422,
+      "sha256": "f88585454812d2f35966a0dc3bc2f0115896388a8c681c827dfd7044576359b4"
+    },
+    "BoxF1_curve.png": {
+      "bytes": 324854,
+      "sha256": "6cc744a9146ca3cbd2fe4140280534b782ca2e5837a0d44319518cd89ecd55d8"
+    },
+    "train_batch2.jpg": {
+      "bytes": 567147,
+      "sha256": "69ed07f9d514005755c80fc2a7bb725e5585af276282a7c9bf2bf20985005443"
+    },
+    "results.png": {
+      "bytes": 360992,
+      "sha256": "ca8294d92ec8ce6538003bedc24e18f553171ecd347335b25a23501c5ac127d7"
+    },
+    "weights/best.pt": {
+      "bytes": 6247129,
+      "sha256": "8521caa695cad80ba446d159f5829128519689e181af3d50e72fa254a2865772"
+    },
+    "weights/last.pt": {
+      "bytes": 6247129,
+      "sha256": "3fbe7ad7ee8734e28835c83bd6ba19fab7bb51d31fc3e7591a8f054043d4eee4"
+    }
+  },
+  "data": {
+    "data.yaml": {
+      "sha256": "155d4bbf5114362215d206d81582c45eaaca69b99c990aeccce6a09f80dcc3ae",
+      "text": "path: /mnt/sdb-36T/sdsun/lawn_mowing_robot_yolov8/mower_obstrast_check/data/yolo_check\ntrain: train_hardaug2x_20261104.txt\nval: images/val\ntest: images/test\nnc: 8\nnames:\n  0: person\n  1: cat\n  2: dog\n  3: frisbee\n  4: sports ball\n  5: teddy bear\n  6: garden hose\n  7: rock\n"
+    },
+    "data_hardaug2x_20261104.yaml": {
+      "sha256": "155d4bbf5114362215d206d81582c45eaaca69b99c990aeccce6a09f80dcc3ae",
+      "text": "path: /mnt/sdb-36T/sdsun/lawn_mowing_robot_yolov8/mower_obstrast_check/data/yolo_check\ntrain: train_hardaug2x_20261104.txt\nval: images/val\ntest: images/test\nnc: 8\nnames:\n  0: person\n  1: cat\n  2: dog\n  3: frisbee\n  4: sports ball\n  5: teddy bear\n  6: garden hose\n  7: rock\n"
+    },
+    "train_hardaug2x_20261104.txt": {
+      "sha256": "40eb5a14b88e75fea1621f4371adb6df92064cd8d5fb4b890b9afe9e24d12259",
+      "text": "line_count=66839"
+    }
+  },
+  "current_repository_head": "6df8cbeb0f699b17368122ea95bc1b8a86099f84",
+  "all_downloaded_files_verified": true
+}

@@ -1,0 +1,23 @@
+[
+  "/root/cpp_project/am970/model/tools/conda-acuity310/bin/python",
+  "/root/cpp_project/am970/model/tools/acuity-toolkit-whl-6.33.31/bin/pegasus.py",
+  "export",
+  "ovxlib",
+  "--model",
+  "d02.json",
+  "--model-data",
+  "d02.data",
+  "--with-input-meta",
+  "d02_inputmeta.yml",
+  "--postprocess-file",
+  "d02_postprocess_file.yml",
+  "--dtype",
+  "float16",
+  "--pack-nbg-unify",
+  "--optimize",
+  "VIP9000NANODI_PLUS_PID0X1000000B",
+  "--viv-sdk",
+  "/root/cpp_project/am970/model/tools/VivanteIDE5.10.1/VivanteIDE5.10.1/cmdtools",
+  "--output-path",
+  "fp16_export/d02"
+]

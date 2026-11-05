@@ -1,0 +1,20 @@
+[
+  {
+    "command": "chmod +x /root/d02_detect_static_20261103/delivery_D02_KL/detectStatic",
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0
+  },
+  {
+    "command": "sha256sum /root/d02_detect_static_20261103/delivery_D02_KL/network_binary.nb",
+    "stdout": "ac7690b71345ab579ec6da1953ecc6cd8b91230d00a44412e1c81a422f09e916  /root/d02_detect_static_20261103/delivery_D02_KL/network_binary.nb\n",
+    "stderr": "",
+    "exit_code": 0
+  },
+  {
+    "command": "cd /root/d02_detect_static_20261103/delivery_D02_KL && mkdir outputs && (nohup sh -c 'LD_LIBRARY_PATH=/root/yolov8n_detect_npu_20260706/lib:$LD_LIBRARY_PATH ./detectStatic > board_run.log 2>&1; echo $? > exit_code.txt' > launcher.log 2>&1 < /dev/null & )",
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0
+  }
+]

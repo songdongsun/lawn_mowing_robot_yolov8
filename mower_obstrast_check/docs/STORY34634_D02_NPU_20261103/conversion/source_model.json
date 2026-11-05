@@ -1,0 +1,94 @@
+{
+  "options": {
+    "format": "onnx",
+    "imgsz": 640,
+    "batch": 1,
+    "opset": 12,
+    "simplify": false,
+    "dynamic": false,
+    "half": false,
+    "nms": false,
+    "device": "cpu"
+  },
+  "weight_sha256": "388902aeff6d18f3b8313fef38a5ad548a4099abc73ec7d256fe7b4798339d5f",
+  "onnx_sha256": "c254d79f1e58cbd5d558e8dcc36b84428a3e4cf5265202ef7ecf13077f8af130",
+  "code_commit": "05345dbbab1bbc5a97e674e4c88c03c2f967f024",
+  "versions": {
+    "python": "3.10.6 (main, Oct 24 2022, 16:07:47) [GCC 11.2.0]",
+    "torch": "2.2.2+cu121",
+    "ultralytics": "8.4.128",
+    "onnx": "1.14.0",
+    "onnxruntime": "1.23.2",
+    "numpy": "1.23.5"
+  },
+  "inputs": [
+    {
+      "name": "images",
+      "shape": [
+        1,
+        3,
+        640,
+        640
+      ],
+      "type": "tensor(float)"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output0",
+      "shape": [
+        1,
+        12,
+        8400
+      ],
+      "type": "tensor(float)"
+    }
+  ],
+  "ops": [
+    "Add",
+    "Concat",
+    "Constant",
+    "Conv",
+    "Div",
+    "Gather",
+    "GlobalAveragePool",
+    "MaxPool",
+    "Mul",
+    "Reshape",
+    "Resize",
+    "Shape",
+    "Sigmoid",
+    "Slice",
+    "Softmax",
+    "Split",
+    "Sub",
+    "Transpose"
+  ],
+  "names": {
+    "0": "person",
+    "1": "cat",
+    "2": "dog",
+    "3": "frisbee",
+    "4": "sports ball",
+    "5": "teddy bear",
+    "6": "garden hose",
+    "7": "rock"
+  },
+  "inference": {
+    "conf": 0.25,
+    "iou": 0.7,
+    "max_det": 300,
+    "agnostic_nms": false,
+    "multi_label": false,
+    "letterbox_auto": false,
+    "input": "RGB NCHW float32 /255",
+    "threads": 6
+  },
+  "gates": {
+    "raw_box_abs_px": 0.01,
+    "raw_score_abs": 0.0001,
+    "matched_box_abs_original_px": 0.1,
+    "matched_score_abs": 0.0001,
+    "unmatched_boxes": 0
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "full": {
+    "person": {
+      "misses": {
+        "low_confidence": 1480,
+        "localization_0_1_to_0_5": 362,
+        "matching_competition": 43,
+        "no_same_class_candidate_iou_0_1": 67
+      },
+      "small_misses": {
+        "low_confidence": 763,
+        "localization_0_1_to_0_5": 298,
+        "matching_competition": 5,
+        "no_same_class_candidate_iou_0_1": 58
+      },
+      "false_positives": {
+        "duplicate_or_matching": 308,
+        "partial_localization": 623,
+        "no_same_class_overlap_0_1": 470,
+        "wrong_class_overlap": 9
+      },
+      "matched_iou": {
+        "matched_iou_50": 5883,
+        "matched_iou_75": 4833
+      }
+    },
+    "cat": {
+      "misses": {
+        "low_confidence": 27,
+        "localization_0_1_to_0_5": 1,
+        "matching_competition": 1
+      },
+      "small_misses": {
+        "low_confidence": 2
+      },
+      "false_positives": {
+        "wrong_class_overlap": 15,
+        "no_same_class_overlap_0_1": 13,
+        "duplicate_or_matching": 7,
+        "partial_localization": 8
+      },
+      "matched_iou": {
+        "matched_iou_50": 177,
+        "matched_iou_75": 156
+      }
+    },
+    "dog": {
+      "misses": {
+        "low_confidence": 36,
+        "localization_0_1_to_0_5": 6,
+        "no_same_class_candidate_iou_0_1": 5,
+        "wrong_class_overlap": 2
+      },
+      "small_misses": {
+        "no_same_class_candidate_iou_0_1": 1,
+        "low_confidence": 3,
+        "localization_0_1_to_0_5": 1
+      },
+      "false_positives": {
+        "partial_localization": 9,
+        "no_same_class_overlap_0_1": 13,
+        "wrong_class_overlap": 20,
+        "duplicate_or_matching": 4
+      },
+      "matched_iou": {
+        "matched_iou_50": 169,
+        "matched_iou_75": 151
+      }
+    },
+    "frisbee": {
+      "misses": {
+        "low_confidence": 19,
+        "no_same_class_candidate_iou_0_1": 6,
+        "localization_0_1_to_0_5": 2
+      },
+      "small_misses": {
+        "low_confidence": 11,
+        "no_same_class_candidate_iou_0_1": 3,
+        "localization_0_1_to_0_5": 1
+      },
+      "false_positives": {
+        "no_same_class_overlap_0_1": 11,
+        "duplicate_or_matching": 2,
+        "partial_localization": 3
+      },
+      "matched_iou": {
+        "matched_iou_50": 84,
+        "matched_iou_75": 77
+      }
+    },
+    "sports ball": {
+      "misses": {
+        "low_confidence": 37,
+        "no_same_class_candidate_iou_0_1": 45,
+        "localization_0_1_to_0_5": 5
+      },
+      "small_misses": {
+        "low_confidence": 31,
+        "no_same_class_candidate_iou_0_1": 39,
+        "localization_0_1_to_0_5": 3
+      },
+      "false_positives": {
+        "no_same_class_overlap_0_1": 32,
+        "duplicate_or_matching": 2,
+        "wrong_class_overlap": 3
+      },
+      "matched_iou": {
+        "matched_iou_50": 101,
+        "matched_iou_75": 96
+      }
+    },
+    "teddy bear": {
+      "misses": {
+        "low_confidence": 39,
+        "no_same_class_candidate_iou_0_1": 4,
+        "localization_0_1_to_0_5": 5,
+        "matching_competition": 1,
+        "wrong_class_overlap": 1
+      },
+      "small_misses": {
+        "low_confidence": 6,
+        "no_same_class_candidate_iou_0_1": 1,
+        "localization_0_1_to_0_5": 1
+      },
+      "false_positives": {
+        "no_same_class_overlap_0_1": 15,
+        "duplicate_or_matching": 4,
+        "partial_localization": 20,
+        "wrong_class_overlap": 5
+      },
+      "matched_iou": {
+        "matched_iou_50": 108,
+        "matched_iou_75": 95
+      }
+    },
+    "garden hose": {
+      "misses": {},
+      "small_misses": {},
+      "false_positives": {
+        "duplicate_or_matching": 7
+      },
+      "matched_iou": {
+        "matched_iou_50": 100,
+        "matched_iou_75": 96
+      }
+    },
+    "rock": {
+      "misses": {
+        "localization_0_1_to_0_5": 26,
+        "low_confidence": 80,
+        "no_same_class_candidate_iou_0_1": 35
+      },
+      "small_misses": {
+        "low_confidence": 56,
+        "localization_0_1_to_0_5": 18,
+        "no_same_class_candidate_iou_0_1": 35
+      },
+      "false_positives": {
+        "partial_localization": 21,
+        "duplicate_or_matching": 2,
+        "no_same_class_overlap_0_1": 91
+      },
+      "matched_iou": {
+        "matched_iou_50": 142,
+        "matched_iou_75": 114
+      }
+    }
+  },
+  "test140": {
+    "person": {
+      "misses": {},
+      "small_misses": {},
+      "false_positives": {
+        "partial_localization": 3,
+        "no_same_class_overlap_0_1": 1
+      },
+      "matched_iou": {
+        "matched_iou_50": 47,
+        "matched_iou_75": 46
+      }
+    },
+    "cat": {
+      "misses": {
+        "low_confidence": 1
+      },
+      "small_misses": {},
+      "false_positives": {},
+      "matched_iou": {
+        "matched_iou_50": 25,
+        "matched_iou_75": 25
+      }
+    },
+    "dog": {
+      "misses": {
+        "low_confidence": 1
+      },
+      "small_misses": {},
+      "false_positives": {
+        "wrong_class_overlap": 1
+      },
+      "matched_iou": {
+        "matched_iou_50": 25,
+        "matched_iou_75": 25
+      }
+    },
+    "frisbee": {
+      "misses": {},
+      "small_misses": {},
+      "false_positives": {
+        "wrong_class_overlap": 7
+      },
+      "matched_iou": {
+        "matched_iou_50": 27,
+        "matched_iou_75": 27
+      }
+    },
+    "sports ball": {
+      "misses": {
+        "low_confidence": 13
+      },
+      "small_misses": {},
+      "false_positives": {},
+      "matched_iou": {
+        "matched_iou_50": 13,
+        "matched_iou_75": 13
+      }
+    },
+    "teddy bear": {
+      "misses": {},
+      "small_misses": {},
+      "false_positives": {
+        "wrong_class_overlap": 3,
+        "duplicate_or_matching": 1,
+        "partial_localization": 2
+      },
+      "matched_iou": {
+        "matched_iou_50": 26,
+        "matched_iou_75": 25
+      }
+    },
+    "garden hose": {
+      "misses": {
+        "low_confidence": 2
+      },
+      "small_misses": {},
+      "false_positives": {
+        "wrong_class_overlap": 2,
+        "partial_localization": 2
+      },
+      "matched_iou": {
+        "matched_iou_50": 24,
+        "matched_iou_75": 22
+      }
+    },
+    "rock": {
+      "misses": {
+        "no_same_class_candidate_iou_0_1": 16,
+        "low_confidence": 5
+      },
+      "small_misses": {},
+      "false_positives": {},
+      "matched_iou": {
+        "matched_iou_50": 6,
+        "matched_iou_75": 6
+      }
+    }
+  }
+}

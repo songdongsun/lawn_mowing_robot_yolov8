@@ -1,0 +1,8 @@
+[
+  {
+    "command": "cd /root/d02_detect_static_20261103/head_tail_fp16 && tail -8 board_run.log; if test -f /root/d02_detect_static_20261103/head_tail_fp16/exit_code.txt; then cat /root/d02_detect_static_20261103/head_tail_fp16/exit_code.txt; fi",
+    "stdout": "OK 133 boxes=1\nOK 134 boxes=3\nOK 135 boxes=1\nOK 136 boxes=3\nOK 137 boxes=4\nOK 138 boxes=3\nOK 139 boxes=2\nCOMPLETE 140\n0\n",
+    "stderr": "",
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/JonathonLuiten/TrackEval",
+  "commit": "12c8791b303e0a0b50f753af204249e622d0281a",
+  "adaptation": "replace deprecated np.float/np.int/np.bool aliases by equivalent builtin types for NumPy 2; no metric logic changes",
+  "sequence": "MOT17-09, compressed official 960x540 preview, 525 frames; predicted coordinates scaled 2x for original GT; DO_PREPROC=true; confirmed observed persons only"
+}

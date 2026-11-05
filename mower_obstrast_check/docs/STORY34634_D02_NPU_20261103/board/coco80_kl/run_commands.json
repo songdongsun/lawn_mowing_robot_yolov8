@@ -1,0 +1,20 @@
+[
+  {
+    "command": "chmod +x /root/d02_detect_static_20261103/coco80_kl/detectStatic",
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0
+  },
+  {
+    "command": "sha256sum /root/d02_detect_static_20261103/coco80_kl/network_binary.nb",
+    "stdout": "7cf607bb2ff2683077caad9c43e864e8b77ddb209c078b3ffd8e2260c52912b9  /root/d02_detect_static_20261103/coco80_kl/network_binary.nb\n",
+    "stderr": "",
+    "exit_code": 0
+  },
+  {
+    "command": "cd /root/d02_detect_static_20261103/coco80_kl && mkdir outputs && (nohup sh -c 'LD_LIBRARY_PATH=/root/yolov8n_detect_npu_20260706/lib:$LD_LIBRARY_PATH ./detectStatic > board_run.log 2>&1; echo $? > exit_code.txt' > launcher.log 2>&1 < /dev/null & )",
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0
+  }
+]

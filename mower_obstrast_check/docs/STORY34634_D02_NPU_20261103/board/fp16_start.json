@@ -1,0 +1,8 @@
+{
+  "commands": [
+    "mkdir /root/d02_detect_static_20261103/fp16 && cd /root/d02_detect_static_20261103/fp16 && ln -s ../inputs inputs && cp ../input_list.txt ../detectStatic . && mkdir outputs",
+    "cd /root/d02_detect_static_20261103/fp16 && sha256sum network_binary.nb detectStatic && (nohup sh -c 'LD_LIBRARY_PATH=/root/yolov8n_detect_npu_20260706/lib:$LD_LIBRARY_PATH ./detectStatic > board_run.log 2>&1; echo $? > exit_code.txt' > launcher.log 2>&1 < /dev/null & )"
+  ],
+  "stdout": "680fe750b5860b92d980bda7cb1e7c48324b84832d0020dbdd5e727051567643  network_binary.nb\nc924740d04a450f3bfb3b940dfe56c3b9e85a7aed9a789846ea38726d291867f  detectStatic\n",
+  "stderr": ""
+}

@@ -1,0 +1,8 @@
+{
+  "issue": "Caller-owned vector remained all-zero; SDK returned its own output pointer. Use SDK-owned output as in existing deployed path and copy returned buffer before decoding.",
+  "commands": [
+    "cd /root/d02_detect_static_20261103 && test \"$(cat exit_code.txt)\" = 0 && mkdir failed_buffer_attempt && mv outputs board_run.log exit_code.txt results.tar detectStatic failed_buffer_attempt/",
+    "cd /root/d02_detect_static_20261103 && chmod +x detectStatic && mkdir outputs && (nohup sh -c 'LD_LIBRARY_PATH=/root/yolov8n_detect_npu_20260706/lib:$LD_LIBRARY_PATH ./detectStatic > board_run.log 2>&1; echo $? > exit_code.txt' > launcher.log 2>&1 < /dev/null & )"
+  ],
+  "model_changed": false
+}

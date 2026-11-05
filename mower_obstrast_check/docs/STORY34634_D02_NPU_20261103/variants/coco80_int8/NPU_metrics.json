@@ -1,0 +1,359 @@
+{
+  "images": 140,
+  "scope": "six shared labelled classes only; not COCO80 benchmark; hose/rock excluded",
+  "nms_backend": "torchvision 0.17.2+cu121",
+  "overall": {
+    "metrics/precision(B)": 0.0,
+    "metrics/recall(B)": 0.0,
+    "metrics/mAP50(B)": 0.0,
+    "metrics/mAP50-95(B)": 0.0,
+    "fitness": 0.0
+  },
+  "classes": [
+    {
+      "Class": "person",
+      "Images": 35,
+      "Instances": 47,
+      "Box-P": 0.0,
+      "Box-R": 0.0,
+      "Box-F1": 0.0,
+      "mAP50": 0.0,
+      "mAP50-95": 0.0
+    },
+    {
+      "Class": "cat",
+      "Images": 26,
+      "Instances": 26,
+      "Box-P": 0.0,
+      "Box-R": 0.0,
+      "Box-F1": 0.0,
+      "mAP50": 0.0,
+      "mAP50-95": 0.0
+    },
+    {
+      "Class": "dog",
+      "Images": 26,
+      "Instances": 26,
+      "Box-P": 0.0,
+      "Box-R": 0.0,
+      "Box-F1": 0.0,
+      "mAP50": 0.0,
+      "mAP50-95": 0.0
+    },
+    {
+      "Class": "frisbee",
+      "Images": 26,
+      "Instances": 27,
+      "Box-P": 0.0,
+      "Box-R": 0.0,
+      "Box-F1": 0.0,
+      "mAP50": 0.0,
+      "mAP50-95": 0.0
+    },
+    {
+      "Class": "sports ball",
+      "Images": 26,
+      "Instances": 26,
+      "Box-P": 0.0,
+      "Box-R": 0.0,
+      "Box-F1": 0.0,
+      "mAP50": 0.0,
+      "mAP50-95": 0.0
+    },
+    {
+      "Class": "teddy bear",
+      "Images": 26,
+      "Instances": 26,
+      "Box-P": 0.0,
+      "Box-R": 0.0,
+      "Box-F1": 0.0,
+      "mAP50": 0.0,
+      "mAP50-95": 0.0
+    }
+  ],
+  "totals_columns": [
+    "TP",
+    "FP",
+    "FN"
+  ],
+  "totals_conf025": [
+    [
+      0,
+      0,
+      47
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      0,
+      0,
+      26
+    ],
+    [
+      0,
+      0,
+      26
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      0,
+      0,
+      27
+    ],
+    null,
+    null,
+    [
+      0,
+      0,
+      26
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      0,
+      0,
+      26
+    ],
+    null,
+    null
+  ],
+  "size_bins": "area after scaling longest side to 640: small<32^2; medium<96^2; large>=96^2",
+  "size_counts_gt_hit": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        42,
+        0
+      ]
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        26,
+        0
+      ]
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      [
+        0,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    null,
+    null,
+    [
+      [
+        0,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        19,
+        0
+      ]
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        24,
+        0
+      ]
+    ],
+    null,
+    null
+  ],
+  "ap_config": {
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "multi_label": true
+  },
+  "deployment_config": {
+    "conf": 0.25,
+    "iou": 0.7,
+    "max_det": 300,
+    "multi_label": false
+  },
+  "unassessed_detection_counts": {}
+}

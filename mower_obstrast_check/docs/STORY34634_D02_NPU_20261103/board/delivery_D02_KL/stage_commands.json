@@ -1,0 +1,8 @@
+[
+  {
+    "command": "test ! -e /root/d02_detect_static_20261103/delivery_D02_KL && mkdir /root/d02_detect_static_20261103/delivery_D02_KL && cd /root/d02_detect_static_20261103/delivery_D02_KL && ln -s ../inputs inputs && cp ../input_list.txt ../detectStatic .",
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0
+  }
+]

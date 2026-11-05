@@ -1,0 +1,110 @@
+{
+  "captures": [
+    {
+      "image": "capture_20261103_163959.jpg",
+      "frame": 4167,
+      "boxes": [
+        [
+          388.25,
+          176.25,
+          639.75,
+          382.25,
+          0.73046875,
+          0
+        ]
+      ],
+      "fps": 14.6940544325,
+      "inference_ms": 46.68492,
+      "metadata_stable": true
+    },
+    {
+      "image": "capture_20261103_164001.jpg",
+      "frame": 4197,
+      "boxes": [
+        [
+          391.25,
+          172.875,
+          640,
+          379.125,
+          0.416748046875,
+          0
+        ]
+      ],
+      "fps": 14.6941193406,
+      "inference_ms": 46.56408,
+      "metadata_stable": true
+    },
+    {
+      "image": "capture_20261103_164003.jpg",
+      "frame": 4227,
+      "boxes": [],
+      "fps": 14.6934834915,
+      "inference_ms": 45.59244,
+      "metadata_stable": true
+    },
+    {
+      "image": "capture_20261103_164005.jpg",
+      "frame": 4260,
+      "boxes": [],
+      "fps": 14.6932180103,
+      "inference_ms": 45.76108,
+      "metadata_stable": true
+    },
+    {
+      "image": "capture_20261103_164008.jpg",
+      "frame": 4290,
+      "boxes": [
+        [
+          371.875,
+          242.75,
+          447.125,
+          398.25,
+          0.6875,
+          0
+        ],
+        [
+          415.0625,
+          244.6875,
+          450.4375,
+          279.8125,
+          0.52490234375,
+          0
+        ]
+      ],
+      "fps": 14.6933688993,
+      "inference_ms": 45.61176,
+      "metadata_stable": true
+    },
+    {
+      "image": "capture_20261103_164010.jpg",
+      "frame": 4320,
+      "boxes": [
+        [
+          397.875,
+          223.8125,
+          462.625,
+          324.1875,
+          0.6865234375,
+          0
+        ],
+        [
+          382.75,
+          224.75,
+          464.75,
+          409.75,
+          0.59521484375,
+          0
+        ]
+      ],
+      "fps": 14.6926745768,
+      "inference_ms": 45.73032,
+      "metadata_stable": true
+    }
+  ],
+  "stopped_pids": [
+    1117,
+    1154
+  ],
+  "saved_at": "2026-11-03 16:40:12",
+  "note": "JPEG and JSON are independently published; metadata may differ by one preview update."
+}

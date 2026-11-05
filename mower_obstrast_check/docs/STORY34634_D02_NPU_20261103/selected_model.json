@@ -1,0 +1,11 @@
+{
+  "selected": "attention_tail_kl",
+  "reason": "User confirmed D02 KL as sole delivery; COCO80 alternatives withdrawn and archived",
+  "pt_sha256": "388902aeff6d18f3b8313fef38a5ad548a4099abc73ec7d256fe7b4798339d5f",
+  "onnx_sha256": "c254d79f1e58cbd5d558e8dcc36b84428a3e4cf5265202ef7ecf13077f8af130",
+  "nb_sha256": "ac7690b71345ab579ec6da1953ecc6cd8b91230d00a44412e1c81a422f09e916",
+  "nb_bytes": 5192816,
+  "board_directory": "/root/d02_detect_static_20261103/delivery_D02_KL",
+  "delivery_directory": "delivery_D02_KL",
+  "backup": null
+}
