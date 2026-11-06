@@ -1,0 +1,47 @@
+{
+  "duration_s": 90.36286767400088,
+  "counts": {
+    "image": 412,
+    "overlay": 411,
+    "detection": 405,
+    "tracks": 405,
+    "mask": 405,
+    "matched": 405
+  },
+  "state_records": {
+    "tracked": 822,
+    "new": 18,
+    "removed": 18,
+    "lost": 58
+  },
+  "observed_ids": 20,
+  "removed_ids": 18,
+  "video_bytes": 24537078,
+  "matched_observed_fps": 4.481929474185183,
+  "matched_stream_fps": 4.590768447709594,
+  "tracking_ms": {
+    "count": 405,
+    "p50": 0.405163,
+    "p95": 10.305939,
+    "maximum": 25.190442
+  },
+  "detection_callback_ms": {
+    "count": 405,
+    "p50": 127.264227,
+    "p95": 167.427053,
+    "maximum": 222.841898
+  },
+  "pair_ms": {
+    "count": 411,
+    "p50": 180.45561899998575,
+    "p95": 221.5363739996974,
+    "maximum": 367.8433290006069
+  },
+  "publish_age_ms": {
+    "count": 411,
+    "p50": 234.82018,
+    "p95": 297.346267,
+    "maximum": 521.037578
+  },
+  "note": "ID counts are not ID switches; no identity ground truth was annotated."
+}

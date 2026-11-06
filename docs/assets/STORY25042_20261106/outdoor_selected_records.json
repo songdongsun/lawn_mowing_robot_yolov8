@@ -1,0 +1,142 @@
+[
+  {
+    "source_run": "20261105_211804_876800295",
+    "record": {
+      "frame": 1,
+      "received_s": 0.8286432729998978,
+      "stamp": [
+        1793949491,
+        2999513
+      ],
+      "frame_id": "camera_color_frame",
+      "session_id": "1793949481642781734-7406-1",
+      "tracks": [
+        {
+          "track_id": 1,
+          "class_id": 0,
+          "state": "tracked",
+          "observed": true,
+          "confidence": 0.962890625,
+          "time_since_observed_ms": 0.0,
+          "xyxy": [
+            0.45562744140625,
+            0.551055908203125,
+            143.68643188476562,
+            302.6935729980469
+          ]
+        },
+        {
+          "track_id": 2,
+          "class_id": 0,
+          "state": "tracked",
+          "observed": true,
+          "confidence": 0.9208984375,
+          "time_since_observed_ms": 0.0,
+          "xyxy": [
+            172.79198455810547,
+            42.8592529296875,
+            402.8747024536133,
+            321.37152099609375
+          ]
+        }
+      ],
+      "detections": 2,
+      "detection_boxes": [
+        {
+          "class_id": 0,
+          "confidence": 0.962890625,
+          "xywh": [
+            0.5,
+            0.5,
+            142.75,
+            300.5
+          ]
+        },
+        {
+          "class_id": 0,
+          "confidence": 0.9208984375,
+          "xywh": [
+            172.5,
+            42.75,
+            230.5,
+            278.0
+          ]
+        }
+      ],
+      "grass_pixels": 139079,
+      "original": "frames/000001_original.png",
+      "mask": "frames/000001_mask.png",
+      "overlay": "frames/000001_overlay.jpg"
+    }
+  },
+  {
+    "source_run": "20261105_211804_876800295",
+    "record": {
+      "frame": 3,
+      "received_s": 1.5076936299999488,
+      "stamp": [
+        1793949491,
+        756720565
+      ],
+      "frame_id": "camera_color_frame",
+      "session_id": "1793949481642781734-7406-1",
+      "tracks": [
+        {
+          "track_id": 1,
+          "class_id": 0,
+          "state": "tracked",
+          "observed": true,
+          "confidence": 0.9580078125,
+          "time_since_observed_ms": 0.0,
+          "xyxy": [
+            0.4293365478515625,
+            0.7816162109375,
+            144.0089111328125,
+            303.4854431152344
+          ]
+        },
+        {
+          "track_id": 2,
+          "class_id": 0,
+          "state": "tracked",
+          "observed": true,
+          "confidence": 0.9140625,
+          "time_since_observed_ms": 0.0,
+          "xyxy": [
+            160.75010681152344,
+            38.460205078125,
+            396.87110900878906,
+            321.15045166015625
+          ]
+        }
+      ],
+      "detections": 2,
+      "detection_boxes": [
+        {
+          "class_id": 0,
+          "confidence": 0.9580078125,
+          "xywh": [
+            0.25,
+            0.75,
+            144.25,
+            303.0
+          ]
+        },
+        {
+          "class_id": 0,
+          "confidence": 0.9140625,
+          "xywh": [
+            144.5,
+            35.25,
+            260.5,
+            285.5
+          ]
+        }
+      ],
+      "grass_pixels": 139639,
+      "original": "frames/000003_original.png",
+      "mask": "frames/000003_mask.png",
+      "overlay": "frames/000003_overlay.jpg"
+    }
+  }
+]

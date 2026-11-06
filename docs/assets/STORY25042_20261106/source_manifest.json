@@ -1,0 +1,67 @@
+[
+  {
+    "file": "indoor_frame001.jpg",
+    "source": "E:\\cpp_project\\mower_env\\d02-bytetrack-20261105\\camera\\frames\\000001.jpg",
+    "sha256": "4604a65ea284cd002682298b735a6ae07ebad6ca6898974758864ce51b79e44e"
+  },
+  {
+    "file": "indoor_frame200.jpg",
+    "source": "E:\\cpp_project\\mower_env\\d02-bytetrack-20261105\\camera\\frames\\000200.jpg",
+    "sha256": "1380f4d8261ec1471f739e001e98a583c84f12d2991a03b62b4a690e9432da46"
+  },
+  {
+    "file": "outdoor_two_people.jpg",
+    "source": "E:\\cpp_project\\mower_env\\perception-captures\\20261105_211804_876800295\\frames\\000001_overlay.jpg",
+    "sha256": "aaa71e2221b73bbc29f6ad4503802c36821aebcaff905b1faae4950dd1e26b79"
+  },
+  {
+    "file": "ros2_90s_summary.json",
+    "source": "E:\\cpp_project\\mower_env\\d02-bytetrack-20261105\\camera\\summary.json",
+    "sha256": "9ac474093dc069d48f7078531e5c4319dbd46b375ca585c4460ce2380b4364b7"
+  },
+  {
+    "file": "outdoor_moving_summary.json",
+    "source": "E:\\cpp_project\\mower_env\\perception-captures\\20261105_210638_065604788\\summary.json",
+    "sha256": "d9f0552db7f4712cc4aa00bdc76649fbbd7d731cc385bc01d32c9d5d341e563d"
+  },
+  {
+    "file": "outdoor_people_summary.json",
+    "source": "E:\\cpp_project\\mower_env\\perception-captures\\20261105_211804_876800295\\summary.json",
+    "sha256": "0771ea073b0d72c64a860b8c27d920bd7781d99752bdbb135bdacc2e98bb3f8e"
+  },
+  {
+    "file": "launch_fixture_result.json",
+    "source": "E:\\cpp_project\\mower_env\\prefield-20261105\\launch_fixture_result.json",
+    "sha256": "e705d2ddb337e2fad46ef1720496f14fd178ae9d00be24563d6b439fa6efc80c"
+  },
+  {
+    "file": "tracker_check.log",
+    "source": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\docs\\STORY34635_ByteTrack接入与验证\\tracker_check.log",
+    "sha256": "09e4045749b40f333b4c4b7c2c1babe0448765f46348272d84366c6b6c11201b"
+  },
+  {
+    "file": "static_regression.json",
+    "source": "E:\\cpp_project\\lawn_mowing_robot_yolov8\\mower_obstrast_check\\docs\\STORY34635_ByteTrack接入与验证\\static_regression.json",
+    "sha256": "4e91106fd5aa009164c00e9759d836cd2769ad005a3ff0c5231944d89336d4d1"
+  },
+  {
+    "file": "outdoor_people_original.png",
+    "source": "E:\\cpp_project\\mower_env\\perception-captures\\20261105_211804_876800295\\frames\\000001_original.png",
+    "sha256": "5415b08edfc5753671236813617f1be384963bd6ff316f4841c58e6360b4f351"
+  },
+  {
+    "file": "outdoor_people_frame058.jpg",
+    "source": "E:\\cpp_project\\mower_env\\perception-captures\\20261105_211804_876800295\\frames\\000058_overlay.jpg",
+    "sha256": "78140d7d37718c2327356174820e7b54ff733c91a78d991c49e3ad3089eb2545"
+  },
+  {
+    "file": "outdoor_moving_frame050.jpg",
+    "source": "E:\\cpp_project\\mower_env\\perception-captures\\20261105_210638_065604788\\frames\\000050_overlay.jpg",
+    "sha256": "19b2b51a784f7b05b86816e89fe4accf89d7a264ced459d3b2d46aee3ba2344c"
+  },
+  {
+    "file": "outdoor_people_frame003.jpg",
+    "source": "E:\\cpp_project\\mower_env\\perception-captures\\20261105_211804_876800295\\frames\\000003_overlay.jpg",
+    "sha256": "73c66ac75ece739a034202d90420a5858749a090acdb72d7d9c8b8215ce948f6"
+  }
+]

@@ -1,0 +1,16 @@
+PASS low confidence cannot create a track
+PASS new track requires confirmation
+PASS second high detection confirms same ID
+PASS low confidence second association retains ID
+PASS empty frame produces unobserved lost state
+PASS short occlusion recovers original ID
+PASS overlapping different class cannot inherit ID
+PASS unconfirmed track is not confirmed by low detection
+PASS expiry uses elapsed milliseconds
+PASS removed event emitted once
+PASS long occlusion starts new ID
+PASS stream gap expires ID before association
+PASS stream shutdown removes active tracks
+PASS same-class association survives detection order change
+PASS long empty sequence has no retained tracks or repeated removal events
+ALL_CHECKS_PASSED
